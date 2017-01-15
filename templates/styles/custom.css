@@ -1,0 +1,36 @@
+.widget .languages {
+	margin: 0 auto;
+    width: 50%;
+}
+
+.widget .languages li {
+	display: inline-block;
+	padding: 0.1em 0;
+	margin: 0 0.8em;
+}
+
+.widget .languages li.current {
+	border-bottom: 1px solid #27a79a;
+}
+
+.widget .languages li a:hover {
+	text-decoration: none;
+}
+
+.widget .languages {
+	margin-bottom: 15px;
+}
+
+.section-subtitle {
+	text-align: center;
+}
+
+/* FOOTER */
+.link-legal {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.link-legal p {
+    margin-top: 1em;
+}
