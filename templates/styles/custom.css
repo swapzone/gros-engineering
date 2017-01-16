@@ -1,6 +1,55 @@
+/* General stuff */
+p, ul {
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
+pre {
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+code, pre, tt {
+	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+code, tt {
+    padding: .2rem .3rem .1rem;
+    border: 1px solid #d8e0e4;
+    background: #f5f7f8;
+    border-radius: 2px;
+    color: #c25;
+    vertical-align: middle;
+    line-height: 1em;
+    margin-left: .2em;
+	font-size: 0.9em;
+}
+
+pre code, pre tt {
+    padding: 0;
+    border: none;
+    background: 0 0;
+    color: inherit;
+	
+}
+
+/* Header */
+.header-has-img .header {
+    margin-bottom: 10px;
+}
+
+.header-has-img .head-bg {
+    height: 515px;
+}
+
+/* Widget area */
 .widget .languages {
 	margin: 0 auto;
-    width: 50%;
+    width: 100%;
+	text-align: center;
 }
 
 .widget .languages li {
@@ -25,6 +74,40 @@
 	text-align: center;
 }
 
+/* POST */
+.post-single .post-inner {
+    padding: 0 100px 40px;
+}
+
+.post-single .post-inner h2 {
+    margin-top: 45px;
+}
+
+.post-single .post-inner h2.top-title {
+    margin-top: 0;
+}
+
+.post-single .post-inner h3 {
+    margin-top: 40px;
+}
+
+.post-single .post-datetime {
+    left: -110px;
+}
+
+.post-single .post-share {
+    text-align: right;
+}
+
+.post-tag {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.post-title {
+	margin: 0 0 15px;
+}
+
 /* FOOTER */
 .link-legal {
     text-align: center;
@@ -33,4 +116,5 @@
 
 .link-legal p {
     margin-top: 1em;
+	font-size: 16px;
 }

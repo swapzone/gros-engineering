@@ -44,7 +44,7 @@ $dateMonth = date("M", $page->created); // 'MMM';
 							</div>
 
 							<div class="post-info">
-								<i class="icon icon-user"></i>by <?php echo $author_name; ?>
+								<i class="rsicon rsicon-user"></i>by <?php echo $author_name; ?>
 							</div>
 						</div>
 					</header>

@@ -236,9 +236,9 @@ function renderPostTiles($posts, $number) {
 					<div class="post-media no-media"></div>';
 		}
 		
-		$dateFull = date("Y-m-d", $page->created);  // 'YYYY-MM-DD';
-		$dateDay = date("d", $page->created); // 'DD';
-		$dateMonth = date("M", $page->created); // 'MMM';
+		$dateFull = date("Y-m-d", $page->date);  // 'YYYY-MM-DD';
+		$dateDay = date("d", $page->date); // 'DD';
+		$dateMonth = date("M", $page->date); // 'MMM';
 		
 		$output .= '
 					<div class="post-data">
@@ -257,7 +257,7 @@ function renderPostTiles($posts, $number) {
 						</h3>
 
 						<div class="post-info">
-							<i class="rsicon rsicon-user"></i>by ' . $page->createdUser->title . '
+							<i class="rsicon rsicon-user"></i>' . _x('by', 'Written by') . ' ' . $page->createdUser->title . '
 						</div>
 					</div>
 				</article>

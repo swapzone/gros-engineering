@@ -37,12 +37,13 @@ ob_start(); ?>
 								if ($mail_sent === true) {
 									echo $page->body;
 								} else {
-									echo "Sorry, the contact request was not successful. Please send an inquiry via <a href='mailto:info@gros-engineering.com'>Email</a>.";
+									echo __('Sorry, the contact request was not successful. 
+										Please send an inquiry via <a href=\'mailto:info@gros-engineering.com\'>Email</a>.');
 								}
 								?>
 							</section>
 							<footer>
-								<a href="<?php echo $sub_directory; ?>/">Back to the homepage</a>
+								<a href="<?php echo $sub_directory; ?>/"><?php echo __('Back to the homepage'); ?></a>
 							</footer>
 						</div>
 					</article>

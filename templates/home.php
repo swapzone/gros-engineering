@@ -2,12 +2,10 @@
 
 // find all posts
 $posts = $pages->find("template=post, limit={$page->quantity}")->sort('-created');
-
 $blog_posts = renderPostTiles($posts, 2);
 
 ob_start(); ?>
 
-<!-- START: PAGE CONTENT -->
 <section id="about" class="section section-about">
 	<div class="animate-up">
 		<div class="section-box">
@@ -18,24 +16,25 @@ ob_start(); ?>
 					</div>
 					<div class="col-xs-7">
 						<div class="profile-info">
-							<div class="profile-preword"><span>Hello</span></div>
-							<h1 class="profile-title"><span>I'm</span> Sascha Gros</h1>
-							<h2 class="profile-position">Full Stack Web Developer and Startup Lover</h2></div>
+							<div class="profile-preword"><span><?php echo _x('Hello', 'Profile section'); ?></span></div>
+                            <h1 class="profile-title"><span><?php echo _x('I\'m', 'Profile section'); ?></span> Sascha Gros</h1>
+
+							<h2 class="profile-position"><?php echo _x('Full Stack Web Developer and Startup Lover', 'Profile section'); ?></h2></div>
 							<ul class="profile-list">
 								<li class="clearfix">
-									<strong class="title">MOTTO</strong>
-									<span class="cont">Everything should be made as simple as possible, but not simpler.</span>
+									<strong class="title"><?php echo _x('Motto', 'Profile section'); ?></strong>
+									<span class="cont"><?php echo _x('Everything should be made as simple as possible, but not simpler.', 'Profile section'); ?></span>
 								</li>
 								<li class="clearfix">
-									<strong class="title">Address</strong>
+									<strong class="title"><?php echo _x('Address', 'Profile section'); ?></strong>
 									<span class="cont">Trettachstraße 1, 70327 Stuttgart, DE</span>
 								</li>
 								<li class="clearfix">
-									<strong class="title">E-mail</strong>
+									<strong class="title"><?php echo _x('Email', 'Profile section'); ?></strong>
 									<span class="cont"><a href="mailto:info@gros-engineering.de">info@gros-engineering.de</a></span>
 								</li>
 								<li class="clearfix">
-									<strong class="title">Phone</strong>
+									<strong class="title"><?php echo _x('Phone', 'Profile section'); ?></strong>
 									<span class="cont"><a href="tel:+491788171987">+49 178 8171987</a></span>
 								</li>
 							</ul>
@@ -57,11 +56,11 @@ ob_start(); ?>
 			<!-- TODO include CV -->
 			<!--<p><a class="btn btn-lg btn-border ripple" target="_blank" href="/static/CV_Sascha_Gros.pdf">Download Resume</a></p>-->
 			<p>
-				Hello! I’m Sascha Gros. Full stack web developer and data scientist.
-				Specializing in Node.js and RESTful API design. Living test-driven development.
-				Experienced with all stages of the development cycle in agile environments.
-				Well-versed in numerous programming languages and web frameworks.
-				Bringing web technology to all fields of your software needs.
+				<?php echo _x('Hello! I’m Sascha Gros. Full stack web developer and data scientist.
+					Specializing in Node.js and RESTful API design. Living test-driven development.
+					Experienced with all stages of the development cycle in agile environments.
+					Well-versed in numerous programming languages and web frameworks.
+					Bringing web technology to all fields of your software needs.', 'Profile section'); ?>
 			</p>
 		</div>
 	</div>	
@@ -69,7 +68,7 @@ ob_start(); ?>
 										
 <section id="skills" class="section section-skills">
 	<div class="animate-up">
-		<h2 class="section-title">Professional Skills</h2>
+		<h2 class="section-title"><?php echo _x('Professional Skills', 'Profile section'); ?></h2>
 		<div class="section-box">
 			<div class="row">							
 				<div class="col-sm-6">
@@ -154,15 +153,15 @@ ob_start(); ?>
 
 <section id="portfolio" class="section section-portfolio">
 	<div class="animate-up">
-		<h2 class="section-title">Portfolio</h2>
+		<h2 class="section-title"><?php echo __('Portfolio'); ?></h2>
 
 		<div class="filter">
 			<div class="filter-inner">
 				<div class="filter-btn-group">
-					<button data-filter="*">All</button>
-					<button data-filter=".web">Web</button>
-					<button data-filter=".native">Native</button>
-					<button data-filter=".embedded">Embedded</button>
+					<button data-filter="*"><?php echo _x('All', 'Filters'); ?></button>
+					<button data-filter=".web"><?php echo _x('Web', 'Filters'); ?></button>
+					<button data-filter=".native"><?php echo _x('Native', 'Filters'); ?></button>
+					<button data-filter=".embedded"><?php echo _x('Embedded', 'Filters'); ?></button>
 				</div>
 				<div class="filter-bar">
 					<span class="filter-bar-line"></span>
@@ -179,8 +178,8 @@ ob_start(); ?>
 						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/1clicktrips/travel.jpg" alt="Travel image"/>
 						<figcaption class="portfolio-caption">
 							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title">1ClickTrips Business Travel</h3>
-								<h4 class="portfolio-cat">Web</h4>
+								<h3 class="portfolio-title"><?php echo __('1ClickTrips Business Travel'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
 
 								<div class="btn-group">
 									<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>
@@ -192,21 +191,21 @@ ob_start(); ?>
 
 					<div id="portfolio1-inline" class="fancybox-inline-box">
 						<div class="inline-cont">
-							<h2 class="inline-title">1ClickTrips - Business travel booking of tomorrow. Today.</h2>
+							<h2 class="inline-title"><?php echo __('1ClickTrips - Business travel booking of tomorrow. Today.'); ?></h2>
 							<div class="inline-text">
 								<p>
-									1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple:
+									<?php echo __('1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple:
 									Give your event data to 1ClickTrips and it will figure out the best options to get there in time
-									without wasting valuable time and money.
+									without wasting valuable time and money.'); ?>
 								</p>
 								<p>
-									The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options
-									to get to the event and then add a hotel that is located on your trip path and won't put any extra effort
-									on getting there.
+									<?php echo __('The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options
+									to get to the event and then add a hotel that is located on your trip path and won\'t put any extra effort
+									on getting there.'); ?>
 								</p>
 								<p>
-									Once you selected your trip and hotel you can book everything and then take it with you on your mobile,
-									including all tickets, maps and additional information to help you get around.
+									<?php echo __('Once you selected your trip and hotel you can book everything and then take it with you on your mobile,
+									including all tickets, maps and additional information to help you get around.'); ?>
 								</p>
 							</div>
 						</div>
@@ -220,8 +219,8 @@ ob_start(); ?>
 						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/time-tracker/stempeln.jpg" alt=""/>
 						<figcaption class="portfolio-caption">
 							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title">Time Tracker Plugin for Chrome</h3>
-								<h4 class="portfolio-cat">Native</h4>
+								<h3 class="portfolio-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
 
 								<div class="btn-group">
 									<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>
@@ -233,16 +232,16 @@ ob_start(); ?>
 					
 					<div id="portfolio2-inline" class="fancybox-inline-box">
 						<div class="inline-cont">
-							<h2 class="inline-title">Time Tracker Plugin for Chrome</h2>
+							<h2 class="inline-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h2>
 							<div class="inline-text">
 								<p>
-									The requirements were easy: Be able to track my time out of Chrome, assign each time record with
+									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with
 									either a generic category or with a <a href="https://github.com">Github</a> issue and then store
-									it to SharePoint 2013.
+									it to SharePoint 2013.'); ?>
 								</p>
 								<p>
-									The challenges have been to keep the plugin's UI simple and to handle authentication with Sharepoint
-									and Github properly.
+									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint
+									and Github properly.'); ?>
 								</p>
 							</div>
 						</div>
@@ -256,8 +255,8 @@ ob_start(); ?>
 						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/rockit/climbing.jpg" alt=""/>
 						<figcaption class="portfolio-caption">
 							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title">Rockit Course Administration</h3>
-								<h4 class="portfolio-cat">Web</h4>
+								<h3 class="portfolio-title"><?php echo __('Rockit Course Administration'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
 
 								<div class="btn-group">
 									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
@@ -269,23 +268,23 @@ ob_start(); ?>
 
 					<div id="portfolio3-inline" class="fancybox-inline-box">
 						<div class="inline-cont">
-							<h2 class="inline-title">Course administration solution for climbing halls</h2>
+							<h2 class="inline-title"><?php echo __('Course administration solution for climbing halls'); ?></h2>
 							<div class="inline-text">
 								<p>
-									A local climbing hall wanted to make the transformation to a digital administration of the
-									weekly courses and occupancy of their climbing hall.
+									<?php echo __('A local climbing hall wanted to make the transformation to a digital administration of the
+									weekly courses and occupancy of their climbing hall.'); ?>
 								</p>
 								<p>
-									It was supposed to be a web-based solution that every staff member could access. A role model
+									<?php echo __('It was supposed to be a web-based solution that every staff member could access. A role model
 									for different types of staff members was needed as well as different views for those different
 									roles. They wanted to have a calendar to filter for different event types and the possibility
-									for staff members to register for events they are authorized for.
+									for staff members to register for events they are authorized for.'); ?>
 								</p>
 								<p>
-									Additionally the content of the system must be reflected in the website of the climbing club.
+									<?php echo __('Additionally the content of the system must be reflected in the website of the climbing club.
 									Interested participants must be able to see which courses are available and also to register
 									for a course in case they want to attend. They have to confirm their registration before it
-									is valid.
+									is valid.'); ?>
 								</p>
 							</div>
 						</div>
@@ -299,8 +298,8 @@ ob_start(); ?>
 						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/my-patients/patient.jpg" alt=""/>
 						<figcaption class="portfolio-caption">
 							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title">Patient Administration</h3>
-								<h4 class="portfolio-cat">Native</h4>
+								<h3 class="portfolio-title"><?php echo __('Patient Administration'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
 
 								<div class="btn-group">
 									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
@@ -312,22 +311,22 @@ ob_start(); ?>
 
 					<div id="portfolio4-inline" class="fancybox-inline-box">
 						<div class="inline-cont">
-							<h2 class="inline-title">Patient Administration for small doctor's offices</h2>
+							<h2 class="inline-title"><?php echo __('Patient Administration for small doctor\'s offices'); ?></h2>
 							<div class="inline-text">
 								<p>
-									Patient administration solutions are either totally overloaded with functionality nobody needs
-									making the whole user experience a hassle. Or they are way too expensive.
+									<?php echo __('Patient administration solutions are either totally overloaded with functionality nobody needs
+									making the whole user experience a hassle. Or they are way too expensive.'); ?>
 								</p>
 								<p>
-									That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor's
+									<?php echo __('That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor\'s
 									office can afford. In my opinion this is a problem many physiotherapists and doctors have.
-									So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.
+									So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.'); ?>
 								</p>
 								<p>
-									The solution offers a patient administration section that is fully searchable, a treatment section
+									<?php echo __('The solution offers a patient administration section that is fully searchable, a treatment section
 									where treatments for patients can be added, edited and invoiced and backup and restore functionality.
-									All data is kept locally and won't be transferred into the cloud. Since it is module-based, all
-									modules can be replaced or more modules can be added to adapt the software to customer needs.
+									All data is kept locally and won\'t be transferred into the cloud. Since it is module-based, all
+									modules can be replaced or more modules can be added to adapt the software to customer needs.'); ?>
 								</p>
 							</div>
 						</div>
@@ -341,8 +340,8 @@ ob_start(); ?>
 						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/sun-tracker/solar.jpg" alt=""/>
 						<figcaption class="portfolio-caption">
 							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title">Sun Tracker Prototype</h3>
-								<h4 class="portfolio-cat">Native, Embedded</h4>
+								<h3 class="portfolio-title"><?php echo __('Sun Tracker Prototype'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native') . ', ' . __('Embedded<'); ?>/h4>
 
 								<div class="btn-group">
 									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
@@ -354,21 +353,21 @@ ob_start(); ?>
 
 					<div id="portfolio5-inline" class="fancybox-inline-box">
 						<div class="inline-cont">
-							<h2 class="inline-title">Automated sun tracker prototype to compare different concepts</h2>
+							<h2 class="inline-title"><?php echo __('Automated sun tracker prototype to compare different concepts'); ?></h2>
 							<div class="inline-text">
 								<p>
-									For solar modules there is one big drawback: they only deliver the maximum possible power output when being
-									exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.
+									<?php echo __('For solar modules there is one big drawback: they only deliver the maximum possible power output when being
+									exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.'); ?>
 								</p>
 								<p>
-									So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the
+									<?php echo __('So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the
 									sun? We have compare the energy that is consumed by the mechanism that is tracking the sun and moving the panels
-									against the energy plus that is gained by moving the panels in contrast to keeping them static.
+									against the energy plus that is gained by moving the panels in contrast to keeping them static.'); ?>
 								</p>
 								<p>
-									For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that
+									<?php echo __('For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that
 									calculated the position of the sun based on the GPS location of the panel and the theoretical earth orbit
-									around the sun. Both concepts have been used to figure out the differences in energy efficiency.
+									around the sun. Both concepts have been used to figure out the differences in energy efficiency.'); ?>
 								</p>
 							</div>
 						</div>
@@ -387,7 +386,7 @@ ob_start(); ?>
 							
 <section id="experience" class="section section-experience">
 	<div class="animate-up">
-		<h2 class="section-title">Work Experience</h2>
+		<h2 class="section-title"><?php echo __('Work Experience'); ?></h2>
 
 		<div class="timeline">
 			<div class="timeline-bar"></div>
@@ -397,12 +396,14 @@ ob_start(); ?>
 					<span class="dot"></span>
 					<div class="timeline-box-inner animate-right">
 						<span class="arrow"></span>
-						<div class="date">Jun 2014 - up to present</div>
-						<h3>Full Stack Web Developer</h3>
-						<h4>EFEXCON AG, Switzerland</h4>
-						<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG.
+						<div class="date"><?php echo __('Jun 2014 - Apr 2016'); ?></div>
+						<h3><?php echo __('Full Stack Web Developer'); ?></h3>
+						<h4>EFEXCON AG, <?php echo __('Switzerland'); ?></h4>
+						<p>
+							<?php echo __('Working on the business travel startup 1ClickTrips of the EFEXCON AG.
 							Responsible for the technology selection, overall architecture and
-							implementation of the door-to-door travel management solution.</p>
+							implementation of the door-to-door travel management solution.'); ?>
+						</p>
 					</div>
 				</div>
 
@@ -410,13 +411,15 @@ ob_start(); ?>
 					<span class="dot"></span>
 					<div class="timeline-box-inner animate-left">
 						<span class="arrow"></span>
-						<div class="date">Okt 2012 - Apr 2014</div>
-						<h3>Software Developer and Project Manager</h3>
-						<h4>Synapticon GmbH, Germany</h4>
-						<p>Initially responsible for developing different parts of an online
+						<div class="date"><?php echo __('Okt 2012 - Apr 2014'); ?></div>
+						<h3><?php echo __('Software Developer and Project Manager'); ?></h3>
+						<h4>Synapticon GmbH, <?php echo __('Germany'); ?></h4>
+						<p>
+							<?php echo __('Initially responsible for developing different parts of an online
 							development environment for embedded systems, I was then managing a
 							project with the goal to create a new operating software for
-							ticket vending systems of rail operators.</p>
+							ticket vending systems of rail operators.'); ?>
+						</p>
 					</div>
 				</div>
 
@@ -424,13 +427,15 @@ ob_start(); ?>
 					<span class="dot"></span>
 					<div class="timeline-box-inner animate-right">
 						<span class="arrow"></span>
-						<div class="date">Oct 2009 - Sep 2012</div>
-						<h3>Student and Software Developer</h3>
-						<h4>Hewlett Packard - Germany and Ireland</h4>
-						<p>As a dual student with Hewlett Packard I did several short projects
-							using a lot of different tools and programming languages. My bachelor's
+						<div class="date"><?php echo __('Oct 2009 - Sep 2012'); ?></div>
+						<h3><?php echo __('Student and Software Developer'); ?></h3>
+						<h4>Hewlett Packard - <?php echo __('Germany and Ireland'); ?></h4>
+						<p>
+							<?php echo __('As a dual student with Hewlett Packard I did several short projects
+							using a lot of different tools and programming languages. My bachelor\'s
 							thesis was about SharePoint and the implementation of a filing system
-							in the public sector.</p>
+							in the public sector.'); ?>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -440,23 +445,23 @@ ob_start(); ?>
 				
 <section id="references" class="section section-references">
 	<div class="animate-up">
-		<h2 class="section-title">References</h2>
+		<h2 class="section-title"><?php echo __('References'); ?></h2>
 		<div class="section-box">
 			<ul class="ref-slider">
 				<li>
 					<div class="ref-box">
 						<div class="person-speech">
 							<p>
-								Sascha is a very talented software developer and a great team player. I have had the pleasure to work with
+								<?php echo __('Sascha is a very talented software developer and a great team player. I have had the pleasure to work with
 								him on multiple projects and he has my highest recommendation. He combines the understanding of how to deliver high
-								quality software with the understanding of how a business can deliver a product in time.
+								quality software with the understanding of how a business can deliver a product in time.'); ?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
 							<img class="person-img" src="<?php echo $config->urls->templates ?>img/uploads/marcel.jpg" alt="Headshot">
 							<div class="person-name-title">
 								<span class="person-name">Marcel Büsing</span>
-								<span class="person-title">Developer at Teamviewer</span>
+								<span class="person-title"><?php echo __('Developer at Teamviewer'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -465,17 +470,17 @@ ob_start(); ?>
 					<div class="ref-box">
 						<div class="person-speech">
 							<p>
-								Sascha is one of the few people I know that is able to instantly grab rough ideas and transform them into
+								<?php echo __('Sascha is one of the few people I know that is able to instantly grab rough ideas and transform them into
 								concrete prototypes and solutions. His profound understanding of software architectures and agile software
 								engineering makes him an important driver and brain in any exciting innovation project.
-								Don't bother him with boring business apps. Challenge him with SH/SW and IoT integrations.
+								Don\'t bother him with boring business apps. Challenge him with SH/SW and IoT integrations.'); ?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
 							<img class="person-img" src="<?php echo $config->urls->templates ?>img/uploads/ruediger.jpg" alt="Headshot">
 							<div class="person-name-title">
 								<span class="person-name">Rüdiger Gros</span>
-								<span class="person-title">CEO at EFEXCON AG</span>
+								<span class="person-title"><?php echo __('CEO at EFEXCON AG'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -483,16 +488,17 @@ ob_start(); ?>
 				<li>
 					<div class="ref-box">
 						<div class="person-speech">
-							<p>Sascha is an uncomplicated, dedicated, very reliable and creative partner for sophisticated software solutions.
+							<p>
+								<?php echo __('Sascha is an uncomplicated, dedicated, very reliable and creative partner for sophisticated software solutions.
 								He combines a great technical know-how with an even greater willingness to develop and deliver an amazing product
-								with a high practical user value. It was a convincing, fair and trustful cooperation. Thank you!
+								with a high practical user value. It was a convincing, fair and trustful cooperation. Thank you!'); ?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
 							<img class="person-img" src="<?php echo $config->urls->templates ?>img/uploads/vicky.jpg" alt="Headshot">
 							<div class="person-name-title">
 								<span class="person-name">Victoria Ott</span>
-								<span class="person-title">Independent Osteopath</span>
+								<span class="person-title"><?php echo __('Independent Osteopath'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -508,8 +514,8 @@ ob_start(); ?>
 
 <section id="blog" class="section section-blog">
 	<div class="animate-up">
-		<h2 class="section-title">From The Blog</h2>
-		<div class="section-subtitle"><a href="<?php echo $sub_directory; ?>/blog">more...</a></div>
+		<h2 class="section-title"><?php echo __('From The Blog'); ?></h2>
+		<div class="section-subtitle"><a href="<?php echo $sub_directory; ?>/blog"><?php echo _x('more', 'Read more'); ?>...</a></div>
 
 		<div class="blog-grid">
 			<div class="grid-sizer"></div>
@@ -569,36 +575,36 @@ ob_start(); ?>
 
 <section id="contact" class="section section-contact">
 	<div class="animate-up">
-		<h2 class="section-title">Contact Me</h2>
+		<h2 class="section-title"><?php echo __('Contact Me'); ?></h2>
 
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="section-box contact-form">
-					<h3>Feel free to contact me</h3>
+					<h3><?php echo __('Feel free to contact me'); ?></h3>
 					
 					<form class="contactForm" id="contactForm" action="<?php echo $sub_directory; ?>/contact">
 						<div class="input-field">
 							<input class="contact-name" type="text" name="rsName" required />
 							<span class="line"></span>
-							<label>Name</label>
+							<label><?php echo __('Name'); ?></label>
 						</div>
 
 						<div class="input-field">
 							<input class="contact-email" type="email" name="rsEmail" required />
 							<span class="line"></span>
-							<label>Email</label>
+							<label><?php echo __('Email'); ?></label>
 						</div>
 
 						<div class="input-field">
 							<input class="contact-subject" type="text" name="rsSubject" />
 							<span class="line"></span>
-							<label>Subject</label>
+							<label><?php echo _x('Subject', 'Email subject'); ?></label>
 						</div>
 
 						<div class="input-field">
 							<textarea class="contact-message" rows="4" name="rsMessage" required></textarea>
 							<span class="line"></span>
-							<label>Message</label>
+							<label><?php echo __('Message'); ?></label>
 						</div>
 
 						<span class="btn-outer btn-primary-outer ripple">
@@ -614,15 +620,15 @@ ob_start(); ?>
 				<div class="section-box contact-info has-map">
 					<ul class="contact-list">
 						<li class="clearfix">
-							<strong>Address</strong>
+							<strong><?php echo __('Address'); ?></strong>
 							<span>Trettachstraße 1, 70327 Stuttgart, DE</span>
 						</li>
 						<li class="clearfix">
-							<strong>phone</strong>
+							<strong><?php echo __('Phone'); ?></strong>
 							<span><a href="tel:+491788171987">+49 178 8171987</a></span>
 						</li>
 						<li class="clearfix">
-							<strong>E-mail</strong>
+							<strong><?php echo __('Email'); ?></strong>
 							<span><a href="mailto:gros.sascha@gmail.com">info@gros-engineering.com</a></span>
 						</li>
 					</ul>

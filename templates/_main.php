@@ -26,9 +26,7 @@
  * file _main.php". You would do this if you wanted to echo markup directly 
  * from your template file or if you were using a template file for some other
  * kind of output like an RSS feed or sitemap.xml, for example. 
- *
  */
-
 ?>
 
 <!DOCTYPE html>
@@ -77,16 +75,15 @@
 <body class="header-has-img loading">
 	<div class="mobile-nav">
         <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
-    
         <div class="mobile-nav-inner">
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
-                    <li><a href="<?php echo $sub_directory; ?>/#about">About</a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#skills">Skills</a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#portfolio">Portfolio</a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#experience">Experience</a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#blog">Blog</a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#contact">Contact <span></span></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#portfolio"><?php echo _x('Portfolio', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -95,12 +92,11 @@
     
     <div class="sidebar sidebar-fixed">
         <button class="btn-sidebar btn-sidebar-close"><i class="rsicon rsicon-close"></i></button>
-    
         <div class="widget-area">
             <aside class="widget widget-profile">
                 <div class="profile-info">
                     <h2 class="profile-title">Gros Engineering</h2>
-                        <h3 class="profile-position">Professional Software Development</h3>
+                        <h3 class="profile-position"><?php echo _x('Professional Software Development', 'Blog subtitle'); ?></h3>
                 </div>
             </aside>
             <!-- .widget-profile -->
@@ -120,51 +116,49 @@
 					}
 				?></ul>
 			</aside>
-			<!-- .language-switcher -->
+			<!-- .widget-language -->
 	
             <aside class="widget widget_search">
-                <h2 class="widget-title">Search</h2>
-    
+                <h2 class="widget-title"><?php echo __('Search'); ?></h2>
                 <form class="search-form">
                     <label class="ripple">
-                        <span class="screen-reader-text">Search for:</span>
-                        <input class="search-field" type="search" placeholder="Search">
+                        <span class="screen-reader-text"><?php echo __('Search for'); ?>:</span>
+                        <input class="search-field" type="search" placeholder="<?php echo __('Search'); ?>">
                     </label>
-                    <input type="submit" class="search-submit" value="Search">
+                    <input type="submit" class="search-submit" value="<?php echo _x('Search', 'Button to trigger the search'); ?>">
                 </form>
             </aside>
             <!-- .widget_search -->
     
             <aside class="widget widget_contact">
-                <h2 class="widget-title">Contact Me</h2>
-    
+                <h2 class="widget-title"><?php echo __('Contact Me'); ?></h2>
                 <form class="rsForm" action="<?php echo $sub_directory; ?>/contact" method="post">
                     <div class="input-field">
-                        <label>Name</label>
+                        <label><?php echo __('Name'); ?></label>
                         <input type="text" name="rsName" required />
                         <span class="line"></span>
                     </div>
     
                     <div class="input-field">
-                        <label>Email</label>
+                        <label><?php echo __('Email'); ?></label>
                         <input type="email" name="rsEmail" required />
                         <span class="line"></span>
                     </div>
     
                     <div class="input-field">
-                        <label>Subject</label>
+                        <label><?php echo _x('Subject', 'Email subject'); ?></label>
                         <input type="text" name="rsSubject" />
                         <span class="line"></span>
                     </div>
     
                     <div class="input-field">
-                        <label>Message</label>
+                        <label><?php echo __('Message'); ?></label>
                         <textarea rows="4" name="rsMessage" required></textarea>
                         <span class="line"></span>
                     </div>
     
                     <span class="btn-outer btn-primary-outer ripple">
-                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="<?php echo _x('Send', 'Button to send the message'); ?>">
                     </span>
                 </form>
             </aside>
@@ -189,16 +183,16 @@
                             <div class="nav-wrap">
                                 <nav id="nav" class="nav">
 									<ul class="clearfix">
-										<li><a href="<?php echo $sub_directory; ?>/#about">About</a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#skills">Skills</a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#portfolio">Portfolio</a> </li>
-										<li><a href="<?php echo $sub_directory; ?>/#experience">Experience</a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#blog">Blog</a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#contact">Contact<span></span></a></li>
+										<li class="active"><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo $sub_directory; ?>/#portfolio"><?php echo _x('Portfolio', 'Menu entry'); ?></a> </li>
+										<li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
 									</ul>
 								</nav>
         
-                                <button class="btn-mobile btn-mobile-nav">Menu</button>
+                                <button class="btn-mobile btn-mobile-nav"><?php echo __('Menu'); ?></button>
                                 <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button>
                             </div>
                             <!-- .nav-wrap -->
@@ -224,11 +218,10 @@
 						<li><a class="ripple-centered" href="skype:bring-and-buy?call" target="_blank"><i class="rsicon rsicon-skype"></i></a></li>
 						<li><a class="ripple-centered" href="https://de.linkedin.com/in/saschagros" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
 						<li><a class="ripple-centered" href="https://www.xing.com/profile/Sascha_Gros" target="_blank"><i class="rsicon rsicon-xing"></i></a></li>
-					</ul>
-					
+					</ul>	
 				</div>
 				<div class="link-legal">
-					<a href="<?php echo $sub_directory; ?>/legal">Impressum</a>
+					<a href="<?php echo $sub_directory; ?>/legal"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
 					<p>
 						<a href='http://processwire.com'><?php echo __('Powered by ProcessWire'); ?></a>
 					</p>
@@ -241,7 +234,7 @@
     <div id="overlay"></div>
     <div id="preloader">
         <div class="preload-icon"><span></span><span></span></div>
-        <div class="preload-text">Loading ...</div>
+        <div class="preload-text"><?php echo _x('Loading', 'Loading animation text'); ?> ...</div>
     </div>
 	
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>

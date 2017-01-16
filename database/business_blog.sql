@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 15, 2017 at 03:40 PM
+-- Generation Time: Jan 16, 2017 at 01:45 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -48,13 +48,13 @@ INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
 ('Modules.site/modules/', 'Helloworld/Helloworld.module', '2010-04-08 03:10:10'),
 ('FileCompiler__e51c320972b4758ab94809c33246ffc8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354}}', '2010-04-08 03:10:10'),
 ('FileCompiler__66c786ccceb474baf43dd79f8298f4e8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899}}', '2010-04-08 03:10:10'),
-('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"b059cd56a2c551ec4424bef5771b3168","size":13094,"time":1484464842,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"b059cd56a2c551ec4424bef5771b3168","size":13094,"time":1484464842}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"ed780fd6b193997428706c9a9f2cba19","size":13921,"time":1484567790,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"ed780fd6b193997428706c9a9f2cba19","size":13921,"time":1484567790}}', '2010-04-08 03:10:10'),
 ('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"87dae97f4b6b7ace20ca1051ac3976eb","size":881,"time":1484465850,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"87dae97f4b6b7ace20ca1051ac3976eb","size":881,"time":1484465850}}', '2010-04-08 03:10:10'),
 ('FileCompiler__a1f623e95ced7a12546c6cf18cf12ece', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354}}', '2010-04-08 03:10:10'),
 ('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"9890fdf417ee27810175c9cb0c57fb2c","size":740,"time":1484396803,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"9890fdf417ee27810175c9cb0c57fb2c","size":740,"time":1484396803}}', '2010-04-08 03:10:10'),
 ('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10');
 INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
-('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"a8eab42b004c1b8991db187a87ec2926","size":24885,"time":1484464804,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"a8eab42b004c1b8991db187a87ec2926","size":24885,"time":1484464804}}', '2010-04-08 03:10:10'),
+('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"b7c7b4889f7c5f721473cccc5f590550","size":26789,"time":1484570056,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"b7c7b4889f7c5f721473cccc5f590550","size":26789,"time":1484570056}}', '2010-04-08 03:10:10'),
 ('FileCompiler__507eecc6786c5f7a735098d039c44198', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422,"ns":"\\\\"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422}}', '2010-04-08 03:10:10');
 
 -- --------------------------------------------------------
@@ -79,7 +79,6 @@ INSERT INTO `fieldgroups` (`id`, `name`) VALUES
 (4, 'role'),
 (5, 'permission'),
 (1, 'home'),
-(88, 'sitemap'),
 (83, 'basic-page'),
 (80, 'search'),
 (97, 'language'),
@@ -119,9 +118,7 @@ INSERT INTO `fieldgroups_fields` (`fieldgroups_id`, `fields_id`, `sort`, `data`)
 (83, 82, 3, NULL),
 (83, 76, 2, NULL),
 (1, 78, 1, NULL),
-(88, 1, 0, NULL),
 (1, 76, 3, NULL),
-(88, 79, 1, NULL),
 (83, 44, 4, NULL),
 (83, 79, 1, NULL),
 (97, 100, 1, NULL),
@@ -687,7 +684,6 @@ INSERT INTO `field_summary` (`pages_id`, `data`, `data1012`) VALUES
 (1039, '', ''),
 (1040, '', ''),
 (1001, 'Legal information', 'Deutsches Impressum'),
-(1005, 'View this template''s source for a demonstration of how to create a basic site map. ', 'Schauen Sie sich den Quell-Code dieser Musterseite an, um zu sehen, wie man einfache Sitemaps erstellt.'),
 (1033, '', ''),
 (1034, '', ''),
 (1035, '', ''),
@@ -789,7 +785,6 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1001, 'Legal', 'Impressum'),
 (1033, 'api', 'api'),
 (1000, 'Search', 'Suche'),
-(1005, 'Site Map', 'Sitemap'),
 (1006, 'Use Page Lister', ''),
 (1007, 'Find', ''),
 (1009, 'Languages', ''),
@@ -1009,7 +1004,6 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1001, 1, 29, 'legal', 1, '2017-01-13 14:41:31', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 3, 'impressum', 1),
 (1034, 1020, 45, 'how-to-design-the-perfect-rest-api-part-2', 1, '2017-01-15 13:34:21', 41, '2017-01-15 13:32:18', 41, '2017-01-15 14:34:21', 2, NULL, 1),
 (1033, 1022, 29, 'api', 1, '2017-01-15 13:03:58', 41, '2017-01-15 13:02:57', 41, '2017-01-15 14:03:58', 5, NULL, 1),
-(1005, 7, 34, '1005.1.5_site-map', 11265, '2017-01-15 12:59:38', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 5, '1005.1.5_sitemap', 1),
 (1006, 31, 5, 'page-lister', 1, '2017-01-08 11:58:01', 40, '2017-01-08 11:58:01', 40, '2017-01-08 12:58:01', 9, NULL, 1),
 (1007, 3, 2, 'lister', 1, '2017-01-08 11:58:01', 40, '2017-01-08 11:58:01', 40, '2017-01-08 12:58:01', 8, NULL, 1),
 (1009, 22, 2, 'languages', 16, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 2, NULL, 1),
@@ -1077,7 +1071,6 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1019, 2, '2017-01-08 11:59:06'),
 (1020, 1, '2017-01-08 13:33:47'),
 (1022, 1, '2017-01-09 14:25:25'),
-(1005, 2, '2017-01-15 12:59:38'),
 (1033, 1, '2017-01-15 13:02:57'),
 (1032, 1, '2017-01-15 13:00:33'),
 (1026, 1, '2017-01-15 07:08:48'),
@@ -1127,7 +1120,6 @@ INSERT INTO `pages_parents` (`pages_id`, `parents_id`) VALUES
 (31, 1),
 (31, 2),
 (31, 28),
-(1005, 1),
 (1009, 1),
 (1009, 2),
 (1009, 22),
@@ -1170,8 +1162,7 @@ INSERT INTO `page_path_history` (`path`, `pages_id`, `created`, `language_id`) V
 ('/de/uber', 1001, '2017-01-13 13:52:07', 1012),
 ('/about', 1001, '2017-01-13 13:52:07', 0),
 ('/de/kontaktanfrage', 1026, '2017-01-15 07:11:09', 1012),
-('/contact-request', 1026, '2017-01-15 07:11:09', 0),
-('/de/sitemap', 1005, '2017-01-15 12:59:38', 1012);
+('/contact-request', 1026, '2017-01-15 07:11:09', 0);
 
 -- --------------------------------------------------------
 
@@ -1218,14 +1209,13 @@ INSERT INTO `templates` (`id`, `name`, `fieldgroups_id`, `flags`, `cache_time`, 
 (3, 'user', 3, 8, 0, '{"useRoles":1,"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"User","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"compile":3,"nameContentTab":1,"modified":1484313886}'),
 (4, 'role', 4, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"Role","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
 (5, 'permission', 5, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"guestSearchable":1,"pageClass":"Permission","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
-(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484464804,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
+(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484570056,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
 (29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484465850,"ns":"ProcessWire","label1012":"Grund Seite"}'),
 (26, 'search', 80, 0, 0, '{"noChildren":1,"noParents":1,"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Search","modified":1483968986,"ns":"ProcessWire","label1012":"Suche"}'),
-(34, 'sitemap', 88, 0, 0, '{"noChildren":1,"noParents":1,"redirectLogin":23,"slashUrls":1,"compile":3,"label":"Site Map","modified":1483968986,"ns":"ProcessWire","label1012":"Sitemap"}'),
 (43, 'language', 97, 8, 0, '{"parentTemplates":[2],"slashUrls":1,"pageClass":"Language","pageLabelField":"name","noGlobal":1,"noMove":1,"noTrash":1,"noChangeTemplate":1,"noUnpublish":1,"nameContentTab":1,"modified":1409651146}'),
 (44, 'blog', 98, 0, 0, '{"noParents":-1,"childTemplates":[45],"slashUrls":1,"compile":3,"label":"Blog","modified":1484396803,"ns":"ProcessWire"}'),
 (45, 'post', 99, 0, 0, '{"noChildren":1,"parentTemplates":[44],"slashUrls":1,"compile":3,"label":"Post","modified":1484396864,"ns":"ProcessWire"}'),
-(46, 'contact', 100, 0, 0, '{"slashUrls":1,"compile":3,"modified":1484466422,"ns":"\\\\"}');
+(46, 'contact', 100, 0, 0, '{"slashUrls":1,"compile":3,"modified":1484570393,"ns":"\\\\"}');
 
 --
 -- Indexes for dumped tables
