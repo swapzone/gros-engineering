@@ -150,240 +150,50 @@ ob_start(); ?>
 		</div>
 	</div>	
 </section><!-- #skills -->
-
-<section id="portfolio" class="section section-portfolio">
+						
+ <section id="clients" class="section section-clients">
 	<div class="animate-up">
-		<h2 class="section-title"><?php echo __('Portfolio'); ?></h2>
 
-		<div class="filter">
-			<div class="filter-inner">
-				<div class="filter-btn-group">
-					<button data-filter="*"><?php echo _x('All', 'Filters'); ?></button>
-					<button data-filter=".web"><?php echo _x('Web', 'Filters'); ?></button>
-					<button data-filter=".native"><?php echo _x('Native', 'Filters'); ?></button>
-					<button data-filter=".embedded"><?php echo _x('Embedded', 'Filters'); ?></button>
-				</div>
-				<div class="filter-bar">
-					<span class="filter-bar-line"></span>
-				</div>
+		<div class="clients-carousel">
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-envato.png" title="envato" alt="envato"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-angularjs.png" title="angular js" alt="angular js"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-teaspoon.png" title="teaspoon" alt="teaspoon"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-wordpress.png" title="wordpress" alt="wordpress"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-evernote.png" title="evernote" alt="evernote"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-compass.png" title="compass" alt="compass"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-bootstrap.png" title="bootstrap" alt="bootstrap"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jasmine.png" title="jasmine" alt="jasmine"/>
+			</div>
+
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jquery.png" title="jquery" alt="jquery"/>
 			</div>
 		</div>
-
-		<div class="grid">
-			<div class="grid-sizer"></div>
-			
-			<div class="grid-item size11 web">
-				<div class="grid-box">
-					<figure class="portfolio-figure">
-						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/1clicktrips/travel.jpg" alt="Travel image"/>
-						<figcaption class="portfolio-caption">
-							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title"><?php echo __('1ClickTrips Business Travel'); ?></h3>
-								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
-
-								<div class="btn-group">
-									<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>
-									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox1" href="#portfolio1-inline"><i class="rsicon rsicon-eye"></i></a>
-								</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<div id="portfolio1-inline" class="fancybox-inline-box">
-						<div class="inline-cont">
-							<h2 class="inline-title"><?php echo __('1ClickTrips - Business travel booking of tomorrow. Today.'); ?></h2>
-							<div class="inline-text">
-								<p>
-									<?php echo __('1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple:
-									Give your event data to 1ClickTrips and it will figure out the best options to get there in time
-									without wasting valuable time and money.'); ?>
-								</p>
-								<p>
-									<?php echo __('The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options
-									to get to the event and then add a hotel that is located on your trip path and won\'t put any extra effort
-									on getting there.'); ?>
-								</p>
-								<p>
-									<?php echo __('Once you selected your trip and hotel you can book everything and then take it with you on your mobile,
-									including all tickets, maps and additional information to help you get around.'); ?>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- .grid-item -->			
-		
-			<div class="grid-item size11 native">
-				<div class="grid-box">
-					<figure class="portfolio-figure">
-						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/time-tracker/stempeln.jpg" alt=""/>
-						<figcaption class="portfolio-caption">
-							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h3>
-								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
-
-								<div class="btn-group">
-									<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>
-									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox2" href="#portfolio2-inline"><i class="rsicon rsicon-eye"></i></a>
-								</div>
-							</div>
-						</figcaption>
-					</figure>
-					
-					<div id="portfolio2-inline" class="fancybox-inline-box">
-						<div class="inline-cont">
-							<h2 class="inline-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h2>
-							<div class="inline-text">
-								<p>
-									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with
-									either a generic category or with a <a href="https://github.com">Github</a> issue and then store
-									it to SharePoint 2013.'); ?>
-								</p>
-								<p>
-									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint
-									and Github properly.'); ?>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- .grid-item -->
-			
-			<div class="grid-item size11 web">
-				<div class="grid-box">
-					<figure class="portfolio-figure">
-						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/rockit/climbing.jpg" alt=""/>
-						<figcaption class="portfolio-caption">
-							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title"><?php echo __('Rockit Course Administration'); ?></h3>
-								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
-
-								<div class="btn-group">
-									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
-									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox3" href="#portfolio3-inline"><i class="rsicon rsicon-eye"></i></a>
-								</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<div id="portfolio3-inline" class="fancybox-inline-box">
-						<div class="inline-cont">
-							<h2 class="inline-title"><?php echo __('Course administration solution for climbing halls'); ?></h2>
-							<div class="inline-text">
-								<p>
-									<?php echo __('A local climbing hall wanted to make the transformation to a digital administration of the
-									weekly courses and occupancy of their climbing hall.'); ?>
-								</p>
-								<p>
-									<?php echo __('It was supposed to be a web-based solution that every staff member could access. A role model
-									for different types of staff members was needed as well as different views for those different
-									roles. They wanted to have a calendar to filter for different event types and the possibility
-									for staff members to register for events they are authorized for.'); ?>
-								</p>
-								<p>
-									<?php echo __('Additionally the content of the system must be reflected in the website of the climbing club.
-									Interested participants must be able to see which courses are available and also to register
-									for a course in case they want to attend. They have to confirm their registration before it
-									is valid.'); ?>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- .grid-item -->
-
-			<div class="grid-item size11 native web">
-				<div class="grid-box">
-					<figure class="portfolio-figure">
-						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/my-patients/patient.jpg" alt=""/>
-						<figcaption class="portfolio-caption">
-							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title"><?php echo __('Patient Administration'); ?></h3>
-								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
-
-								<div class="btn-group">
-									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
-									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox4" href="#portfolio4-inline"><i class="rsicon rsicon-eye"></i></a>
-								</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<div id="portfolio4-inline" class="fancybox-inline-box">
-						<div class="inline-cont">
-							<h2 class="inline-title"><?php echo __('Patient Administration for small doctor\'s offices'); ?></h2>
-							<div class="inline-text">
-								<p>
-									<?php echo __('Patient administration solutions are either totally overloaded with functionality nobody needs
-									making the whole user experience a hassle. Or they are way too expensive.'); ?>
-								</p>
-								<p>
-									<?php echo __('That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor\'s
-									office can afford. In my opinion this is a problem many physiotherapists and doctors have.
-									So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.'); ?>
-								</p>
-								<p>
-									<?php echo __('The solution offers a patient administration section that is fully searchable, a treatment section
-									where treatments for patients can be added, edited and invoiced and backup and restore functionality.
-									All data is kept locally and won\'t be transferred into the cloud. Since it is module-based, all
-									modules can be replaced or more modules can be added to adapt the software to customer needs.'); ?>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- .grid-item -->
-
-			<div class="grid-item size11 native embedded">
-				<div class="grid-box">
-					<figure class="portfolio-figure">
-						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/sun-tracker/solar.jpg" alt=""/>
-						<figcaption class="portfolio-caption">
-							<div class="portfolio-caption-inner">
-								<h3 class="portfolio-title"><?php echo __('Sun Tracker Prototype'); ?></h3>
-								<h4 class="portfolio-cat"><?php echo __('Native') . ', ' . __('Embedded<'); ?>/h4>
-
-								<div class="btn-group">
-									<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>
-									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox5" href="#portfolio5-inline"><i class="rsicon rsicon-eye"></i></a>
-								</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<div id="portfolio5-inline" class="fancybox-inline-box">
-						<div class="inline-cont">
-							<h2 class="inline-title"><?php echo __('Automated sun tracker prototype to compare different concepts'); ?></h2>
-							<div class="inline-text">
-								<p>
-									<?php echo __('For solar modules there is one big drawback: they only deliver the maximum possible power output when being
-									exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.'); ?>
-								</p>
-								<p>
-									<?php echo __('So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the
-									sun? We have compare the energy that is consumed by the mechanism that is tracking the sun and moving the panels
-									against the energy plus that is gained by moving the panels in contrast to keeping them static.'); ?>
-								</p>
-								<p>
-									<?php echo __('For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that
-									calculated the position of the sun based on the GPS location of the panel and the theoretical earth orbit
-									around the sun. Both concepts have been used to figure out the differences in energy efficiency.'); ?>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- .grid-item -->
-		</div>
-		<!--
-		<div class="grid-more">
-			<span class="ajax-loader"></span>
-			<button class="btn btn-border ripple"><i class="rsicon rsicon-add"></i></button>
-		</div>
-		-->
-	</div>	
-</section><!-- #portfolio -->
-							
+	</div>
+</section><!-- #technologies -->
+						
 <section id="experience" class="section section-experience">
 	<div class="animate-up">
 		<h2 class="section-title"><?php echo __('Work Experience'); ?></h2>
@@ -443,6 +253,20 @@ ob_start(); ?>
 	</div>
 </section><!-- #experience -->
 				
+<section id="blog" class="section section-blog">
+	<div class="animate-up">
+		<h2 class="section-title"><?php echo __('From The Blog'); ?></h2>
+		<div class="section-subtitle">
+			<a href="<?php echo $sub_directory; ?>/blog"><?php echo _x('More', 'Read more'); ?>...</a>
+		</div>
+
+		<div class="blog-grid">
+			<div class="grid-sizer"></div>
+			<?php echo $blog_posts; ?>
+		</div>
+	</div>
+</section><!-- #blog -->
+
 <section id="references" class="section section-references">
 	<div class="animate-up">
 		<h2 class="section-title"><?php echo __('References'); ?></h2>
@@ -461,7 +285,7 @@ ob_start(); ?>
 							<img class="person-img" src="<?php echo $config->urls->templates ?>img/uploads/marcel.jpg" alt="Headshot">
 							<div class="person-name-title">
 								<span class="person-name">Marcel Büsing</span>
-								<span class="person-title"><?php echo __('Developer at Teamviewer'); ?></span>
+								<span class="person-title"><?php echo __('Developer at Daimler AG'); ?></span>
 							</div>
 						</div>
 					</div>
@@ -512,17 +336,238 @@ ob_start(); ?>
 	</div>	
 </section><!-- #references -->																								
 
-<section id="blog" class="section section-blog">
+<section id="portfolio" class="section section-portfolio">
 	<div class="animate-up">
-		<h2 class="section-title"><?php echo __('From The Blog'); ?></h2>
-		<div class="section-subtitle"><a href="<?php echo $sub_directory; ?>/blog"><?php echo _x('more', 'Read more'); ?>...</a></div>
+		<h2 class="section-title"><?php echo __('Portfolio'); ?></h2>
 
-		<div class="blog-grid">
-			<div class="grid-sizer"></div>
-			<?php echo $blog_posts; ?>
+		<div class="filter">
+			<div class="filter-inner">
+				<div class="filter-btn-group">
+					<button data-filter="*"><?php echo _x('All', 'Filters'); ?></button>
+					<button data-filter=".web"><?php echo _x('Web', 'Filters'); ?></button>
+					<button data-filter=".native"><?php echo _x('Native', 'Filters'); ?></button>
+					<button data-filter=".embedded"><?php echo _x('Embedded', 'Filters'); ?></button>
+				</div>
+				<div class="filter-bar">
+					<span class="filter-bar-line"></span>
+				</div>
+			</div>
 		</div>
-	</div>
-</section><!-- #blog -->
+
+		<div class="grid">
+			<div class="grid-sizer"></div>
+			
+			<div class="grid-item size11 web">
+				<div class="grid-box">
+					<figure class="portfolio-figure">
+						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/1clicktrips/travel.jpg" alt="Travel image"/>
+						<figcaption class="portfolio-caption">
+							<div class="portfolio-caption-inner">
+								<h3 class="portfolio-title"><?php echo __('1ClickTrips Business Travel'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
+
+								<div class="btn-group">
+									<!--<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>-->
+									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox1" href="#portfolio1-inline"><i class="rsicon rsicon-eye"></i></a>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+
+					<div id="portfolio1-inline" class="fancybox-inline-box">
+						<div class="inline-cont">
+							<h2 class="inline-title"><?php echo __('1ClickTrips - Business travel booking of tomorrow. Today.'); ?></h2>
+							<div class="inline-text">
+								<p>
+									<?php echo __('1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple:
+									Give your event data to 1ClickTrips and it will figure out the best options to get there in time
+									without wasting valuable time and money.'); ?>
+								</p>
+								<p>
+									<?php echo __('The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options
+									to get to the event and then add a hotel that is located on your trip path and won\'t put any extra effort
+									on getting there.'); ?>
+								</p>
+								<p>
+									<?php echo __('Once you selected your trip and hotel you can book everything and then take it with you on your mobile,
+									including all tickets, maps and additional information to help you get around.'); ?>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- .grid-item -->			
+		
+			<div class="grid-item size11 native">
+				<div class="grid-box">
+					<figure class="portfolio-figure">
+						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/time-tracker/stempeln.jpg" alt=""/>
+						<figcaption class="portfolio-caption">
+							<div class="portfolio-caption-inner">
+								<h3 class="portfolio-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
+
+								<div class="btn-group">
+									<!--<a class="btn-link" href="http://www.google.com" target="_blank"><i class="rsicon rsicon-link"></i></a>-->
+									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox2" href="#portfolio2-inline"><i class="rsicon rsicon-eye"></i></a>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+					
+					<div id="portfolio2-inline" class="fancybox-inline-box">
+						<div class="inline-cont">
+							<h2 class="inline-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h2>
+							<div class="inline-text">
+								<p>
+									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with
+									either a generic category or with a <a href="https://github.com">Github</a> issue and then store
+									it to SharePoint 2013.'); ?>
+								</p>
+								<p>
+									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint
+									and Github properly.'); ?>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- .grid-item -->
+			
+			<div class="grid-item size11 web">
+				<div class="grid-box">
+					<figure class="portfolio-figure">
+						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/rockit/climbing.jpg" alt=""/>
+						<figcaption class="portfolio-caption">
+							<div class="portfolio-caption-inner">
+								<h3 class="portfolio-title"><?php echo __('Rockit Course Administration'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Web'); ?></h4>
+
+								<div class="btn-group">
+									<!--<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>-->
+									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox3" href="#portfolio3-inline"><i class="rsicon rsicon-eye"></i></a>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+
+					<div id="portfolio3-inline" class="fancybox-inline-box">
+						<div class="inline-cont">
+							<h2 class="inline-title"><?php echo __('Course administration solution for climbing halls'); ?></h2>
+							<div class="inline-text">
+								<p>
+									<?php echo __('A local climbing hall wanted to make the transformation to a digital administration of the
+									weekly courses and occupancy of their climbing hall.'); ?>
+								</p>
+								<p>
+									<?php echo __('It was supposed to be a web-based solution that every staff member could access. A role model
+									for different types of staff members was needed as well as different views for those different
+									roles. They wanted to have a calendar to filter for different event types and the possibility
+									for staff members to register for events they are authorized for.'); ?>
+								</p>
+								<p>
+									<?php echo __('Additionally the content of the system must be reflected in the website of the climbing club.
+									Interested participants must be able to see which courses are available and also to register
+									for a course in case they want to attend. They have to confirm their registration before it
+									is valid.'); ?>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- .grid-item -->
+
+			<div class="grid-item size11 native web">
+				<div class="grid-box">
+					<figure class="portfolio-figure">
+						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/my-patients/patient.jpg" alt=""/>
+						<figcaption class="portfolio-caption">
+							<div class="portfolio-caption-inner">
+								<h3 class="portfolio-title"><?php echo __('Patient Administration'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native'); ?></h4>
+
+								<div class="btn-group">
+									<!--<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>-->
+									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox4" href="#portfolio4-inline"><i class="rsicon rsicon-eye"></i></a>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+
+					<div id="portfolio4-inline" class="fancybox-inline-box">
+						<div class="inline-cont">
+							<h2 class="inline-title"><?php echo __('Patient Administration for small doctor\'s offices'); ?></h2>
+							<div class="inline-text">
+								<p>
+									<?php echo __('Patient administration solutions are either totally overloaded with functionality nobody needs
+									making the whole user experience a hassle. Or they are way too expensive.'); ?>
+								</p>
+								<p>
+									<?php echo __('That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor\'s
+									office can afford. In my opinion this is a problem many physiotherapists and doctors have.
+									So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.'); ?>
+								</p>
+								<p>
+									<?php echo __('The solution offers a patient administration section that is fully searchable, a treatment section
+									where treatments for patients can be added, edited and invoiced and backup and restore functionality.
+									All data is kept locally and won\'t be transferred into the cloud. Since it is module-based, all
+									modules can be replaced or more modules can be added to adapt the software to customer needs.'); ?>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- .grid-item -->
+
+			<div class="grid-item size11 native embedded">
+				<div class="grid-box">
+					<figure class="portfolio-figure">
+						<img src="<?php echo $config->urls->templates ?>img/uploads/portfolio/sun-tracker/solar.jpg" alt=""/>
+						<figcaption class="portfolio-caption">
+							<div class="portfolio-caption-inner">
+								<h3 class="portfolio-title"><?php echo __('Sun Tracker Prototype'); ?></h3>
+								<h4 class="portfolio-cat"><?php echo __('Native') . ', ' . __('Embedded'); ?></h4>
+
+								<div class="btn-group">
+									<!--<a class="btn-link" href="" target="_blank"><i class="rsicon rsicon-link"></i></a>-->
+									<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox5" href="#portfolio5-inline"><i class="rsicon rsicon-eye"></i></a>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+
+					<div id="portfolio5-inline" class="fancybox-inline-box">
+						<div class="inline-cont">
+							<h2 class="inline-title"><?php echo __('Automated sun tracker prototype to compare different concepts'); ?></h2>
+							<div class="inline-text">
+								<p>
+									<?php echo __('For solar modules there is one big drawback: they only deliver the maximum possible power output when being
+									exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.'); ?>
+								</p>
+								<p>
+									<?php echo __('So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the
+									sun? We have compare the energy that is consumed by the mechanism that is tracking the sun and moving the panels
+									against the energy plus that is gained by moving the panels in contrast to keeping them static.'); ?>
+								</p>
+								<p>
+									<?php echo __('For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that
+									calculated the position of the sun based on the GPS location of the panel and the theoretical earth orbit
+									around the sun. Both concepts have been used to figure out the differences in energy efficiency.'); ?>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- .grid-item -->
+		</div>
+		<!--
+		<div class="grid-more">
+			<span class="ajax-loader"></span>
+			<button class="btn btn-border ripple"><i class="rsicon rsicon-add"></i></button>
+		</div>
+		-->
+	</div>	
+</section><!-- #portfolio -->
 
 <!--
 <section id="text-section" class="section section-text">

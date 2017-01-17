@@ -36,18 +36,46 @@ if($q) {
 
 		// yes we did: output a headline indicating how many were found.
 		// note how we handle singular vs. plural for multi-language, with the _n() function
-		$content = "<h2>" . sprintf(_n('Found %d page', 'Found %d pages', $cnt), $cnt) . "</h2>";
+		$resultHeader = "<h2>" . sprintf(_n('Found %d page', 'Found %d pages', $cnt), $cnt) . "</h2>";
 
 		// we'll use our renderNav function (in _func.php) to render the navigation
-		$content .= renderNav($matches);
+		$result .= renderNav($matches);
 
 	} else {
 		// we didn't find any
-		$content = "<h2>" . __('Sorry, no results were found.') . "</h2>";
+		$resultHeader = "<h2>" . __('Sorry, no results were found.') . "</h2>";
 	}
 
 } else {
 	// no search terms provided
-	$content = "<h2>" . __('Please enter a search term in the search box (upper right corner)') . "</h2>";
+	$resultHeader = "<h2>" . __('Please enter a search term in the search box (upper right corner)') . "</h2>";
 }
 
+ob_start(); ?>
+
+<div class="content">
+    <div class="container">
+        <div class="row animate-up animated">
+            <div class="col-sm-12">
+                <main class="post-single">
+                    <article class="post-content section-box">
+                        <div class="post-inner">
+                            <header class="post-header">
+                                <h1 class="post-title"><?php echo $resultHeader; ?></h1>
+                            </header>
+                            <section class="post-content">
+                                <?php echo $result; ?>
+                            </section>
+                        </div>
+                     </article>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php 
+$smallHeader = true;
+$content = ob_get_clean(); 
+
+?>

@@ -27,6 +27,9 @@
  * from your template file or if you were using a template file for some other
  * kind of output like an RSS feed or sitemap.xml, for example. 
  */
+ 
+$headerHeight = ($smallHeader == true) ? 280 : 515;
+$menuClass = ($smallHeader == true) ? '' : 'active';
 ?>
 
 <!DOCTYPE html>
@@ -38,8 +41,8 @@
 	<title><?php echo $title; ?></title>
 	<meta name="description" content="<?php echo $page->summary; ?>" />
 	
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredoka+One">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+	<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredoka+One">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">-->
 	
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>fonts/map-icons/css/map-icons.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>fonts/icomoon/style.css">
@@ -47,13 +50,15 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.owlcarousel/owl.carousel.css">
+
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/custom.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>colors/teal.css" />
 	
-	<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<!--<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>/scripts/libs/modernizr.js"></script>
 
 	<?php	
@@ -79,10 +84,10 @@
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
                     <li><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#portfolio"><?php echo _x('Portfolio', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>            
                     <li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
                     <li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+					<li><a href="<?php echo $sub_directory; ?>/#references"><?php echo _x('References', 'Menu entry'); ?></a></li>
                     <li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
                 </ul>
             </nav>
@@ -120,12 +125,12 @@
 	
             <aside class="widget widget_search">
                 <h2 class="widget-title"><?php echo __('Search'); ?></h2>
-                <form class="search-form">
+                <form class="search-form" action="<?php echo $pages->get('template=search')->url; ?>" method="get">
                     <label class="ripple">
                         <span class="screen-reader-text"><?php echo __('Search for'); ?>:</span>
-                        <input class="search-field" type="search" placeholder="<?php echo __('Search'); ?>">
+                        <input class="search-field" type="search" name="q" placeholder="<?php echo __('Search'); ?>">
                     </label>
-                    <input type="submit" class="search-submit" value="<?php echo _x('Search', 'Button to trigger the search'); ?>">
+                    <input type="submit" name="submit" class="search-submit" value="<?php echo _x('Search', 'Button to trigger the search'); ?>">
                 </form>
             </aside>
             <!-- .widget_search -->
@@ -170,7 +175,7 @@
 
 	<div class="wrapper">
 		<header class="header">
-            <div class="head-bg" style="background-image: url(<?php echo $config->urls->templates?>img/uploads/rs-cover.jpg)"></div>
+            <div class="head-bg" style="background-image: url(<?php echo $config->urls->templates?>img/uploads/rs-cover.jpg); height: <?php echo $headerHeight; 	?>px"></div>
         
             <div class="head-bar">
                 <div class="head-bar-inner">
@@ -183,11 +188,11 @@
                             <div class="nav-wrap">
                                 <nav id="nav" class="nav">
 									<ul class="clearfix">
-										<li class="active"><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+										<li class="<?php echo $menuClass; ?>"><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
 										<li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#portfolio"><?php echo _x('Portfolio', 'Menu entry'); ?></a> </li>
 										<li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
 										<li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo $sub_directory; ?>/#references"><?php echo _x('References', 'Menu entry'); ?></a> </li>
 										<li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
 									</ul>
 								</nav>
@@ -237,8 +242,10 @@
         <div class="preload-text"><?php echo _x('Loading', 'Loading animation text'); ?> ...</div>
     </div>
 	
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>-->
+    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/googlemapsapi.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>fonts/map-icons/js/map-icons.min.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.appear.min.js"></script>
@@ -248,6 +255,7 @@
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/options.js"></script>
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/site.js"></script>
 </body>

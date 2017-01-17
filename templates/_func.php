@@ -187,10 +187,9 @@ function renderPost($page) {
  * Given a PageArray of blog entries generate and return the output.
  *
  * @param PageArray|Page $posts The entries to generate output for
- * @param Integer $number number of tiles to output
  * @return string The generated output
  */
-function renderPostTiles($posts, $number) {
+function renderPostTiles($posts) {
 	if(!$posts instanceof PageArray) {
 		if($posts instanceof Page) {
 			// single page
@@ -209,17 +208,18 @@ function renderPostTiles($posts, $number) {
 	}
 	
 	if (count($posts) === 0) {
-		return 'No posts written yet.';
+		return __('No article published yet.');
 	}
 	
-	// reduce number of posts to given $number
-	$result = array_slice($posts->getArray(), 0, $number);
+	// reduce number of posts to given $limit
+	// $startIndex = ($page - 1) * $limit - 1;
+	//$result = array_slice($posts->getArray(), 0, $limit);
 	
 	$output = '';
-	foreach ($result as $page) {
+	foreach ($posts->getArray() as $page) {		
 		$output .= '
 			<div class="grid-item">
-				<article class="post-box post animate-up">';
+				<article class="post-box post">';
 				
 		$image = $page->images->first();
 		// return print_r($page->images->first(), TRUE);

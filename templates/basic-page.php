@@ -1,6 +1,5 @@
 <?php namespace ProcessWire;
 
-// basic-page.php template file 
 ob_start(); ?>
 
 <div class="content">
