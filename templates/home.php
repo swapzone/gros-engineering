@@ -1,7 +1,7 @@
 <?php namespace ProcessWire;
 
 // find all posts
-$posts = $pages->find("template=post, limit={$page->quantity}")->sort('-created');
+$posts = $pages->find("template=post, sort=-date, limit=2");
 $blog_posts = renderPostTiles($posts, 2);
 
 ob_start(); ?>

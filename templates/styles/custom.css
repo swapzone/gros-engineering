@@ -72,6 +72,10 @@ pre code, pre tt {
 }
 
 /* Blog */
+.blog {
+    margin-top: 40px;
+}
+
 .pager-container {
 	text-align: center;
 }

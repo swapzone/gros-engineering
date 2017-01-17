@@ -1,21 +1,8 @@
 <?php namespace ProcessWire;
 
-// blog.php template file
-
-$currentPage = 1;
-if (isset($_GET['page'])) {
-	$currentPage = $_GET['page'];
-}
-
 // find all posts 
 $posts = $pages->find("template=post, sort=-date, limit={$page->quantity}"); 
 
-
-// echo "Current page: " . $currentPage;	
-
-/*****************************************************************************/
-/* Blog Posts																 */
-/*****************************************************************************/
 $content .= "<div class='blog'>
 				<div class='blog-grid'>
 					<div class='grid-sizer'></div>";
@@ -30,3 +17,4 @@ if($posts->getLimit() < $posts->getTotal()) $content .= '<div class="pager-conta
 
 $content .= "</div>"; 
 
+$smallHeader = true;

@@ -175,7 +175,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 
 	<div class="wrapper">
 		<header class="header">
-            <div class="head-bg" style="background-image: url(<?php echo $config->urls->templates?>img/uploads/rs-cover.jpg); height: <?php echo $headerHeight; 	?>px"></div>
+            <div class="head-bg" style="background-image: url(<?php echo $config->urls->templates?>img/uploads/rs-cover.jpg); height: <?php echo $headerHeight; ?>px"></div>
         
             <div class="head-bar">
                 <div class="head-bar-inner">

@@ -212,8 +212,7 @@ function renderPostTiles($posts) {
 	}
 	
 	// reduce number of posts to given $limit
-	// $startIndex = ($page - 1) * $limit - 1;
-	//$result = array_slice($posts->getArray(), 0, $limit);
+	// $result = array_slice($posts->getArray(), 0, $limit);
 	
 	$output = '';
 	foreach ($posts->getArray() as $page) {		
@@ -268,8 +267,8 @@ function renderPostTiles($posts) {
 }
 
 /**
- *
- *
+ * Render a list of the given tags represented by the $pages array.
+ * The designator specifies the character that shall be rendered in front of each tag.
  */
 function renderTags($pages, $designator) {
 	if(!$pages instanceof PageArray) {
@@ -295,14 +294,13 @@ function renderTags($pages, $designator) {
 	
 	$output = '';
 	foreach ($pages->getArray() as $tag) {
-		$output .= $tag->title . ', ';
+		$output .= $designator . $tag->title . ', ';
 	}
 	return substr($output, 0, -2);
 }
 
 /**
  * Shorten a given text to the given length but taking into account not to cut words.
- *
  */
 function shortenText($text, $max_length = 20) {
 	$text = strip_tags($text);
