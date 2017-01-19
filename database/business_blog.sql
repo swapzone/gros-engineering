@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2017 at 06:43 AM
+-- Generation Time: Jan 19, 2017 at 03:23 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -47,16 +47,17 @@ INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
 ('ModulesVerbose.info', '{"148":{"summary":"Minimal admin theme that supports all ProcessWire features.","core":true,"versionStr":"0.1.4"},"97":{"summary":"This Fieldtype stores an ON\\/OFF toggle via a single checkbox. The ON value is 1 and OFF value is 0.","core":true,"versionStr":"1.0.1"},"28":{"summary":"Field that stores a date and optionally time","core":true,"versionStr":"1.0.4"},"29":{"summary":"Field that stores an e-mail address","core":true,"versionStr":"1.0.0"},"106":{"summary":"Close a fieldset opened by FieldsetOpen. ","core":true,"versionStr":"1.0.0"},"105":{"summary":"Open a fieldset to group fields. Should be followed by a Fieldset (Close) after one or more fields.","core":true,"versionStr":"1.0.0"},"107":{"summary":"Open a fieldset to group fields. Same as Fieldset (Open) except that it displays in a tab instead.","core":true,"versionStr":"1.0.0"},"6":{"summary":"Field that stores one or more files","core":true,"versionStr":"1.0.4"},"89":{"summary":"Field that stores a floating point (decimal) number","core":true,"versionStr":"1.0.5"},"57":{"summary":"Field that stores one or more GIF, JPG, or PNG images","core":true,"versionStr":"1.0.1"},"84":{"summary":"Field that stores an integer","core":true,"versionStr":"1.0.1"},"27":{"summary":"Field that stores a reference to another module","core":true,"versionStr":"1.0.1"},"4":{"summary":"Field that stores one or more references to ProcessWire pages","core":true,"versionStr":"1.0.3"},"111":{"summary":"Field that stores a page title","core":true,"versionStr":"1.0.0"},"133":{"summary":"Field that stores a hashed and salted password","core":true,"versionStr":"1.0.1"},"3":{"summary":"Field that stores a single line of text","core":true,"versionStr":"1.0.0"},"1":{"summary":"Field that stores multiple lines of text","core":true,"versionStr":"1.0.6"},"135":{"summary":"Field that stores a URL","core":true,"versionStr":"1.0.1"},"25":{"summary":"Multiple selection, progressive enhancement to select multiple","core":true,"versionStr":"1.2.0"},"131":{"summary":"Form button element that you can optionally pass an href attribute to.","core":true,"versionStr":"1.0.0"},"37":{"summary":"Single checkbox toggle","core":true,"versionStr":"1.0.4"},"38":{"summary":"Multiple checkbox toggles","core":true,"versionStr":"1.0.7"},"155":{"summary":"CKEditor textarea rich text editor.","core":true,"versionStr":"1.5.7"},"94":{"summary":"Inputfield that accepts date and optionally time","core":true,"versionStr":"1.0.5"},"80":{"summary":"E-Mail address in valid format","core":true,"versionStr":"1.0.1"},"78":{"summary":"Groups one or more fields together in a container","core":true,"versionStr":"1.0.1"},"55":{"summary":"One or more file uploads (sortable)","core":true,"versionStr":"1.2.4"},"90":{"summary":"Floating point number with precision","core":true,"versionStr":"1.0.3"},"30":{"summary":"Contains one or more fields in a form","core":true,"versionStr":"1.0.7"},"40":{"summary":"Hidden value in a form","core":true,"versionStr":"1.0.1"},"170":{"summary":"Select an icon","core":true,"versionStr":"0.0.2"},"56":{"summary":"One or more image uploads (sortable)","core":true,"versionStr":"1.1.9"},"85":{"summary":"Integer (positive or negative)","core":true,"versionStr":"1.0.4"},"79":{"summary":"Contains any other markup and optionally child Inputfields","core":true,"versionStr":"1.0.2"},"41":{"summary":"Text input validated as a ProcessWire name field","core":true,"versionStr":"1.0.0"},"60":{"summary":"Select one or more pages","core":true,"versionStr":"1.0.6"},"15":{"summary":"Selection of a single page from a ProcessWire page tree list","core":true,"versionStr":"1.0.1"},"137":{"summary":"Selection of multiple pages from a ProcessWire page tree list","core":true,"versionStr":"1.0.2"},"86":{"summary":"Text input validated as a ProcessWire Page name field","core":true,"versionStr":"1.0.6"},"112":{"summary":"Handles input of Page Title and auto-generation of Page Name (when name is blank)","core":true,"versionStr":"1.0.2"},"122":{"summary":"Password input with confirmation field that doesn&#039;t ever echo the input back.","core":true,"versionStr":"1.0.1"},"39":{"summary":"Radio buttons for selection of a single item","core":true,"versionStr":"1.0.5"},"36":{"summary":"Selection of a single value from a select pulldown","core":true,"versionStr":"1.0.2"},"43":{"summary":"Select multiple items from a list","core":true,"versionStr":"1.0.1"},"149":{"summary":"Build a page finding selector visually.","author":"Avoine + ProcessWire","core":true,"versionStr":"0.2.7"},"32":{"summary":"Form submit button","core":true,"versionStr":"1.0.2"},"34":{"summary":"Single line of text","core":true,"versionStr":"1.0.6"},"35":{"summary":"Multiple lines of text","core":true,"versionStr":"1.0.3"},"108":{"summary":"URL in valid format","core":true,"versionStr":"1.0.2"},"116":{"summary":"jQuery Core as required by ProcessWire Admin and plugins","href":"http:\\/\\/jquery.com","core":true,"versionStr":"1.8.3"},"151":{"summary":"Provides lightbox capability for image galleries. Replacement for FancyBox. Uses Magnific Popup by @dimsemenov.","href":"http:\\/\\/dimsemenov.com\\/plugins\\/magnific-popup\\/","core":true,"versionStr":"0.0.1"},"103":{"summary":"Provides a jQuery plugin for sorting tables.","href":"http:\\/\\/mottie.github.io\\/tablesorter\\/","core":true,"versionStr":"2.2.1"},"117":{"summary":"jQuery UI as required by ProcessWire and plugins","href":"http:\\/\\/ui.jquery.com","core":true,"versionStr":"1.9.6"},"45":{"summary":"Provides a jQuery plugin for generating tabs in ProcessWire.","core":true,"versionStr":"1.0.7"},"163":{"summary":"Field that stores a page title in multiple languages. Use this only if you want title inputs created for ALL languages on ALL pages. Otherwise create separate languaged-named title fields, i.e. title_fr, title_es, title_fi, etc. ","author":"Ryan Cramer","core":true,"versionStr":"1.0.0"},"164":{"summary":"Field that stores a multiple lines of text in multiple languages","core":true,"versionStr":"1.0.0"},"162":{"summary":"Field that stores a single line of text in multiple languages","core":true,"versionStr":"1.0.0"},"158":{"summary":"ProcessWire multi-language support.","author":"Ryan Cramer","core":true,"versionStr":"1.0.3"},"161":{"summary":"Required to use multi-language fields.","author":"Ryan Cramer","core":true,"versionStr":"1.0.0"},"165":{"summary":"Required to use multi-language page names.","author":"Ryan Cramer","core":true,"versionStr":"0.0.9"},"166":{"summary":"Organizes multi-language fields into tabs for a cleaner easier to use interface.","author":"adamspruijt, ryan","core":true,"versionStr":"1.1.4"},"159":{"summary":"Manage system languages","author":"Ryan Cramer","core":true,"versionStr":"1.0.3","permissions":{"lang-edit":"Administer languages and static translation files"}},"160":{"summary":"Provides language translation capabilities for ProcessWire core and modules.","author":"Ryan Cramer","core":true,"versionStr":"1.0.1"},"67":{"summary":"Generates markup for data tables used by ProcessWire admin","core":true,"versionStr":"1.0.7"},"156":{"summary":"Front-end to the HTML Purifier library.","core":true,"versionStr":"1.0.5"},"113":{"summary":"Adds a render() method to all PageArray instances for basic unordered list generation of PageArrays.","core":true,"versionStr":"1.0.0"},"98":{"summary":"Generates markup for pagination navigation","core":true,"versionStr":"1.0.4"},"152":{"summary":"Keeps track of past URLs where pages have lived and automatically redirects (301 permament) to the new location whenever the past URL is accessed.","core":true,"versionStr":"0.0.2"},"114":{"summary":"Adds various permission methods to Page objects that are used by Process modules.","core":true,"versionStr":"1.0.5"},"115":{"summary":"Adds a render method to Page and caches page output.","core":true,"versionStr":"1.0.5"},"48":{"summary":"Edit individual fields that hold page data","core":true,"versionStr":"1.1.2"},"87":{"summary":"Acts as a placeholder Process for the admin root. Ensures proper flow control after login.","core":true,"versionStr":"1.0.1"},"76":{"summary":"Lists the Process assigned to each child page of the current","core":true,"versionStr":"1.0.1"},"169":{"summary":"View and manage system logs.","author":"Ryan Cramer","core":true,"versionStr":"0.0.1","permissions":{"logs-view":"Can view system logs","logs-edit":"Can manage system logs"},"page":{"name":"logs","parent":"setup","title":"Logs"}},"10":{"summary":"Login to ProcessWire","core":true,"versionStr":"1.0.3"},"50":{"summary":"List, edit or install\\/uninstall modules","core":true,"versionStr":"1.1.8"},"17":{"summary":"Add a new page","core":true,"versionStr":"1.0.8"},"7":{"summary":"Edit a Page","core":true,"versionStr":"1.0.8"},"129":{"summary":"Provides image manipulation functions for image fields and rich text editors.","core":true,"versionStr":"1.2.0"},"121":{"summary":"Provides a link capability as used by some Fieldtype modules (like rich text editors).","core":true,"versionStr":"1.0.8"},"12":{"summary":"List pages in a hierarchal tree structure","core":true,"versionStr":"1.1.8"},"150":{"summary":"Admin tool for finding and listing pages by any property.","author":"Ryan Cramer","core":true,"versionStr":"0.2.4","permissions":{"page-lister":"Use Page Lister"}},"104":{"summary":"Provides a page search engine for admin use.","core":true,"versionStr":"1.0.6"},"14":{"summary":"Handles page sorting and moving for PageList","core":true,"versionStr":"1.0.0"},"109":{"summary":"Handles emptying of Page trash","core":true,"versionStr":"1.0.2"},"134":{"summary":"List, Edit and Add pages of a specific type","core":true,"versionStr":"1.0.1"},"83":{"summary":"All page views are routed through this Process","core":true,"versionStr":"1.0.4"},"136":{"summary":"Manage system permissions","core":true,"versionStr":"1.0.1"},"138":{"summary":"Enables user to change their password, email address and other settings that you define.","core":true,"versionStr":"1.0.3"},"168":{"summary":"Shows a list of recently edited pages in your admin.","author":"Ryan Cramer","href":"http:\\/\\/modules.processwire.com\\/","core":true,"versionStr":"0.0.2","permissions":{"page-edit-recent":"Can see recently edited pages"},"page":{"name":"recent-pages","parent":"page","title":"Recent"}},"68":{"summary":"Manage user roles and what permissions are attached","core":true,"versionStr":"1.0.3"},"47":{"summary":"List and edit the templates that control page output","core":true,"versionStr":"1.1.4"},"66":{"summary":"Manage system users","core":true,"versionStr":"1.0.7"},"125":{"summary":"Throttles the frequency of logins for a given account, helps to reduce dictionary attacks by introducing an exponential delay between logins.","core":true,"versionStr":"1.0.2"},"139":{"summary":"Manages system versions and upgrades.","core":true,"versionStr":"0.1.5"},"61":{"summary":"Entity encode ampersands, quotes (single and double) and greater-than\\/less-than signs using htmlspecialchars(str, ENT_QUOTES). It is recommended that you use this on all text\\/textarea fields except those using a rich text editor or a markup language like Markdown.","core":true,"versionStr":"1.0.0"}}', '2010-04-08 03:10:10'),
 ('Modules.site/modules/', 'Helloworld/Helloworld.module', '2010-04-08 03:10:10'),
 ('FileCompiler__e51c320972b4758ab94809c33246ffc8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354}}', '2010-04-08 03:10:10'),
-('FileCompiler__66c786ccceb474baf43dd79f8298f4e8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899}}', '2010-04-08 03:10:10'),
-('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450}}', '2010-04-08 03:10:10'),
-('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"5803dd45130e242a0b17600307b87e81","size":26588,"time":1484803673,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"5803dd45130e242a0b17600307b87e81","size":26588,"time":1484803673}}', '2010-04-08 03:10:10'),
+('FileCompiler__66c786ccceb474baf43dd79f8298f4e8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_init.php","hash":"b0e34fe8f9e19b12dc751a2d50e1a2ce","size":981,"time":1484835580,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_init.php","hash":"b0e34fe8f9e19b12dc751a2d50e1a2ce","size":981,"time":1484835580}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"0ab51f36bac2e9ff8713aa7056f18ff2","size":15280,"time":1484835215,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"0ab51f36bac2e9ff8713aa7056f18ff2","size":15280,"time":1484835215}}', '2010-04-08 03:10:10'),
 ('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"c69996c37d1069f814857427c215fbfd","size":873,"time":1484802196,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"c69996c37d1069f814857427c215fbfd","size":873,"time":1484802196}}', '2010-04-08 03:10:10'),
 ('FileCompiler__a1f623e95ced7a12546c6cf18cf12ece', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354}}', '2010-04-08 03:10:10'),
-('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035}}', '2010-04-08 03:10:10');
+('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10');
 INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
-('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10'),
+('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"5d72698ac8193ce36a2a12f9858d6270","size":24499,"time":1484835250,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"5d72698ac8193ce36a2a12f9858d6270","size":24499,"time":1484835250}}', '2010-04-08 03:10:10'),
 ('FileCompiler__507eecc6786c5f7a735098d039c44198', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422,"ns":"\\\\"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422}}', '2010-04-08 03:10:10'),
-('FileCompiler__9df3dba67a7d9bf8438d9c35b7980593', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496}}', '2010-04-08 03:10:10');
+('FileCompiler__9df3dba67a7d9bf8438d9c35b7980593', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496}}', '2010-04-08 03:10:10'),
+('FileCompiler__bb3ae5628953a295326aa218dea68340', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/pdf.php","hash":"da4afeb6d42e17fae90a51c1e3f303da","size":438,"time":1484829553,"ns":"\\\\"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/pdf.php","hash":"a652cc1a5c38d1437077515ef7f48dc1","size":451,"time":1484829553}}', '2010-04-08 03:10:10');
 
 -- --------------------------------------------------------
 
@@ -87,7 +88,8 @@ INSERT INTO `fieldgroups` (`id`, `name`) VALUES
 (98, 'blog'),
 (99, 'post'),
 (100, 'contact'),
-(102, 'skills');
+(102, 'skills'),
+(103, 'pdf');
 
 -- --------------------------------------------------------
 
@@ -147,7 +149,9 @@ INSERT INTO `fieldgroups_fields` (`fieldgroups_id`, `fields_id`, `sort`, `data`)
 (101, 110, 2, NULL),
 (101, 78, 0, '{"collapsed":"0","description":"The time frame in which this experience was gained."}'),
 (102, 109, 1, NULL),
-(102, 1, 0, NULL);
+(102, 1, 0, NULL),
+(103, 1, 0, NULL),
+(103, 111, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -177,6 +181,7 @@ INSERT INTO `fields` (`id`, `type`, `name`, `flags`, `label`, `data`) VALUES
 (4, 'FieldtypePage', 'roles', 24, 'Roles', '{"derefAsPage":0,"parent_id":30,"labelFieldName":"name","inputfield":"InputfieldCheckboxes","description":"User will inherit the permissions assigned to each role. You may assign multiple roles to a user. When accessing a page, the user will only inherit permissions from the roles that are also assigned to the page''s template."}'),
 (92, 'FieldtypeEmail', 'email', 9, 'E-Mail Address', '{"size":70,"maxlength":255}'),
 (110, 'FieldtypeTextLanguage', 'subtitle', 0, 'Subtitle', ''),
+(111, 'FieldtypeFile', 'pdf', 0, 'Pdf file field', '{"extensions":"pdf doc docx xls xlsx gif jpg jpeg png","maxFiles":1,"outputFormat":2,"defaultValuePage":0,"inputfieldClass":"InputfieldFile","descriptionRows":1,"fileSchema":2}'),
 (44, 'FieldtypeImage', 'images', 0, 'Images', '{"extensions":"gif jpg jpeg png","adminThumbs":1,"inputfieldClass":"InputfieldImage","maxFiles":0,"descriptionRows":1,"fileSchema":2,"outputFormat":1,"defaultValuePage":0,"defaultGrid":0,"icon":"camera","label1012":"Bilder","textformatters":["TextformatterEntities"]}'),
 (79, 'FieldtypeTextareaLanguage', 'summary', 1, 'Summary', '{"textformatters":["TextformatterEntities"],"inputfieldClass":"InputfieldTextarea","collapsed":2,"rows":3,"contentType":0,"label1012":"Zusammenfassung","langBlankInherit":0}'),
 (76, 'FieldtypeTextareaLanguage', 'body', 0, 'Body', '{"inputfieldClass":"InputfieldCKEditor","rows":10,"contentType":1,"toolbar":"Format, Bold, Italic, -, RemoveFormat\\nNumberedList, BulletedList, -, Blockquote\\nPWLink, Unlink, Anchor\\nPWImage, Table, HorizontalRule, SpecialChar\\nPasteText, PasteFromWord\\nScayt, -, Sourcedialog","inlineMode":0,"useACF":0,"usePurifier":1,"formatTags":"p;h2;h3;h4;h5;h6;pre;address","extraPlugins":["pwimage","pwlink","sourcedialog"],"removePlugins":"image,magicline","toggles":[2,4,8],"label1012":"Inhalt","langBlankInherit":0,"collapsed":0,"minlength":0,"maxlength":0,"showCount":0}'),
@@ -228,13 +233,12 @@ INSERT INTO `field_body` (`pages_id`, `data`, `data1012`) VALUES
 (1038, '<p>The back end part is done. The REST API is set into place and running somewhere in the background. Now it is time to integrate the Swagger definitions into the front end part of our application.</p>\n\n<p>As for the back end we have a ready to use npm package for the Swagger integration: <a href="https://www.npmjs.com/package/swagger-server">Swagger Server</a></p>\n\n<h2 id="whytobuilduponswagger">Why to build upon Swagger?</h2>\n\n<p>You could ask: Why should I build my front end on Swagger at all? I could also just use the Swagger file, open it in the <a href="http://editor.swagger.io/">Swagger Editor</a> and use the documentation to develop the front end.</p>\n\n<p>While this would be a totally valid approach, there are some more aspects to think about:</p>\n\n<ul><li>Do you want to run the - potentially time-consuming - back end calls against a live back end, while you develop?</li>\n	<li>Do you want to get live data from the back end or do you prefer to have mocked data during the development process?</li>\n	<li>How do you integrate the mocked data into the front end without affecting the built version?</li>\n</ul><p>As you can imagine, those questions can be easily answered with the Swagger Server package.</p>\n\n<h2 id="definethebuildprocess">Define the build process</h2>\n\n<p>We only rely on Node.js for this step. Let''s create a Javascript file and name it for example <code>server.js</code>. Then let''s load the Swagger Server which is based on Express.js.</p>\n\n<pre>\n<code>var swagger  = require(''swagger-server''),  \n    Server   = swagger.Server;\n\n// Create a Swagger Server instance\nvar server = new Server();  \n</code></pre>\n\n<p>We then parse the Swagger definitions that we have created in the previous tutorials.</p>\n\n<pre>\n<code>server.parse(''swagger.yaml'');  \n</code></pre>\n\n<p>Now we could just start the server and make it listen on the port that is specified in the <code>swagger.yaml</code> file.</p>\n\n<pre>\n<code>// Start listening\nserver.listen();  \n</code></pre>\n\n<p>But hey, what about mocking?</p>\n\n<h2 id="creatingmockhandlers">Creating mock handlers</h2>\n\n<p>While the Swagger Server will serve mock data by itself without defining anything else, we most likely want to define some mock objects of our own. Let''s do this for one of our routes defined in the <a href="http://www.gros-engineering.com/how-to-design-the-perfect-rest-api-part-1/">last part of this series</a>.</p>\n\n<pre>\n<code>/**\n * The camels route.\n *\n * @param server\n */\nmodule.exports = function (server) {\n\n  server.get(''/camels'', function(req, res) {\n    res.json([\n      {\n        "id": 1,\n        "name": "Carlos",\n        "color": "Autumn Gold"\n     },\n     {\n       "id": 2,\n       "name": "Alfredo",\n       "color": "Raven Black" // creepy I know\n     }\n  ]);\n};\n</code></pre>\n\n<p>But what if we have a parameter in our route like for retrieving one particular camel? No problem, Swagger Server offers a nice option for that.</p>\n\n<pre>\n<code>var swagger  = require(''swagger-server''),  \n    Resource = swagger.Resource;\n\n/**\n * The camels/:id route.\n *\n * @param server\n */\nmodule.exports = function (server) {\n\n  server.dataStore.save(\n    new Resource(''/camels/1'', { /* include Carlo here */ }));\n\n  server.dataStore.save(\n    new Resource(''/camels/2'', { /* include Alfredo here */ }));\n};\n</code></pre>\n\n<p>Sweet! Now we can create any type of mock object and return it for specific routes. Let''s tell Swagger Server to use those mocks.</p>\n\n<h2 id="includethemockhandlers">Include the mock handlers</h2>\n\n<p>Let''s get back to the <code>server.js</code> file we created in the last step. <strong>Before we tell the server to listen</strong>, we load the new mock objects defined in <code>mock/camels.js</code>and <code>mock/camel.js</code>.</p>\n\n<pre>\n<code>// initialize mock objects for all available routes\nrequire(''./mock/camels'')(server);  \nrequire(''./mock/camel'')(server);  \n</code></pre>\n\n<p>The only thing left is do add some configuration for the Swagger Server and include an error handler.</p>\n\n<pre>\n<code>// Enable Express'' case-sensitive and strict options\nserver.enable(''case sensitive routing'');  \nserver.enable(''strict routing'');\n\n// Add a custom error handler\nserver.use(function(err, req, res, next) {  \n  res.status(err.status);\n  res.type(''html'');\n  res.send(''&lt;html&gt;&lt;body&gt;&lt;h1&gt;'' + err.status + '' Error!&lt;/h1&gt;&lt;p&gt;'' + err.message + ''&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;''));\n});\n</code></pre>\n\n<h2 id="summary">Summary</h2>\n\n<p><strong>Congratulations, you reached the end of that short tutorial!</strong> We learned, how to work with Swagger, how to use it in our Node.js back end application and how to make the most out of it for the front end development process.</p>\n\n<p>I can only encourage you to try Swagger on your own. It''s an amazing ecosystem for API development and it makes your development a lot easier in the long term.</p>\n\n<p>If you have any questions or if you need some help with your API development, don''t hesitate to <a href="mailto:info@gros-engineering.com">get in touch</a> with me.</p>', ''),
 (1039, '<p>This is a short post on AngularJS performance tweaks that will help you to write efficient AngularJS code. Be aware that this short list is – potentially - non-exhaustive and might be enhanced over time.</p>\n\n<h2 id="generalstuff">General stuff</h2>\n\n<ul><li>\n	<p>Keep <strong>number of watchers</strong> &lt; 2000<br />\n	To measure the amount of watchers used in an Angular app, there is a pretty good code-snippet that can be easily integrated into Chrome called <a href="https://github.com/kentcdodds/ng-stats">ng-stats</a>.</p>\n	</li>\n	<li>\n	<p>Prefer <code>ng-if</code> over <code>ng-show</code>/<code>ng-hide</code><br />\n	It strongly depends on your use case but always keep in mind, that elements with the ng-hide attribute are fully rendered and all DOM elements are created, even if the user cannot see anything. I would recommend reading <a href="http://stackoverflow.com/a/22142963">this answer</a> in StackOverflow for a better understanding.</p>\n	</li>\n	<li>\n	<p>Avoid <strong>deep-watchers</strong><br />\n	Most of us probably won''t do this, but it''s good to keep in mind that something like deep-watchers exist but should only be used in reasonable cases.</p>\n	</li>\n</ul><pre>\n<code>// example of a deep watcher (see true as third argument)\n$scope.$watch(''data'', function (newVal, oldVal) { /*...*/ }, true);\n</code></pre>\n\n<ul><li>\n	<p>Prefer <code>$scope.$digest</code> over <code>$scope.$apply</code><br />\n	While <code>$digest</code> only starts a digest cycle for the scope it is called upon, <code>$apply</code>triggers a digest-cycle on the <code>$rootScope</code>. This means that all watchers are checked instead of only the watchers in the given scope being checked (also see <a href="https://www.sitepoint.com/understanding-angulars-apply-digest/">this article</a>).</p>\n	</li>\n	<li>\n	<p>Use <code>$evalAsync()</code> when triggering the digest cycle manually<br />\n	Sometimes you must trigger the digest cycle manually resulting in an error message saying: <code>Error: $digest already in progress</code>.</p>\n	</li>\n</ul><pre>\n<code>$scope.$evalAsync(function () { \n  // do something that requires dirty checking of data \n});\n</code></pre>\n\n<h2 id="repeater">Repeater</h2>\n\n<ul><li>Use <strong>track by</strong> in ng-repeat especially for complex objects<br />\n	If data is reloaded in the collection, Angular will rebuild the DOM for all those elements. That won''t happen, if you track your objects for example by their id, since Angular would know that the object is already represented in the DOM.</li>\n</ul><pre>\n<code>&lt;div ng-repeat="obj in ObjectCollection track by obj.id"&gt;  \n  {{ obj.name }}\n&lt;/div&gt;  \n</code></pre>\n\n<p>Also read <a href="http://www.bennadel.com/blog/2556-using-track-by-with-ngrepeat-in-angularjs-1-2.htm">this</a> for detail information.</p>\n\n<ul><li>Do not use <strong>inline methods</strong> in ng-repeat<br />\n	Angular will re-render all items in the collection returned by the inline method with every digest cycle. Pretty bad idea!</li>\n</ul><pre>\n<code>&lt;div ng-repeat="obj in getAllObjects()"&gt; &lt;!-- don''t do this --&gt;  \n  {{ obj.name }}\n&lt;/div&gt;  \n</code></pre>\n\n<ul><li>Use the <strong>bindonce package</strong> for large lists<br />\n	When rendering large lists with data that won''t be changed the bindonce package can help a lot to improve the performance of the app. See the <a href="https://github.com/Pasvaz/bindonce">Github page</a> of the project for detailed information.</li>\n</ul><h2 id="databindings">Data bindings</h2>\n\n<ul><li>Use <strong>one-time data bindings</strong> whenever possible<br />\n	Instead of binding all variables in templates and keeping watchers for those bindings, it often is enough to use one-time binding and thereby reduce the amount of watchers drastically.</li>\n</ul><pre>\n<code>// example 1: one-time binding for the color variable\n&lt;div name="attr: {{::color}}"&gt;text: {{::name | uppercase}}&lt;/div&gt;\n\n// example 2: one-time binding for the items collection\n&lt;ul&gt;&lt;li ng-repeat="item in ::items"&gt;{{item.name}};&lt;/li&gt;&lt;/ul&gt;\n\n// example 3: one-time binding for the name variable\n&lt;p&gt;One time binding: {{::name}}&lt;/p&gt;\n\n// example 4: ng-if only evaluated once\n&lt;div ng-if="::user.isLoggedIn"&gt;Information for logged-in user&lt;/div&gt;\n\n// example 5: ng-class only evaluated once\n&lt;div ng-class="::{ loggedIn: user.isLoggedIn }"&gt;&lt;/div&gt;  \n</code></pre>\n\n<ul><li>Prefer <strong>pre-filtered values</strong> over filters in templates<br />\n	When using filters in templates, the filter is applied with every digest cycle resulting in a potentially serious impact on the overall app performance.</li>\n</ul><pre>\n<code>&lt;p&gt;{{ user.signature | strip | reformat }}&lt;/p&gt; // don''t do this  \n&lt;p&gt;{{ filteredUserSignature }}&lt;/p&gt; // pre-filtere value in controller  \n&lt;p&gt;{{ ::filteredUserSignature }}&lt;/p&gt; // even better with one-time binding  \n</code></pre>\n\n<h2 id="disablingdebugmode">Disabling debug mode</h2>\n\n<p>A often neglected performance bottleneck is the <a href="https://docs.angularjs.org/guide/production">debug mode</a> of AngularJS. As the author of <a href="https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476">this article</a> figured out, even bigger websites have the debug mode enabled leading to a less performant web application and not bringing any benefit while in production.<br />\nTo easily disable debug information in your production app, just configure it in the application''s config phase.</p>\n\n<pre>\n<code>myApp.config([''$compileProvider'', function ($compileProvider) {  \n  $compileProvider.debugInfoEnabled(false);\n}]);</code></pre>', ''),
 (1040, '', ''),
-(1041, '', ''),
 (1042, '', ''),
 (1043, '', ''),
-(1051, '<p>As a dual student with Hewlett Packard I did several short projects using a lot of different tools and programming languages. My bachelor''s thesis was about SharePoint and the implementation of a filing system in the public sector.</p>', ''),
-(1052, '<p>Initially responsible for developing different parts of an online development environment for embedded systems, I was then managing a project with the goal to create a new operating software for ticket vending systems of rail operators.</p>', ''),
-(1053, '<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG. Responsible for the technology selection, overall architecture and implementation of the door-to-door travel management solution.</p>', ''),
-(1055, '<p>Working on different projects ranging from the web shop of a big car brand in Stuttgart over a native patient administration software for a small osteopath office to a media control software optimised for tablet computers that will be used in the show rooms of a local car dealer.</p>', '');
+(1051, '<p>As a dual student with Hewlett Packard I did several short projects using a lot of different tools and programming languages. My bachelor''s thesis was about SharePoint and the implementation of a filing system in the public sector.</p>', '<p>Als dualer Student bei Hewlett Packard durchlief ich diverse Abteilungen und kam mit vielen Tools und Programmiersprachen in Kontakt. Meine Bachelorarbeit befasst sich mit dem Thema SharePoint und der Implementierung eines Dokumentmanagementsystems in der öffentlichen Verwaltung.</p>'),
+(1052, '<p>Initially responsible for developing different parts of an online development environment for embedded systems, I was then managing a project with the goal to create a new operating software for ticket vending systems of rail operators.</p>', '<p>Anfänglich entwickelte ich verschiedene Module für eine Online-Entwicklungsumgebung für eingebettete Systeme. Später wechselte ich in das Projektmanagement für ein Projekt, das das Ziel hatte eine neuartige Verkaufsoberfläche für Fahrkartenautomaten diverser Bahngesellschaften zu entwickeln.</p>'),
+(1053, '<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG. Responsible for the technology selection, overall architecture and implementation of the door-to-door travel management solution.</p>', '<p>Für die EFEXCON AG arbeitete ich an dem Geschäftsreisebuchungsportal 1ClickTrips und war dabei für die Technologieauswahl, die grundlegende Architektur und die Implementierung der Tür-zu-Tür Reiseplanungslösung verantwortlich.</p>'),
+(1055, '<p>Working on different projects ranging from the web shop of a big car brand in Stuttgart over a native patient administration software for a small osteopath office to a media control software optimised for tablet computers that will be used in the show rooms of a local car dealer.</p>', '<p>Angefangen beim Online-Shop einer großen Automarke in Stuttgart über eine einfache Patientenverwaltungssoftware für eine kleine Osteopathenpraxis bis hin zu einer auf Tablets hin optimierten Medien- und Raumsteuerungssoftware für ein Autohaus, arbeite ich an diversen unterschiedlichen Projekten und bin immer wieder offen für neue Herausforderungen.</p>');
 
 -- --------------------------------------------------------
 
@@ -299,10 +303,10 @@ CREATE TABLE `field_headline` (
 
 INSERT INTO `field_headline` (`pages_id`, `data`, `data1012`) VALUES
 (1, 'Gros Engineering', 'Gros Engineering'),
-(1051, 'Oct 2009 - Sep 2012', ''),
-(1052, 'Oct 2012 - Apr 2014', ''),
+(1051, 'Oct 2009 - Sep 2012', 'Okt 2009 - Sep 2012'),
+(1052, 'Oct 2012 - Apr 2014', 'Okt 2012 - Apr 2014'),
 (1053, 'Jun 2014 - Apr 2016', ''),
-(1055, 'May 2016 - present', '');
+(1055, 'May 2016 - present', 'Mai 2016 - heute');
 
 -- --------------------------------------------------------
 
@@ -520,8 +524,12 @@ CREATE TABLE `field_language_files_site` (
 --
 
 INSERT INTO `field_language_files_site` (`pages_id`, `data`, `sort`, `description`, `modified`, `created`) VALUES
+(1012, 'site--templates--_func-php.json', 4, '[""]', '2017-01-19 10:33:36', '2017-01-19 10:33:36'),
+(1012, 'site--templates--home-php.json', 3, '[""]', '2017-01-19 10:33:36', '2017-01-19 10:33:36'),
+(1012, 'site--templates--contact-php.json', 2, '[""]', '2017-01-19 10:33:36', '2017-01-19 10:33:36'),
+(1012, 'site--templates--search-php.json', 1, '[""]', '2017-01-08 12:58:01', '2017-01-08 12:58:01'),
 (1012, 'site--templates--_main-php.json', 0, '[""]', '2017-01-08 12:58:01', '2017-01-08 12:58:01'),
-(1012, 'site--templates--search-php.json', 1, '[""]', '2017-01-08 12:58:01', '2017-01-08 12:58:01');
+(1012, 'site--templates--markup--post-php.json', 5, '[""]', '2017-01-19 10:33:36', '2017-01-19 10:33:36');
 
 -- --------------------------------------------------------
 
@@ -543,6 +551,29 @@ CREATE TABLE `field_pass` (
 INSERT INTO `field_pass` (`pages_id`, `data`, `salt`) VALUES
 (41, 'tXaXGSrxHlVDy0qxGHin7f9zVBejwxG', '$2y$11$HYvdsM0lGLTOqlf.832FBu'),
 (40, '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `field_pdf`
+--
+
+DROP TABLE IF EXISTS `field_pdf`;
+CREATE TABLE `field_pdf` (
+  `pages_id` int(10) UNSIGNED NOT NULL,
+  `data` varchar(250) NOT NULL,
+  `sort` int(10) UNSIGNED NOT NULL,
+  `description` text NOT NULL,
+  `modified` datetime DEFAULT NULL,
+  `created` datetime DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `field_pdf`
+--
+
+INSERT INTO `field_pdf` (`pages_id`, `data`, `sort`, `description`, `modified`, `created`) VALUES
+(1056, 'projektmappe_-_sascha_gros.pdf', 0, '{"0":"Project Overview","1012":"Projektmappe"}', '2017-01-19 13:45:00', '2017-01-19 13:45:00');
 
 -- --------------------------------------------------------
 
@@ -683,10 +714,10 @@ CREATE TABLE `field_subtitle` (
 --
 
 INSERT INTO `field_subtitle` (`pages_id`, `data`, `data1012`) VALUES
-(1051, 'Hewlett Packard - Germany and Ireland', ''),
-(1052, 'Synapticon GmbH, Germany', ''),
-(1053, 'EFEXCON AG, Switzerland', ''),
-(1055, 'Gros Engineering, Germany', '');
+(1051, 'Hewlett Packard - Germany and Ireland', 'Hewlett Packard - Deutschland und Irland'),
+(1052, 'Synapticon GmbH, Germany', 'Synapticon GmbH, Deutschland'),
+(1053, 'EFEXCON AG, Switzerland', 'EFEXCON AG, Schweiz'),
+(1055, 'Gros Engineering, Germany', 'Gros Engineering, Deutschland');
 
 -- --------------------------------------------------------
 
@@ -711,7 +742,6 @@ INSERT INTO `field_summary` (`pages_id`, `data`, `data1012`) VALUES
 (1039, '', ''),
 (1040, '', ''),
 (1001, 'Legal information', 'Deutsches Impressum'),
-(1041, '', ''),
 (1042, '', ''),
 (1043, '', ''),
 (1033, '', ''),
@@ -815,7 +845,6 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1001, 'Legal', 'Impressum'),
 (1033, 'api', 'api'),
 (1000, 'Search', 'Suche'),
-(1041, 'Content', 'Inhalt'),
 (1006, 'Use Page Lister', ''),
 (1007, 'Find', ''),
 (1009, 'Languages', ''),
@@ -831,20 +860,20 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1020, 'Blog', ''),
 (1022, 'Tags', ''),
 (1023, 'coding', 'entwicklung'),
-(1032, 'The Perfect REST API (Part 1)', ''),
+(1032, 'The Perfect REST API (Part 1)', 'Die Perfekte REST API (Teil 1)'),
 (41, 'Sascha Gros', ''),
 (1026, 'Contact', 'Kontakt'),
-(1027, 'Sleepless In Berlin', ''),
+(1027, 'Sleepless In Berlin', 'Schlaflos in Berlin'),
 (1028, 'travel', 'reisen'),
 (1029, 'startup', 'startup'),
 (1030, 'mobile', 'mobil'),
 (1031, 'web', 'web'),
-(1034, 'The Perfect REST API (Part 2)', ''),
+(1034, 'The Perfect REST API (Part 2)', 'Die Perfekte REST API (Teil 2)'),
 (1035, 'angularjs', 'angularjs'),
-(1036, 'REST API Design Principles', ''),
+(1036, 'REST API Design Principles', 'REST API Design Prinzipien'),
 (1037, 'best practices', 'best practices'),
-(1038, 'The Perfect REST API (Part 3)', ''),
-(1039, 'AngularJS Performance Tweaks', ''),
+(1038, 'The Perfect REST API (Part 3)', 'Die Perfekte REST API (Teil 3)'),
+(1039, 'AngularJS Performance Tweaks', 'AngularJS optimieren'),
 (1040, 'javascript', 'javascript'),
 (1042, 'Skills', ''),
 (1043, 'Experience', ''),
@@ -855,11 +884,12 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1048, 'SharePoint', ''),
 (1049, 'Electron.js', ''),
 (1050, 'Ghost CMS', ''),
-(1051, 'Student and Software Developer', ''),
-(1052, 'Software Developer and Project Manager', ''),
-(1053, 'Full Stack Web Developer', ''),
+(1051, 'Student and Software Developer', 'Student und Softwareentwickler'),
+(1052, 'Software Developer and Project Manager', 'Softwareentwickler und Projektmanager'),
+(1053, 'Full Stack Web Developer', 'Full Stack Web Entwickler'),
 (1054, 'Swagger IO', ''),
-(1055, 'Freelance Software Engineer', '');
+(1055, 'Freelance Software Engineer', 'Freiberuflicher Softwareentwickler'),
+(1056, 'Resume', 'Lebenslauf');
 
 -- --------------------------------------------------------
 
@@ -1028,7 +1058,7 @@ CREATE TABLE `pages` (
 --
 
 INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modified`, `modified_users_id`, `created`, `created_users_id`, `published`, `sort`, `name1012`, `status1012`) VALUES
-(1, 0, 1, 'en', 9, '2017-01-19 05:22:46', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, 'de', 1),
+(1, 0, 1, 'en', 9, '2017-01-19 12:46:17', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, 'de', 1),
 (2, 1, 2, 'pwadmin', 1035, '2017-01-08 11:59:27', 40, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 7, NULL, 1),
 (3, 2, 2, 'page', 21, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, NULL, 1),
 (6, 3, 2, 'add', 21, '2017-01-08 11:59:26', 40, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, NULL, 1),
@@ -1065,15 +1095,15 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (303, 3, 2, 'image', 1041, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 7, NULL, 1),
 (304, 2, 2, 'profile', 1025, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 5, NULL, 1),
 (1000, 1, 26, 'search', 1025, '2017-01-13 13:52:48', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 2, 'suche', 1),
-(1001, 1, 29, 'legal', 1, '2017-01-13 14:41:31', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 3, 'impressum', 1),
-(1034, 1020, 45, 'how-to-design-the-perfect-rest-api-part-2', 1, '2017-01-15 13:34:21', 41, '2017-01-15 13:32:18', 41, '2017-01-15 14:34:21', 2, NULL, 1),
+(1001, 1, 29, 'legal', 1, '2017-01-13 14:41:31', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 4, 'impressum', 1),
+(1034, 1020, 45, 'how-to-design-the-perfect-rest-api-part-2', 1, '2017-01-19 14:02:16', 41, '2017-01-15 13:32:18', 41, '2017-01-15 14:34:21', 2, 'wie-gestalte-ich-die-perfekte-rest-api-teil-2', 1),
 (1033, 1022, 29, 'api', 1025, '2017-01-17 12:09:50', 41, '2017-01-15 13:02:57', 41, '2017-01-15 14:03:58', 5, NULL, 1),
 (1006, 31, 5, 'page-lister', 1, '2017-01-08 11:58:01', 40, '2017-01-08 11:58:01', 40, '2017-01-08 12:58:01', 9, NULL, 1),
 (1007, 3, 2, 'lister', 1, '2017-01-08 11:58:01', 40, '2017-01-08 11:58:01', 40, '2017-01-08 12:58:01', 8, NULL, 1),
 (1009, 22, 2, 'languages', 16, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 2, NULL, 1),
 (1010, 1009, 43, 'default', 16, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 0, NULL, 1),
 (1011, 22, 2, 'language-translator', 1040, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 3, NULL, 1),
-(1012, 1009, 43, 'de', 1, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 1, NULL, 1),
+(1012, 1009, 43, 'de', 1, '2017-01-19 09:33:36', 41, '2017-01-08 11:58:01', 41, '2017-01-08 12:58:01', 1, NULL, 1),
 (1015, 3, 2, 'recent-pages', 1, '2017-01-08 11:58:42', 40, '2017-01-08 11:58:42', 40, '2017-01-08 12:58:42', 9, NULL, 0),
 (1016, 31, 5, 'page-edit-recent', 1, '2017-01-08 11:58:43', 40, '2017-01-08 11:58:43', 40, '2017-01-08 12:58:43', 10, NULL, 1),
 (1017, 22, 2, 'logs', 1, '2017-01-08 11:59:06', 40, '2017-01-08 11:59:06', 40, '2017-01-08 12:59:06', 4, NULL, 0),
@@ -1083,19 +1113,18 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1024, 1, 29, 'meta', 1025, '2017-01-09 14:33:44', 41, '2017-01-09 14:33:29', 41, '2017-01-09 15:33:44', 1, NULL, 1),
 (1022, 1024, 29, 'tags', 1025, '2017-01-09 14:35:06', 41, '2017-01-09 14:25:25', 41, '2017-01-09 15:25:38', 4, 'schlagworte', 1),
 (1023, 1022, 29, 'development', 1025, '2017-01-17 12:08:49', 41, '2017-01-09 14:26:09', 41, '2017-01-09 15:26:14', 0, 'entwicklung', 1),
-(1041, 7, 29, '1041.1.8_content', 10241, '2017-01-19 00:15:44', 41, '2017-01-19 00:15:22', 41, NULL, 8, '1041.1.8_inhalt', 1),
-(1032, 1020, 45, 'how-to-design-the-perfect-rest-api-part-1', 1, '2017-01-15 13:39:52', 41, '2017-01-15 13:00:33', 41, '2017-01-15 14:01:37', 1, NULL, 1),
-(1026, 1, 46, 'contact', 1, '2017-01-15 07:44:56', 41, '2017-01-15 07:08:48', 41, '2017-01-15 08:09:24', 4, 'kontakt', 1),
-(1027, 1020, 45, 'sleepless-in-berlin', 1, '2017-01-15 12:57:33', 41, '2017-01-15 12:22:28', 41, '2017-01-15 13:31:21', 1, NULL, 1),
+(1032, 1020, 45, 'how-to-design-the-perfect-rest-api-part-1', 1, '2017-01-19 13:58:15', 41, '2017-01-15 13:00:33', 41, '2017-01-15 14:01:37', 1, 'wie-gestalte-ich-die-perfekte-rest-api-teil-1', 1),
+(1026, 1, 46, 'contact', 1, '2017-01-15 07:44:56', 41, '2017-01-15 07:08:48', 41, '2017-01-15 08:09:24', 5, 'kontakt', 1),
+(1027, 1020, 45, 'sleepless-in-berlin', 1, '2017-01-19 14:03:05', 41, '2017-01-15 12:22:28', 41, '2017-01-15 13:31:21', 1, 'schlaflos-in-berlin', 1),
 (1028, 1022, 29, 'travel', 1025, '2017-01-17 12:09:01', 41, '2017-01-15 12:52:59', 41, '2017-01-15 13:53:08', 1, 'reisen', 1),
 (1029, 1022, 29, 'startup', 1025, '2017-01-17 12:09:11', 41, '2017-01-15 12:53:50', 41, '2017-01-15 13:53:54', 2, NULL, 1),
 (1030, 1022, 29, 'mobile', 1025, '2017-01-17 12:09:23', 41, '2017-01-15 12:54:21', 41, '2017-01-15 13:54:25', 3, 'mobil', 1),
 (1031, 1022, 29, 'web', 1025, '2017-01-17 12:09:37', 41, '2017-01-15 12:54:47', 41, '2017-01-15 13:54:50', 4, NULL, 1),
 (1035, 1022, 29, 'angularjs', 1025, '2017-01-17 12:10:01', 41, '2017-01-15 13:36:18', 41, '2017-01-15 14:36:21', 6, NULL, 1),
-(1036, 1020, 45, 'rest-api-design-principles', 1, '2017-01-15 14:24:25', 41, '2017-01-15 14:15:16', 41, '2017-01-15 15:17:15', 3, NULL, 1),
+(1036, 1020, 45, 'rest-api-design-principles', 1, '2017-01-19 14:02:45', 41, '2017-01-15 14:15:16', 41, '2017-01-15 15:17:15', 3, 'rest-api-design-prinzipien', 1),
 (1037, 1022, 29, 'best-practices', 1025, '2017-01-17 12:10:13', 41, '2017-01-15 14:18:02', 41, '2017-01-15 15:20:23', 7, NULL, 1),
-(1038, 1020, 45, 'how-to-design-the-perfect-rest-api-part-3', 1, '2017-01-15 14:27:20', 41, '2017-01-15 14:26:01', 41, '2017-01-15 15:27:15', 4, NULL, 1),
-(1039, 1020, 45, 'angularjs-performance-tweaks', 1, '2017-01-15 14:31:01', 41, '2017-01-15 14:30:05', 41, '2017-01-15 15:30:59', 5, NULL, 1),
+(1038, 1020, 45, 'how-to-design-the-perfect-rest-api-part-3', 1, '2017-01-19 14:01:48', 41, '2017-01-15 14:26:01', 41, '2017-01-15 15:27:15', 4, 'wie-gestalte-ich-die-perfekte-rest-api-teil-3', 1),
+(1039, 1020, 45, 'angularjs-performance-tweaks', 1, '2017-01-19 14:21:22', 41, '2017-01-15 14:30:05', 41, '2017-01-15 15:30:59', 5, 'angularjs-optimieren', 1),
 (1040, 1022, 29, 'javascript', 1025, '2017-01-17 12:10:27', 41, '2017-01-15 14:35:24', 41, '2017-01-15 15:35:37', 8, NULL, 1),
 (1042, 1024, 29, 'skills', 1025, '2017-01-19 00:16:09', 41, '2017-01-19 00:15:58', 41, '2017-01-19 01:16:09', 1, NULL, 1),
 (1043, 1024, 29, 'experience', 1025, '2017-01-19 00:17:04', 41, '2017-01-19 00:16:45', 41, '2017-01-19 01:16:52', 2, NULL, 1),
@@ -1106,11 +1135,12 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1048, 1042, 48, 'sharepoint', 1, '2017-01-19 04:52:15', 41, '2017-01-19 00:45:54', 41, '2017-01-19 01:46:01', 4, NULL, 1),
 (1049, 1042, 48, 'electron.js', 1, '2017-01-19 04:53:43', 41, '2017-01-19 00:46:18', 41, '2017-01-19 01:46:28', 5, NULL, 1),
 (1050, 1042, 48, 'ghost-cms', 1, '2017-01-19 00:46:49', 41, '2017-01-19 00:46:45', 41, '2017-01-19 01:46:49', 6, NULL, 1),
-(1051, 1043, 47, 'student-and-software-developer', 1, '2017-01-19 00:56:48', 41, '2017-01-19 00:55:56', 41, '2017-01-19 01:56:48', 0, NULL, 1),
-(1052, 1043, 47, 'software-developer-and-project-manager', 1, '2017-01-19 01:20:11', 41, '2017-01-19 01:19:30', 41, '2017-01-19 02:20:11', 1, NULL, 1),
-(1053, 1043, 47, 'full-stack-web-developer', 1, '2017-01-19 01:20:55', 41, '2017-01-19 01:20:30', 41, '2017-01-19 02:20:55', 2, NULL, 1),
+(1051, 1043, 47, 'student-and-software-developer', 1, '2017-01-19 13:49:42', 41, '2017-01-19 00:55:56', 41, '2017-01-19 01:56:48', 0, NULL, 1),
+(1052, 1043, 47, 'software-developer-and-project-manager', 1, '2017-01-19 13:49:17', 41, '2017-01-19 01:19:30', 41, '2017-01-19 02:20:11', 1, NULL, 1),
+(1053, 1043, 47, 'full-stack-web-developer', 1, '2017-01-19 13:53:19', 41, '2017-01-19 01:20:30', 41, '2017-01-19 02:20:55', 2, NULL, 1),
 (1054, 1042, 48, 'swagger-io', 1, '2017-01-19 04:53:22', 41, '2017-01-19 04:53:15', 41, '2017-01-19 05:53:22', 7, NULL, 1),
-(1055, 1043, 47, 'freelance-software-engineer', 1, '2017-01-19 05:01:44', 41, '2017-01-19 04:55:21', 41, '2017-01-19 06:00:15', 3, NULL, 1);
+(1055, 1043, 47, 'freelance-software-engineer', 1, '2017-01-19 13:56:20', 41, '2017-01-19 04:55:21', 41, '2017-01-19 06:00:15', 3, NULL, 1),
+(1056, 1, 49, 'resume', 1025, '2017-01-19 12:46:17', 41, '2017-01-19 12:44:13', 41, '2017-01-19 13:45:00', 3, 'lebenslauf', 1);
 
 -- --------------------------------------------------------
 
@@ -1150,7 +1180,6 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1019, 2, '2017-01-08 11:59:06'),
 (1020, 1, '2017-01-08 13:33:47'),
 (1022, 1, '2017-01-09 14:25:25'),
-(1041, 2, '2017-01-19 00:15:44'),
 (1033, 1, '2017-01-15 13:02:57'),
 (1032, 1, '2017-01-15 13:00:33'),
 (1026, 1, '2017-01-15 07:08:48'),
@@ -1179,7 +1208,8 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1052, 1, '2017-01-19 01:19:30'),
 (1053, 1, '2017-01-19 01:20:30'),
 (1054, 1, '2017-01-19 04:53:15'),
-(1055, 1, '2017-01-19 04:55:21');
+(1055, 1, '2017-01-19 04:55:21'),
+(1056, 1, '2017-01-19 12:44:13');
 
 -- --------------------------------------------------------
 
@@ -1258,7 +1288,8 @@ INSERT INTO `page_path_history` (`path`, `pages_id`, `created`, `language_id`) V
 ('/de/uber', 1001, '2017-01-13 13:52:07', 1012),
 ('/about', 1001, '2017-01-13 13:52:07', 0),
 ('/de/kontaktanfrage', 1026, '2017-01-15 07:11:09', 1012),
-('/contact-request', 1026, '2017-01-15 07:11:09', 0);
+('/contact-request', 1026, '2017-01-15 07:11:09', 0),
+('/de/blog/leistungsoptimierung-fuer-angularjs', 1039, '2017-01-19 14:01:07', 1012);
 
 -- --------------------------------------------------------
 
@@ -1305,7 +1336,7 @@ INSERT INTO `templates` (`id`, `name`, `fieldgroups_id`, `flags`, `cache_time`, 
 (3, 'user', 3, 8, 0, '{"useRoles":1,"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"User","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"compile":3,"nameContentTab":1,"modified":1484313886}'),
 (4, 'role', 4, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"Role","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
 (5, 'permission', 5, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"guestSearchable":1,"pageClass":"Permission","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
-(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484803910,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
+(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484835250,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
 (29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484802196,"ns":"ProcessWire","label1012":"Grund Seite"}'),
 (26, 'search', 80, 0, 0, '{"noChildren":1,"noParents":1,"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Search","modified":1484804496,"ns":"ProcessWire","label1012":"Suche"}'),
 (48, 'skills', 102, 0, 0, '{"noChildren":1,"slashUrls":1,"compile":3,"label":"Skills","modified":1484785249,"label1012":"F\\u00e4higkeiten"}'),
@@ -1313,7 +1344,8 @@ INSERT INTO `templates` (`id`, `name`, `fieldgroups_id`, `flags`, `cache_time`, 
 (47, 'work-experience', 101, 0, 0, '{"slashUrls":1,"compile":3,"label":"Work Experience","modified":1484787451,"label1012":"Arbeitserfahrung"}'),
 (44, 'blog', 98, 0, 0, '{"noParents":-1,"childTemplates":[45],"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Blog","modified":1484657035,"ns":"ProcessWire"}'),
 (45, 'post', 99, 0, 0, '{"noChildren":1,"parentTemplates":[44],"slashUrls":1,"compile":3,"label":"Post","modified":1484652326,"ns":"ProcessWire"}'),
-(46, 'contact', 100, 0, 0, '{"slashUrls":1,"compile":3,"modified":1484570393,"ns":"\\\\"}');
+(46, 'contact', 100, 0, 0, '{"slashUrls":1,"compile":3,"label":"Contact mail sender","modified":1484829811,"ns":"\\\\"}'),
+(49, 'pdf', 103, 0, 0, '{"slashUrls":1,"compile":3,"label":"PDF download","modified":1484829794,"ns":"\\\\"}');
 
 --
 -- Indexes for dumped tables
@@ -1424,6 +1456,16 @@ ALTER TABLE `field_language_files_site` ADD FULLTEXT KEY `description` (`descrip
 ALTER TABLE `field_pass`
   ADD PRIMARY KEY (`pages_id`),
   ADD KEY `data` (`data`);
+
+--
+-- Indexes for table `field_pdf`
+--
+ALTER TABLE `field_pdf`
+  ADD PRIMARY KEY (`pages_id`,`sort`),
+  ADD KEY `data` (`data`),
+  ADD KEY `modified` (`modified`),
+  ADD KEY `created` (`created`);
+ALTER TABLE `field_pdf` ADD FULLTEXT KEY `description` (`description`);
 
 --
 -- Indexes for table `field_permissions`
@@ -1566,12 +1608,12 @@ ALTER TABLE `templates`
 -- AUTO_INCREMENT for table `fieldgroups`
 --
 ALTER TABLE `fieldgroups`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 --
 -- AUTO_INCREMENT for table `fields`
 --
 ALTER TABLE `fields`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=111;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
 --
 -- AUTO_INCREMENT for table `modules`
 --
@@ -1581,12 +1623,12 @@ ALTER TABLE `modules`
 -- AUTO_INCREMENT for table `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1056;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1057;
 --
 -- AUTO_INCREMENT for table `templates`
 --
 ALTER TABLE `templates`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

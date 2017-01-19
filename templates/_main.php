@@ -83,12 +83,12 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
         <div class="mobile-nav-inner">
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
-                    <li><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>            
-                    <li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
-					<li><a href="<?php echo $sub_directory; ?>/#references"><?php echo _x('References', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
+                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>            
+                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+					<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -125,7 +125,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 	
             <aside class="widget widget_search">
                 <h2 class="widget-title"><?php echo __('Search'); ?></h2>
-                <form class="search-form" action="<?php echo $pages->get('template=search')->url; ?>" method="get">
+                <form class="search-form" action="<?php echo $pages->get('template=search')->localUrl($user->language); ?>" method="get">
                     <label class="ripple">
                         <span class="screen-reader-text"><?php echo __('Search for'); ?>:</span>
                         <input class="search-field" type="search" name="q" placeholder="<?php echo __('Search'); ?>">
@@ -137,7 +137,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
     
             <aside class="widget widget_contact">
                 <h2 class="widget-title"><?php echo __('Contact Me'); ?></h2>
-                <form class="rsForm" action="<?php echo $sub_directory; ?>/contact" method="post">
+                <form class="rsForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>" method="post">
                     <div class="input-field">
                         <label><?php echo __('Name'); ?></label>
                         <input type="text" name="rsName" required />
@@ -181,19 +181,19 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
                 <div class="head-bar-inner">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                           	<a class="head-logo" href="<?php echo $sub_directory; ?>/"><img src="<?php echo $config->urls->templates?>img/logo.png" alt="Gros Engineering" style="height: 22px; margin-top: 12px;"/></a>
+                           	<a class="head-logo" href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>"><img src="<?php echo $config->urls->templates?>img/logo.png" alt="Gros Engineering" style="height: 22px; margin-top: 12px;"/></a>
                         </div>
         
                         <div class="col-sm-9 col-xs-6">
                             <div class="nav-wrap">
                                 <nav id="nav" class="nav">
 									<ul class="clearfix">
-										<li class="<?php echo $menuClass; ?>"><a href="<?php echo $sub_directory; ?>/#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo $sub_directory; ?>/#references"><?php echo _x('References', 'Menu entry'); ?></a> </li>
-										<li><a href="<?php echo $sub_directory; ?>/#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
+										<li class="<?php echo $menuClass; ?>"><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a> </li>
+										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
 									</ul>
 								</nav>
         
@@ -226,7 +226,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 					</ul>	
 				</div>
 				<div class="link-legal">
-					<a href="<?php echo $sub_directory; ?>/legal"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
+					<a href="<?php echo wire('pages')->get('/legal')->localUrl($user->language); ?>"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
 					<p>
 						<a href='http://processwire.com'><?php echo __('Powered by ProcessWire'); ?></a>
 					</p>

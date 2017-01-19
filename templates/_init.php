@@ -14,10 +14,6 @@
  * "Files" tab. Check the box to "Disable automatic prepend file". 
  *
  */
-
- // If the site is located in a sub-directory, we must 
- // specify the sub-directory here.
- $sub_directory = '/blog';
  
 // Variables for regions we will populate in _main.php
 // Here we also assign default values for each of them.
@@ -31,3 +27,4 @@ $homepage = $pages->get('/');
 // Include shared functions
 include_once("./_func.php"); 
 
+?>

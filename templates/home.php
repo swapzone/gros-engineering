@@ -70,14 +70,15 @@ ob_start(); ?>
 		</div>
 
 		<div class="section-txt-btn">
-			<!-- TODO include CV -->
-			<!--<p><a class="btn btn-lg btn-border ripple" target="_blank" href="/static/CV_Sascha_Gros.pdf">Download Resume</a></p>-->
 			<p>
-				<?php echo _x('Hello! I’m Sascha Gros. Full stack web developer and data scientist.
-					Specializing in Node.js and RESTful API design. Living test-driven development.
-					Experienced with all stages of the development cycle in agile environments.
-					Well-versed in numerous programming languages and web frameworks.
-					Bringing web technology to all fields of your software needs.', 'Profile section'); ?>
+				<a class="btn btn-lg btn-border ripple" target="_blank" href="<?php echo wire('pages')->get('/resume')->localUrl($user->language); ?>">
+					<?php echo __('Download Resume'); ?>
+				</a>
+			</p>
+			<p>
+				<?php 
+					echo __('Hello! I\'m Sascha Gros. Full stack web developer and data scientist, specializing in Node.js and RESTful API design. Living test-driven development. Experienced with all stages of the development cycle in agile environments. Well-versed in numerous programming languages and web frameworks. Bringing web technology to all fields of your software needs.'); 
+				?>
 			</p>
 		</div>
 	</div>	
@@ -203,7 +204,7 @@ ob_start(); ?>
 	<div class="animate-up">
 		<h2 class="section-title"><?php echo __('From The Blog'); ?></h2>
 		<div class="section-subtitle">
-			<a href="<?php echo $sub_directory; ?>/blog"><?php echo _x('More', 'Read more'); ?>...</a>
+			<a href="<?php echo wire('pages')->get('/blog')->localUrl($user->language); ?>"><?php echo _x('More', 'Read more'); ?>...</a>
 		</div>
 
 		<div class="blog-grid">
@@ -222,9 +223,9 @@ ob_start(); ?>
 					<div class="ref-box">
 						<div class="person-speech">
 							<p>
-								<?php echo __('Sascha is a very talented software developer and a great team player. I have had the pleasure to work with
-								him on multiple projects and he has my highest recommendation. He combines the understanding of how to deliver high
-								quality software with the understanding of how a business can deliver a product in time.'); ?>
+								<?php 
+									echo __('Sascha is a very talented software developer and a great team player. I have had the pleasure to work with him on multiple projects and he has my highest recommendation. He combines the understanding of how to deliver high quality software with the understanding of how a business can deliver a product in time.'); 
+								?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
@@ -240,10 +241,9 @@ ob_start(); ?>
 					<div class="ref-box">
 						<div class="person-speech">
 							<p>
-								<?php echo __('Sascha is one of the few people I know that is able to instantly grab rough ideas and transform them into
-								concrete prototypes and solutions. His profound understanding of software architectures and agile software
-								engineering makes him an important driver and brain in any exciting innovation project.
-								Don\'t bother him with boring business apps. Challenge him with SH/SW and IoT integrations.'); ?>
+								<?php 
+									echo __('Sascha is one of the few people I know that is able to instantly grab rough ideas and transform them into concrete prototypes and solutions. His profound understanding of software architectures and agile software engineering makes him an important driver and brain in any exciting innovation project. Don\'t bother him with boring business apps. Challenge him with SH/SW and IoT integrations.'); 
+								?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
@@ -259,9 +259,9 @@ ob_start(); ?>
 					<div class="ref-box">
 						<div class="person-speech">
 							<p>
-								<?php echo __('Sascha is an uncomplicated, dedicated, very reliable and creative partner for sophisticated software solutions.
-								He combines a great technical know-how with an even greater willingness to develop and deliver an amazing product
-								with a high practical user value. It was a convincing, fair and trustful cooperation. Thank you!'); ?>
+								<?php 
+									echo __('Sascha is an uncomplicated, dedicated, very reliable and creative partner for sophisticated software solutions. He combines a great technical know-how with an even greater willingness to develop and deliver an amazing product with a high practical user value. It was a convincing, fair and trustful cooperation. Thank you!'); 
+								?>
 							</p>
 						</div>
 						<div class="person-info clearfix">
@@ -325,18 +325,13 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('1ClickTrips - Business travel booking of tomorrow. Today.'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple:
-									Give your event data to 1ClickTrips and it will figure out the best options to get there in time
-									without wasting valuable time and money.'); ?>
+									<?php echo __('1ClickTrips is a door-to-door travel tool focusing on events and appointments. The idea is simple: Give your event data to 1ClickTrips and it will figure out the best options to get there in time without wasting valuable time and money.'); ?>
 								</p>
 								<p>
-									<?php echo __('The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options
-									to get to the event and then add a hotel that is located on your trip path and won\'t put any extra effort
-									on getting there.'); ?>
+									<?php echo __('The cool part of 1ClickTrips is the process of creating your trips. It allows you to pick from the best options to get to the event and then add a hotel that is located on your trip path and won\'t put any extra effort on getting there.'); ?>
 								</p>
 								<p>
-									<?php echo __('Once you selected your trip and hotel you can book everything and then take it with you on your mobile,
-									including all tickets, maps and additional information to help you get around.'); ?>
+									<?php echo __('Once you selected your trip and hotel you can book everything and then take it with you on your mobile, including all tickets, maps and additional information to help you get around.'); ?>
 								</p>
 							</div>
 						</div>
@@ -366,13 +361,10 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with
-									either a generic category or with a <a href="https://github.com">Github</a> issue and then store
-									it to SharePoint 2013.'); ?>
+									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with	either a generic category or with a <a href="https://github.com">Github</a> issue and then store it to SharePoint 2013.'); ?>
 								</p>
 								<p>
-									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint
-									and Github properly.'); ?>
+									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint and Github properly.'); ?>
 								</p>
 							</div>
 						</div>
@@ -402,20 +394,13 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('Course administration solution for climbing halls'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('A local climbing hall wanted to make the transformation to a digital administration of the
-									weekly courses and occupancy of their climbing hall.'); ?>
+									<?php echo __('A local climbing hall wanted to make the transformation to a digital administration of the weekly courses and occupancy of their climbing hall.'); ?>
 								</p>
 								<p>
-									<?php echo __('It was supposed to be a web-based solution that every staff member could access. A role model
-									for different types of staff members was needed as well as different views for those different
-									roles. They wanted to have a calendar to filter for different event types and the possibility
-									for staff members to register for events they are authorized for.'); ?>
+									<?php echo __('It was supposed to be a web-based solution that every staff member could access. A role model for different types of staff members was needed as well as different views for those different roles. They wanted to have a calendar to filter for different event types and the possibility for staff members to register for events they are authorized for.'); ?>
 								</p>
 								<p>
-									<?php echo __('Additionally the content of the system must be reflected in the website of the climbing club.
-									Interested participants must be able to see which courses are available and also to register
-									for a course in case they want to attend. They have to confirm their registration before it
-									is valid.'); ?>
+									<?php echo __('Additionally the content of the system must be reflected in the website of the climbing club. Interested participants must be able to see which courses are available and also to register for a course in case they want to attend. They have to confirm their registration before it is valid.'); ?>
 								</p>
 							</div>
 						</div>
@@ -445,19 +430,13 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('Patient Administration for small doctor\'s offices'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('Patient administration solutions are either totally overloaded with functionality nobody needs
-									making the whole user experience a hassle. Or they are way too expensive.'); ?>
+									<?php echo __('Patient administration solutions are either totally overloaded with functionality nobody needs making the whole user experience a hassle. Or they are way too expensive.'); ?>
 								</p>
 								<p>
-									<?php echo __('That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor\'s
-									office can afford. In my opinion this is a problem many physiotherapists and doctors have.
-									So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.'); ?>
+									<?php echo __('That was the reason for a client of mine to ask me for an easy-to-use solution that a small doctor\'s office can afford. In my opinion this is a problem many physiotherapists and doctors have. So I came up with a solution that can be used on all operating systems, be it Windows, OS X or Linux.'); ?>
 								</p>
 								<p>
-									<?php echo __('The solution offers a patient administration section that is fully searchable, a treatment section
-									where treatments for patients can be added, edited and invoiced and backup and restore functionality.
-									All data is kept locally and won\'t be transferred into the cloud. Since it is module-based, all
-									modules can be replaced or more modules can be added to adapt the software to customer needs.'); ?>
+									<?php echo __('The solution offers a patient administration section that is fully searchable, a treatment section where treatments for patients can be added, edited and invoiced and backup and restore functionality. All data is kept locally and won\'t be transferred into the cloud. Since it is module-based, all modules can be replaced or more modules can be added to adapt the software to customer needs.'); ?>
 								</p>
 							</div>
 						</div>
@@ -487,18 +466,13 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('Automated sun tracker prototype to compare different concepts'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('For solar modules there is one big drawback: they only deliver the maximum possible power output when being
-									exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.'); ?>
+									<?php echo __('For solar modules there is one big drawback: they only deliver the maximum possible power output when being exposed to sunlight in a 90° angle. As soon as the angle differs from that, the output significantly drops.'); ?>
 								</p>
 								<p>
-									<?php echo __('So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the
-									sun? We have compare the energy that is consumed by the mechanism that is tracking the sun and moving the panels
-									against the energy plus that is gained by moving the panels in contrast to keeping them static.'); ?>
+									<?php echo __('So the question is: would it make sense to continuously adapt the orientation of the solar panels towards the sun? We have compare the energy that is consumed by the mechanism that is tracking the sun and moving the panels against the energy plus that is gained by moving the panels in contrast to keeping them static.'); ?>
 								</p>
 								<p>
-									<?php echo __('For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that
-									calculated the position of the sun based on the GPS location of the panel and the theoretical earth orbit
-									around the sun. Both concepts have been used to figure out the differences in energy efficiency.'); ?>
+									<?php echo __('For this project I had to come up with a low-budget sun-tracking sensor and an additional algorithm that	calculated the position of the sun based on the GPS location of the panel and the theoretical earth orbit around the sun. Both concepts have been used to figure out the differences in energy efficiency.'); ?>
 								</p>
 							</div>
 						</div>
@@ -506,63 +480,8 @@ ob_start(); ?>
 				</div>
 			</div><!-- .grid-item -->
 		</div>
-		<!--
-		<div class="grid-more">
-			<span class="ajax-loader"></span>
-			<button class="btn btn-border ripple"><i class="rsicon rsicon-add"></i></button>
-		</div>
-		-->
 	</div>	
 </section><!-- #portfolio -->
-
-<!--
-<section id="text-section" class="section section-text">
-	<div class="animate-up animated">
-		<h2 class="section-title">Text Section</h2>
-		<div class="section-box">
-			<p>Hello! I’m Robert Smith and this is custom editor section. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nuncl them Toruk Macto calls to them!</p>
-		</div>
-	</div>
-</section>--><!-- #text-section -->
-
-<!--
-<section id="calendar" class="section section-calendar">
-	<div class="animate-up">
-		<h2 class="section-title">Availability Calendar</h2>
-
-		<div class="calendar-busy" data-weekstart="monday">
-			<div class="calendar-today" style="background-image: url('assets/img/uploads/rs-calendar-cover.jpg')">
-				<div class="valign-outer">
-					<div class="valign-middle">
-						<div class="valign-inner">
-							<div class="date">
-								<span class="day"></span>
-								<span class="month"></span>
-							</div>
-							<div class="week-day"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="calendar-cont">
-				<div class="calendar-header">
-					<div class="calendar-nav">
-						<span class="active-date"><span class="active-month"></span><span class="active-year"></span></span>
-						<a class="calendar-prev ripple-centered" title="Prev"><i class="rsicon rsicon-chevron_left"></i></a>
-						<a class="calendar-next ripple-centered" title="Next"><i class="rsicon rsicon-chevron_right"></i></a>
-					</div>
-				</div>
-
-				<table class="calendar-body">
-					<thead class="calendar-thead"></thead>
-					<tbody class="calendar-tbody"></tbody>
-				</table>
-				<div class="calendar-busy-note">Sorry. I'm not available on those days</div>
-			</div>
-		</div>
-	</div>	
-</section>--><!-- #calendar -->
 
 <section id="contact" class="section section-contact">
 	<div class="animate-up">
@@ -573,7 +492,7 @@ ob_start(); ?>
 				<div class="section-box contact-form">
 					<h3><?php echo __('Feel free to contact me'); ?></h3>
 					
-					<form class="contactForm" id="contactForm" action="<?php echo $sub_directory; ?>/contact">
+					<form class="contactForm" id="contactForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>">
 						<div class="input-field">
 							<input class="contact-name" type="text" name="rsName" required />
 							<span class="line"></span>
