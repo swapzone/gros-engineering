@@ -25,7 +25,7 @@ if($q) {
 	// that page as one of the parents/ancestors. This isn't necessary if the user 
 	// doesn't have access to view admin pages. So it's not technically necessary to
 	// have this here, but we thought it might be a good way to introduce has_parent.
-	if($user->isLoggedin()) $selector .= ", has_parent!=2"; 
+	if($user->isLoggedin()) $selector .= ", has_parent!=2, template!=skills, template!=tags, template!=contact"; 
 
 	// Find pages that match the selector
 	$matches = $pages->find($selector); 

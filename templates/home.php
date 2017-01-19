@@ -18,7 +18,7 @@ ob_start(); ?>
 			<div class="profile">
 				<div class="row">
 					<div class="col-xs-5">
-						<div class="profile-photo"><img src="<?php echo $config->urls->templates ?>img/uploads/profile_golden_gate.jpg" alt="Sascha Gros"/></div>
+						<div class="profile-photo"><img src="<?php echo $config->urls->templates ?>img/uploads/profile_sascha.jpg" alt="Sascha Gros"/></div>
 					</div>
 					<div class="col-xs-7">
 						<div class="profile-info">
@@ -43,6 +43,17 @@ ob_start(); ?>
 									<strong class="title"><?php echo _x('Phone', 'Profile section'); ?></strong>
 									<span class="cont"><a href="tel:+491788171987">+49 178 8171987</a></span>
 								</li>
+								<?php
+								
+								if ($page->vacation) {
+									$dateString = date("M d, Y", $page->vacation); // 'March 25, 2016';
+
+									echo'<li class="clearfix">
+										<strong class="title"><span class="button">' . __('On Vacation') . '</span></strong>
+										<span class="cont"><i class="rsicon rsicon-calendar"></i>' . _x('till', 'Vacation until') . ' ' . $dateString . '</span>
+									</li>';
+								}
+								?>
 							</ul>
 					</div>
 				</div>
@@ -109,39 +120,47 @@ ob_start(); ?>
 
 		<div class="clients-carousel">
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-envato.png" title="envato" alt="envato"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-angularjs.png" title="AngularJS" alt="angularJS"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-angularjs.png" title="angular js" alt="angular js"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-electron.png" title="Electron.js" alt="Electron.js"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-teaspoon.png" title="teaspoon" alt="teaspoon"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-nodejs.png" title="Node.js" alt="Node.js"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-wordpress.png" title="wordpress" alt="wordpress"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-swagger.png" title="Swagger IO" alt="Swagger IO"/>
+			</div>
+			
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-sharepoint.png" title="SharePoint" alt="SharePoint"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-evernote.png" title="evernote" alt="evernote"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-typescript.png" title="Typescript" alt="Typescript"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-compass.png" title="compass" alt="compass"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-mongodb.png" title="MongoDB" alt="MongoDB"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-bootstrap.png" title="bootstrap" alt="bootstrap"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-ghost.png" title="Ghost CMS" alt="Ghost CMS"/>
+			</div>
+			
+			<div class="client-logo">
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jasmine.png" title="Jasmine" alt="Jasmine"/>
 			</div>
 
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jasmine.png" title="jasmine" alt="jasmine"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jquery.png" title="jQuery" alt="jQuery"/>
 			</div>
-
+			
 			<div class="client-logo">
-				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-jquery.png" title="jquery" alt="jquery"/>
+				<img src="<?php echo $config->urls->templates ?>img/uploads/logos/logo-sass.png" title="Sass" alt="Sass"/>
 			</div>
 		</div>
 	</div>
@@ -165,7 +184,7 @@ ob_start(); ?>
 								<span class="dot"></span>
 								<div class="timeline-box-inner animate-' . $animation . '">
 									<span class="arrow"></span>
-									<div class="date">' . $job->heading . '</div>
+									<div class="date">' . $job->headline . '</div>
 									<h3>' . $job->title . '</h3>
 									<h4>' . $job->subtitle . '</h4>
 									<p>' . $job->body . '</p>

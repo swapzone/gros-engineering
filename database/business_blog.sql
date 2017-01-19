@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2017 at 02:34 AM
+-- Generation Time: Jan 19, 2017 at 06:43 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -49,14 +49,14 @@ INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
 ('FileCompiler__e51c320972b4758ab94809c33246ffc8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354}}', '2010-04-08 03:10:10'),
 ('FileCompiler__66c786ccceb474baf43dd79f8298f4e8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899}}', '2010-04-08 03:10:10'),
 ('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450}}', '2010-04-08 03:10:10'),
-('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"65f9cafd932424842c887835b249ef31","size":848,"time":1484655366,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"65f9cafd932424842c887835b249ef31","size":848,"time":1484655366}}', '2010-04-08 03:10:10'),
+('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"5803dd45130e242a0b17600307b87e81","size":26588,"time":1484803673,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"5803dd45130e242a0b17600307b87e81","size":26588,"time":1484803673}}', '2010-04-08 03:10:10'),
+('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"c69996c37d1069f814857427c215fbfd","size":873,"time":1484802196,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"c69996c37d1069f814857427c215fbfd","size":873,"time":1484802196}}', '2010-04-08 03:10:10'),
 ('FileCompiler__a1f623e95ced7a12546c6cf18cf12ece', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354}}', '2010-04-08 03:10:10'),
-('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035}}', '2010-04-08 03:10:10'),
-('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10');
+('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035}}', '2010-04-08 03:10:10');
 INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
-('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"8c819aecd80b910092dab89bcfa374a5","size":25823,"time":1484789566,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"8c819aecd80b910092dab89bcfa374a5","size":25823,"time":1484789566}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10'),
 ('FileCompiler__507eecc6786c5f7a735098d039c44198', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422,"ns":"\\\\"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422}}', '2010-04-08 03:10:10'),
-('FileCompiler__9df3dba67a7d9bf8438d9c35b7980593', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/search.php","hash":"53af4079dd2122573fd3efb22dc3a568","size":2989,"time":1484655294,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/search.php","hash":"53af4079dd2122573fd3efb22dc3a568","size":2989,"time":1484655294}}', '2010-04-08 03:10:10');
+('FileCompiler__9df3dba67a7d9bf8438d9c35b7980593', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/search.php","hash":"d22259d2e2dcc9ffb6e99b0cfcfb6756","size":3042,"time":1484804496}}', '2010-04-08 03:10:10');
 
 -- --------------------------------------------------------
 
@@ -187,19 +187,7 @@ INSERT INTO `fields` (`id`, `type`, `name`, `flags`, `label`, `data`) VALUES
 (100, 'FieldtypeFile', 'language_files_site', 24, 'Site Translation Files', '{"description":"Use this for field for translations specific to your site (like files in \\/site\\/templates\\/ for example).","extensions":"json csv","maxFiles":0,"inputfieldClass":"InputfieldFile","unzip":1,"descriptionRows":0,"fileSchema":2}'),
 (106, 'FieldtypePage', 'tags', 0, 'Tags', '{"derefAsPage":0,"collapsed":0,"parent_id":1022,"labelFieldName":"title","inputfield":"InputfieldAsmSelect","usePageEdit":0}'),
 (107, 'FieldtypeDatetime', 'date', 0, 'Date', '{"collapsed":0,"size":25,"datepicker":3,"timeInputSelect":0,"dateInputFormat":"Y-m-d","defaultToday":1}'),
-(108, 'FieldtypeCheckbox', 'available', 0, 'Current availability', '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `field_available`
---
-
-DROP TABLE IF EXISTS `field_available`;
-CREATE TABLE `field_available` (
-  `pages_id` int(10) UNSIGNED NOT NULL,
-  `data` tinyint(4) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+(108, 'FieldtypeDatetime', 'vacation', 0, 'End date of vacation', '{"collapsed":0,"size":25,"datepicker":3,"timeInputSelect":0,"dateInputFormat":"Y-m-d"}');
 
 -- --------------------------------------------------------
 
@@ -219,7 +207,7 @@ CREATE TABLE `field_body` (
 --
 
 INSERT INTO `field_body` (`pages_id`, `data`, `data1012`) VALUES
-(27, '<h3>The page you were looking for is not found.</h3>\n\n<p>Please use our search engine or navigation above to find the page.</p>', '<h3>Die Seite, die Sie suchen, wurde nicht gefunden. </h3>\n\n<p>Bitte verwenden Sie die Suchmaschine oder die Navigation oben, um die Seite zu finden.</p>'),
+(27, '<h3>The page you were looking for is not found.</h3>\n\n<p>Please use the search engine or navigation above to find the page.</p>', '<h3>Die Seite, die Sie suchen, wurde nicht gefunden.</h3>\n\n<p>Bitte verwenden Sie die Suchmaschine oder die Navigation oben, um die Seite zu finden.</p>'),
 (1, '', ''),
 (1001, '<p><strong>Angaben gemäß § 5 TMG</strong></p>\n\n<p>Sascha Gros<br />\nTrettachstraße 1<br />\n70327 Stuttgart</p>\n\n<p><strong>Kontakt:</strong><br />\nTelefon: +49 178 8171987<br />\nE-Mail: info@gros-engineering.com</p>\n\n<p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br />\nSascha Gros</p>\n\n<h2>Haftungsausschluss</h2>\n\n<p><strong>Haftung für Inhalte</strong></p>\n\n<p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>\n\n<p><strong>Haftung für Links</strong></p>\n\n<p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>\n\n<h3>Urheberrecht</h3>\n\n<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>\n\n<h3>Datenschutz</h3>\n\n<p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.<br />\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br />\nDer Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>\n\n<p><em>Website Impressum erstellt durch <a href="http://www.impressum-generator.de/">impressum-generator.de</a> der <a href="http://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach</a>.</em></p>', '<p><strong>Angaben gemäß § 5 TMG</strong></p>\n\n<p>Sascha Gros<br />\nTrettachstraße 1<br />\n70327 Stuttgart</p>\n\n<p><strong>Kontakt:</strong><br />\nTelefon: +49 178 8171987<br />\nE-Mail: info@gros-engineering.com</p>\n\n<p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br />\nSascha Gros</p>\n\n<h2>Haftungsausschluss</h2>\n\n<p><strong>Haftung für Inhalte</strong></p>\n\n<p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>\n\n<p><strong>Haftung für Links</strong></p>\n\n<p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>\n\n<h3>Urheberrecht</h3>\n\n<p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>\n\n<h3>Datenschutz</h3>\n\n<p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.<br />\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br />\nDer Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>\n\n<p><em>Website Impressum erstellt durch <a href="http://www.impressum-generator.de/">impressum-generator.de</a> der <a href="http://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach</a>.</em></p>'),
 (1024, '', ''),
@@ -245,7 +233,8 @@ INSERT INTO `field_body` (`pages_id`, `data`, `data1012`) VALUES
 (1043, '', ''),
 (1051, '<p>As a dual student with Hewlett Packard I did several short projects using a lot of different tools and programming languages. My bachelor''s thesis was about SharePoint and the implementation of a filing system in the public sector.</p>', ''),
 (1052, '<p>Initially responsible for developing different parts of an online development environment for embedded systems, I was then managing a project with the goal to create a new operating software for ticket vending systems of rail operators.</p>', ''),
-(1053, '<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG. Responsible for the technology selection, overall architecture and implementation of the door-to-door travel management solution.</p>', '');
+(1053, '<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG. Responsible for the technology selection, overall architecture and implementation of the door-to-door travel management solution.</p>', ''),
+(1055, '<p>Working on different projects ranging from the web shop of a big car brand in Stuttgart over a native patient administration software for a small osteopath office to a media control software optimised for tablet computers that will be used in the show rooms of a local car dealer.</p>', '');
 
 -- --------------------------------------------------------
 
@@ -312,7 +301,8 @@ INSERT INTO `field_headline` (`pages_id`, `data`, `data1012`) VALUES
 (1, 'Gros Engineering', 'Gros Engineering'),
 (1051, 'Oct 2009 - Sep 2012', ''),
 (1052, 'Oct 2012 - Apr 2014', ''),
-(1053, 'Jun 2014 - Apr 2016', '');
+(1053, 'Jun 2014 - Apr 2016', ''),
+(1055, 'May 2016 - present', '');
 
 -- --------------------------------------------------------
 
@@ -644,13 +634,14 @@ CREATE TABLE `field_quantity` (
 
 INSERT INTO `field_quantity` (`pages_id`, `data`) VALUES
 (1020, 4),
-(1044, 95),
+(1044, 100),
 (1045, 90),
 (1046, 90),
-(1047, 90),
-(1048, 70),
-(1049, 85),
-(1050, 70);
+(1047, 95),
+(1048, 75),
+(1049, 80),
+(1050, 70),
+(1054, 90);
 
 -- --------------------------------------------------------
 
@@ -694,7 +685,8 @@ CREATE TABLE `field_subtitle` (
 INSERT INTO `field_subtitle` (`pages_id`, `data`, `data1012`) VALUES
 (1051, 'Hewlett Packard - Germany and Ireland', ''),
 (1052, 'Synapticon GmbH, Germany', ''),
-(1053, 'EFEXCON AG, Switzerland', '');
+(1053, 'EFEXCON AG, Switzerland', ''),
+(1055, 'Gros Engineering, Germany', '');
 
 -- --------------------------------------------------------
 
@@ -865,7 +857,28 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1050, 'Ghost CMS', ''),
 (1051, 'Student and Software Developer', ''),
 (1052, 'Software Developer and Project Manager', ''),
-(1053, 'Full Stack Web Developer', '');
+(1053, 'Full Stack Web Developer', ''),
+(1054, 'Swagger IO', ''),
+(1055, 'Freelance Software Engineer', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `field_vacation`
+--
+
+DROP TABLE IF EXISTS `field_vacation`;
+CREATE TABLE `field_vacation` (
+  `pages_id` int(10) UNSIGNED NOT NULL,
+  `data` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `field_vacation`
+--
+
+INSERT INTO `field_vacation` (`pages_id`, `data`) VALUES
+(1, '2017-01-22 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -1015,7 +1028,7 @@ CREATE TABLE `pages` (
 --
 
 INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modified`, `modified_users_id`, `created`, `created_users_id`, `published`, `sort`, `name1012`, `status1012`) VALUES
-(1, 0, 1, 'en', 9, '2017-01-15 07:09:40', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, 'de', 1),
+(1, 0, 1, 'en', 9, '2017-01-19 05:22:46', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, 'de', 1),
 (2, 1, 2, 'pwadmin', 1035, '2017-01-08 11:59:27', 40, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 7, NULL, 1),
 (3, 2, 2, 'page', 21, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, NULL, 1),
 (6, 3, 2, 'add', 21, '2017-01-08 11:59:26', 40, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, NULL, 1),
@@ -1028,7 +1041,7 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (21, 2, 2, 'module', 21, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 2, NULL, 1),
 (22, 2, 2, 'setup', 21, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 1, NULL, 1),
 (23, 2, 2, 'login', 1035, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 4, NULL, 1),
-(27, 1, 29, 'http404', 1035, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 3, '2017-01-08 12:58:01', 6, NULL, 1),
+(27, 1, 29, 'http404', 1035, '2017-01-19 05:40:51', 41, '2017-01-08 11:58:01', 3, '2017-01-08 12:58:01', 6, NULL, 1),
 (28, 2, 2, 'access', 13, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 3, NULL, 1),
 (29, 28, 2, 'users', 29, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 0, NULL, 1),
 (30, 28, 2, 'roles', 29, '2017-01-08 11:58:01', 41, '2017-01-08 11:58:01', 2, '2017-01-08 12:58:01', 1, NULL, 1),
@@ -1086,16 +1099,18 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1040, 1022, 29, 'javascript', 1025, '2017-01-17 12:10:27', 41, '2017-01-15 14:35:24', 41, '2017-01-15 15:35:37', 8, NULL, 1),
 (1042, 1024, 29, 'skills', 1025, '2017-01-19 00:16:09', 41, '2017-01-19 00:15:58', 41, '2017-01-19 01:16:09', 1, NULL, 1),
 (1043, 1024, 29, 'experience', 1025, '2017-01-19 00:17:04', 41, '2017-01-19 00:16:45', 41, '2017-01-19 01:16:52', 2, NULL, 1),
-(1044, 1042, 48, 'angularjs', 1, '2017-01-19 00:36:01', 41, '2017-01-19 00:19:25', 41, '2017-01-19 01:19:30', 0, NULL, 1),
+(1044, 1042, 48, 'angularjs', 1, '2017-01-19 05:04:50', 41, '2017-01-19 00:19:25', 41, '2017-01-19 01:19:30', 0, NULL, 1),
 (1045, 1042, 48, 'node.js', 1, '2017-01-19 00:37:17', 41, '2017-01-19 00:37:10', 41, '2017-01-19 01:37:17', 1, NULL, 1),
 (1046, 1042, 48, 'html-css', 1, '2017-01-19 00:44:56', 41, '2017-01-19 00:44:52', 41, '2017-01-19 01:44:56', 2, NULL, 1),
-(1047, 1042, 48, 'javascript-typescript', 1, '2017-01-19 00:45:25', 41, '2017-01-19 00:45:15', 41, '2017-01-19 01:45:25', 3, NULL, 1),
-(1048, 1042, 48, 'sharepoint', 1, '2017-01-19 00:46:01', 41, '2017-01-19 00:45:54', 41, '2017-01-19 01:46:01', 4, NULL, 1),
-(1049, 1042, 48, 'electron.js', 1, '2017-01-19 00:46:28', 41, '2017-01-19 00:46:18', 41, '2017-01-19 01:46:28', 5, NULL, 1),
+(1047, 1042, 48, 'javascript-typescript', 1, '2017-01-19 04:52:51', 41, '2017-01-19 00:45:15', 41, '2017-01-19 01:45:25', 3, NULL, 1),
+(1048, 1042, 48, 'sharepoint', 1, '2017-01-19 04:52:15', 41, '2017-01-19 00:45:54', 41, '2017-01-19 01:46:01', 4, NULL, 1),
+(1049, 1042, 48, 'electron.js', 1, '2017-01-19 04:53:43', 41, '2017-01-19 00:46:18', 41, '2017-01-19 01:46:28', 5, NULL, 1),
 (1050, 1042, 48, 'ghost-cms', 1, '2017-01-19 00:46:49', 41, '2017-01-19 00:46:45', 41, '2017-01-19 01:46:49', 6, NULL, 1),
 (1051, 1043, 47, 'student-and-software-developer', 1, '2017-01-19 00:56:48', 41, '2017-01-19 00:55:56', 41, '2017-01-19 01:56:48', 0, NULL, 1),
 (1052, 1043, 47, 'software-developer-and-project-manager', 1, '2017-01-19 01:20:11', 41, '2017-01-19 01:19:30', 41, '2017-01-19 02:20:11', 1, NULL, 1),
-(1053, 1043, 47, 'full-stack-web-developer', 1, '2017-01-19 01:20:55', 41, '2017-01-19 01:20:30', 41, '2017-01-19 02:20:55', 2, NULL, 1);
+(1053, 1043, 47, 'full-stack-web-developer', 1, '2017-01-19 01:20:55', 41, '2017-01-19 01:20:30', 41, '2017-01-19 02:20:55', 2, NULL, 1),
+(1054, 1042, 48, 'swagger-io', 1, '2017-01-19 04:53:22', 41, '2017-01-19 04:53:15', 41, '2017-01-19 05:53:22', 7, NULL, 1),
+(1055, 1043, 47, 'freelance-software-engineer', 1, '2017-01-19 05:01:44', 41, '2017-01-19 04:55:21', 41, '2017-01-19 06:00:15', 3, NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -1162,7 +1177,9 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1050, 1, '2017-01-19 00:46:45'),
 (1051, 1, '2017-01-19 00:55:56'),
 (1052, 1, '2017-01-19 01:19:30'),
-(1053, 1, '2017-01-19 01:20:30');
+(1053, 1, '2017-01-19 01:20:30'),
+(1054, 1, '2017-01-19 04:53:15'),
+(1055, 1, '2017-01-19 04:55:21');
 
 -- --------------------------------------------------------
 
@@ -1288,9 +1305,9 @@ INSERT INTO `templates` (`id`, `name`, `fieldgroups_id`, `flags`, `cache_time`, 
 (3, 'user', 3, 8, 0, '{"useRoles":1,"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"User","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"compile":3,"nameContentTab":1,"modified":1484313886}'),
 (4, 'role', 4, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"Role","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
 (5, 'permission', 5, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"guestSearchable":1,"pageClass":"Permission","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
-(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484789566,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
-(29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484783457,"ns":"ProcessWire","label1012":"Grund Seite"}'),
-(26, 'search', 80, 0, 0, '{"noChildren":1,"noParents":1,"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Search","modified":1484655294,"ns":"ProcessWire","label1012":"Suche"}'),
+(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484803910,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
+(29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484802196,"ns":"ProcessWire","label1012":"Grund Seite"}'),
+(26, 'search', 80, 0, 0, '{"noChildren":1,"noParents":1,"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Search","modified":1484804496,"ns":"ProcessWire","label1012":"Suche"}'),
 (48, 'skills', 102, 0, 0, '{"noChildren":1,"slashUrls":1,"compile":3,"label":"Skills","modified":1484785249,"label1012":"F\\u00e4higkeiten"}'),
 (43, 'language', 97, 8, 0, '{"parentTemplates":[2],"slashUrls":1,"pageClass":"Language","pageLabelField":"name","noGlobal":1,"noMove":1,"noTrash":1,"noChangeTemplate":1,"noUnpublish":1,"nameContentTab":1,"modified":1409651146}'),
 (47, 'work-experience', 101, 0, 0, '{"slashUrls":1,"compile":3,"label":"Work Experience","modified":1484787451,"label1012":"Arbeitserfahrung"}'),
@@ -1329,13 +1346,6 @@ ALTER TABLE `fields`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `name` (`name`),
   ADD KEY `type` (`type`);
-
---
--- Indexes for table `field_available`
---
-ALTER TABLE `field_available`
-  ADD PRIMARY KEY (`pages_id`),
-  ADD KEY `data` (`data`);
 
 --
 -- Indexes for table `field_body`
@@ -1480,6 +1490,13 @@ ALTER TABLE `field_title` ADD FULLTEXT KEY `data` (`data`);
 ALTER TABLE `field_title` ADD FULLTEXT KEY `data1012` (`data1012`);
 
 --
+-- Indexes for table `field_vacation`
+--
+ALTER TABLE `field_vacation`
+  ADD PRIMARY KEY (`pages_id`),
+  ADD KEY `data` (`data`);
+
+--
 -- Indexes for table `modules`
 --
 ALTER TABLE `modules`
@@ -1564,7 +1581,7 @@ ALTER TABLE `modules`
 -- AUTO_INCREMENT for table `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1054;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1056;
 --
 -- AUTO_INCREMENT for table `templates`
 --

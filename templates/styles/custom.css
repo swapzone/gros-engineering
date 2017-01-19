@@ -42,6 +42,10 @@ pre code, pre tt {
 }
 
 /* Widget area */
+.sidebar-fixed .widget-area {
+    padding: 5px 0;
+}
+
 .widget .languages {
 	margin: 0 auto;
     width: 100%;
