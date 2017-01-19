@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2017 at 01:19 PM
+-- Generation Time: Jan 19, 2017 at 02:34 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -48,13 +48,13 @@ INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
 ('Modules.site/modules/', 'Helloworld/Helloworld.module', '2010-04-08 03:10:10'),
 ('FileCompiler__e51c320972b4758ab94809c33246ffc8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/admin.php","hash":"9636f854995462a4cb877cb1204bc2fe","size":467,"time":1483876354}}', '2010-04-08 03:10:10'),
 ('FileCompiler__66c786ccceb474baf43dd79f8298f4e8', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_init.php","hash":"378297a5fcaf6d01f6beb484395b7d3e","size":1099,"time":1484316899}}', '2010-04-08 03:10:10'),
-('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"8217813418b93dd036fa5d610703e53a","size":14734,"time":1484655455,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"8217813418b93dd036fa5d610703e53a","size":14734,"time":1484655455}}', '2010-04-08 03:10:10'),
-('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"90f4b8ca09128577190f7be7892ef638","size":28462,"time":1484644866,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"90f4b8ca09128577190f7be7892ef638","size":28462,"time":1484644866}}', '2010-04-08 03:10:10'),
-('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"87dae97f4b6b7ace20ca1051ac3976eb","size":881,"time":1484465850,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"87dae97f4b6b7ace20ca1051ac3976eb","size":881,"time":1484465850}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac553497da622a11a904ea6e14dbca91', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/_main.php","hash":"0826d2ae5d53aea3e78f632d2bf1ab39","size":14733,"time":1484656450}}', '2010-04-08 03:10:10'),
+('FileCompiler__84a67384f6321247016152fbfdd206b3', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/basic-page.php","hash":"65f9cafd932424842c887835b249ef31","size":848,"time":1484655366,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/basic-page.php","hash":"65f9cafd932424842c887835b249ef31","size":848,"time":1484655366}}', '2010-04-08 03:10:10'),
 ('FileCompiler__a1f623e95ced7a12546c6cf18cf12ece', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/sitemap.php","hash":"079ca61d342c06c26abe72f900d8e5dc","size":232,"time":1483876354}}', '2010-04-08 03:10:10'),
-('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"8f7b12b69c8d36164f4405c9946e6e4d","size":909,"time":1484653349,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"8f7b12b69c8d36164f4405c9946e6e4d","size":909,"time":1484653349}}', '2010-04-08 03:10:10');
+('FileCompiler__3f1d5f8ce48b5f9bc5f6645d93a0a954', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/blog.php","hash":"d026530a822b2f5d899bad21811ab765","size":574,"time":1484657035}}', '2010-04-08 03:10:10'),
+('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10');
 INSERT INTO `caches` (`name`, `data`, `expires`) VALUES
-('FileCompiler__ac88b8e180ed7b50cce5e840d06f9406', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/post.php","hash":"6278b0e5fe341eae029b0d7412ef9b55","size":1228,"time":1484396864}}', '2010-04-08 03:10:10'),
+('FileCompiler__0a94f0126db272a534619209e6b26b8d', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/home.php","hash":"8c819aecd80b910092dab89bcfa374a5","size":25823,"time":1484789566,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/home.php","hash":"8c819aecd80b910092dab89bcfa374a5","size":25823,"time":1484789566}}', '2010-04-08 03:10:10'),
 ('FileCompiler__507eecc6786c5f7a735098d039c44198', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422,"ns":"\\\\"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/contact.php","hash":"e5355b866b8df84dd752de5487844186","size":1501,"time":1484466422}}', '2010-04-08 03:10:10'),
 ('FileCompiler__9df3dba67a7d9bf8438d9c35b7980593', '{"source":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/templates\\/search.php","hash":"53af4079dd2122573fd3efb22dc3a568","size":2989,"time":1484655294,"ns":"ProcessWire"},"target":{"file":"C:\\/xampp\\/htdocs\\/blog\\/site\\/assets\\/cache\\/FileCompiler\\/site\\/templates\\/search.php","hash":"53af4079dd2122573fd3efb22dc3a568","size":2989,"time":1484655294}}', '2010-04-08 03:10:10');
 
@@ -80,12 +80,14 @@ INSERT INTO `fieldgroups` (`id`, `name`) VALUES
 (4, 'role'),
 (5, 'permission'),
 (1, 'home'),
+(101, 'work-experience'),
 (83, 'basic-page'),
 (80, 'search'),
 (97, 'language'),
 (98, 'blog'),
 (99, 'post'),
-(100, 'contact');
+(100, 'contact'),
+(102, 'skills');
 
 -- --------------------------------------------------------
 
@@ -113,22 +115,20 @@ INSERT INTO `fieldgroups_fields` (`fieldgroups_id`, `fields_id`, `sort`, `data`)
 (4, 5, 0, NULL),
 (5, 1, 0, NULL),
 (3, 3, 1, NULL),
-(1, 82, 4, NULL),
-(1, 1, 0, NULL),
-(80, 1, 0, NULL),
-(83, 82, 3, NULL),
-(83, 76, 2, NULL),
-(1, 78, 1, NULL),
 (1, 76, 3, NULL),
+(80, 1, 0, NULL),
+(101, 76, 3, NULL),
+(1, 44, 4, NULL),
+(1, 78, 1, NULL),
 (98, 109, 1, NULL),
-(83, 44, 4, NULL),
-(83, 79, 1, NULL),
+(83, 44, 3, NULL),
+(83, 76, 2, NULL),
 (97, 100, 1, NULL),
 (3, 1, 0, NULL),
-(83, 1, 0, NULL),
+(1, 1, 0, NULL),
 (97, 97, 2, NULL),
 (97, 1, 0, NULL),
-(1, 44, 5, NULL),
+(1, 108, 5, NULL),
 (1, 79, 2, NULL),
 (98, 1, 0, NULL),
 (99, 106, 5, NULL),
@@ -138,10 +138,16 @@ INSERT INTO `fieldgroups_fields` (`fieldgroups_id`, `fields_id`, `sort`, `data`)
 (99, 76, 4, NULL),
 (99, 1, 0, NULL),
 (3, 98, 4, NULL),
-(1, 108, 6, NULL),
+(101, 1, 1, NULL),
 (100, 1, 0, NULL),
 (100, 92, 1, NULL),
-(100, 76, 2, NULL);
+(100, 76, 2, NULL),
+(83, 1, 0, NULL),
+(83, 79, 1, NULL),
+(101, 110, 2, NULL),
+(101, 78, 0, '{"collapsed":"0","description":"The time frame in which this experience was gained."}'),
+(102, 109, 1, NULL),
+(102, 1, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -170,7 +176,7 @@ INSERT INTO `fields` (`id`, `type`, `name`, `flags`, `label`, `data`) VALUES
 (5, 'FieldtypePage', 'permissions', 24, 'Permissions', '{"derefAsPage":0,"parent_id":31,"labelFieldName":"title","inputfield":"InputfieldCheckboxes"}'),
 (4, 'FieldtypePage', 'roles', 24, 'Roles', '{"derefAsPage":0,"parent_id":30,"labelFieldName":"name","inputfield":"InputfieldCheckboxes","description":"User will inherit the permissions assigned to each role. You may assign multiple roles to a user. When accessing a page, the user will only inherit permissions from the roles that are also assigned to the page''s template."}'),
 (92, 'FieldtypeEmail', 'email', 9, 'E-Mail Address', '{"size":70,"maxlength":255}'),
-(82, 'FieldtypeTextareaLanguage', 'sidebar', 0, 'Sidebar', '{"inputfieldClass":"InputfieldCKEditor","rows":5,"contentType":1,"toolbar":"Format, Bold, Italic, -, RemoveFormat\\r\\nNumberedList, BulletedList, -, Blockquote\\r\\nPWLink, Unlink, Anchor\\r\\nPWImage, Table, HorizontalRule, SpecialChar\\r\\nPasteText, PasteFromWord\\r\\nScayt, -, Sourcedialog","inlineMode":0,"useACF":1,"usePurifier":1,"formatTags":"p;h2;h3;h4;h5;h6;pre;address","extraPlugins":["pwimage","pwlink","sourcedialog"],"removePlugins":"image,magicline","toggles":[2,4,8],"collapsed":2,"label1012":"Seitenleiste"}'),
+(110, 'FieldtypeTextLanguage', 'subtitle', 0, 'Subtitle', ''),
 (44, 'FieldtypeImage', 'images', 0, 'Images', '{"extensions":"gif jpg jpeg png","adminThumbs":1,"inputfieldClass":"InputfieldImage","maxFiles":0,"descriptionRows":1,"fileSchema":2,"outputFormat":1,"defaultValuePage":0,"defaultGrid":0,"icon":"camera","label1012":"Bilder","textformatters":["TextformatterEntities"]}'),
 (79, 'FieldtypeTextareaLanguage', 'summary', 1, 'Summary', '{"textformatters":["TextformatterEntities"],"inputfieldClass":"InputfieldTextarea","collapsed":2,"rows":3,"contentType":0,"label1012":"Zusammenfassung","langBlankInherit":0}'),
 (76, 'FieldtypeTextareaLanguage', 'body', 0, 'Body', '{"inputfieldClass":"InputfieldCKEditor","rows":10,"contentType":1,"toolbar":"Format, Bold, Italic, -, RemoveFormat\\nNumberedList, BulletedList, -, Blockquote\\nPWLink, Unlink, Anchor\\nPWImage, Table, HorizontalRule, SpecialChar\\nPasteText, PasteFromWord\\nScayt, -, Sourcedialog","inlineMode":0,"useACF":0,"usePurifier":1,"formatTags":"p;h2;h3;h4;h5;h6;pre;address","extraPlugins":["pwimage","pwlink","sourcedialog"],"removePlugins":"image,magicline","toggles":[2,4,8],"label1012":"Inhalt","langBlankInherit":0,"collapsed":0,"minlength":0,"maxlength":0,"showCount":0}'),
@@ -233,7 +239,13 @@ INSERT INTO `field_body` (`pages_id`, `data`, `data1012`) VALUES
 (1037, '', ''),
 (1038, '<p>The back end part is done. The REST API is set into place and running somewhere in the background. Now it is time to integrate the Swagger definitions into the front end part of our application.</p>\n\n<p>As for the back end we have a ready to use npm package for the Swagger integration: <a href="https://www.npmjs.com/package/swagger-server">Swagger Server</a></p>\n\n<h2 id="whytobuilduponswagger">Why to build upon Swagger?</h2>\n\n<p>You could ask: Why should I build my front end on Swagger at all? I could also just use the Swagger file, open it in the <a href="http://editor.swagger.io/">Swagger Editor</a> and use the documentation to develop the front end.</p>\n\n<p>While this would be a totally valid approach, there are some more aspects to think about:</p>\n\n<ul><li>Do you want to run the - potentially time-consuming - back end calls against a live back end, while you develop?</li>\n	<li>Do you want to get live data from the back end or do you prefer to have mocked data during the development process?</li>\n	<li>How do you integrate the mocked data into the front end without affecting the built version?</li>\n</ul><p>As you can imagine, those questions can be easily answered with the Swagger Server package.</p>\n\n<h2 id="definethebuildprocess">Define the build process</h2>\n\n<p>We only rely on Node.js for this step. Let''s create a Javascript file and name it for example <code>server.js</code>. Then let''s load the Swagger Server which is based on Express.js.</p>\n\n<pre>\n<code>var swagger  = require(''swagger-server''),  \n    Server   = swagger.Server;\n\n// Create a Swagger Server instance\nvar server = new Server();  \n</code></pre>\n\n<p>We then parse the Swagger definitions that we have created in the previous tutorials.</p>\n\n<pre>\n<code>server.parse(''swagger.yaml'');  \n</code></pre>\n\n<p>Now we could just start the server and make it listen on the port that is specified in the <code>swagger.yaml</code> file.</p>\n\n<pre>\n<code>// Start listening\nserver.listen();  \n</code></pre>\n\n<p>But hey, what about mocking?</p>\n\n<h2 id="creatingmockhandlers">Creating mock handlers</h2>\n\n<p>While the Swagger Server will serve mock data by itself without defining anything else, we most likely want to define some mock objects of our own. Let''s do this for one of our routes defined in the <a href="http://www.gros-engineering.com/how-to-design-the-perfect-rest-api-part-1/">last part of this series</a>.</p>\n\n<pre>\n<code>/**\n * The camels route.\n *\n * @param server\n */\nmodule.exports = function (server) {\n\n  server.get(''/camels'', function(req, res) {\n    res.json([\n      {\n        "id": 1,\n        "name": "Carlos",\n        "color": "Autumn Gold"\n     },\n     {\n       "id": 2,\n       "name": "Alfredo",\n       "color": "Raven Black" // creepy I know\n     }\n  ]);\n};\n</code></pre>\n\n<p>But what if we have a parameter in our route like for retrieving one particular camel? No problem, Swagger Server offers a nice option for that.</p>\n\n<pre>\n<code>var swagger  = require(''swagger-server''),  \n    Resource = swagger.Resource;\n\n/**\n * The camels/:id route.\n *\n * @param server\n */\nmodule.exports = function (server) {\n\n  server.dataStore.save(\n    new Resource(''/camels/1'', { /* include Carlo here */ }));\n\n  server.dataStore.save(\n    new Resource(''/camels/2'', { /* include Alfredo here */ }));\n};\n</code></pre>\n\n<p>Sweet! Now we can create any type of mock object and return it for specific routes. Let''s tell Swagger Server to use those mocks.</p>\n\n<h2 id="includethemockhandlers">Include the mock handlers</h2>\n\n<p>Let''s get back to the <code>server.js</code> file we created in the last step. <strong>Before we tell the server to listen</strong>, we load the new mock objects defined in <code>mock/camels.js</code>and <code>mock/camel.js</code>.</p>\n\n<pre>\n<code>// initialize mock objects for all available routes\nrequire(''./mock/camels'')(server);  \nrequire(''./mock/camel'')(server);  \n</code></pre>\n\n<p>The only thing left is do add some configuration for the Swagger Server and include an error handler.</p>\n\n<pre>\n<code>// Enable Express'' case-sensitive and strict options\nserver.enable(''case sensitive routing'');  \nserver.enable(''strict routing'');\n\n// Add a custom error handler\nserver.use(function(err, req, res, next) {  \n  res.status(err.status);\n  res.type(''html'');\n  res.send(''&lt;html&gt;&lt;body&gt;&lt;h1&gt;'' + err.status + '' Error!&lt;/h1&gt;&lt;p&gt;'' + err.message + ''&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;''));\n});\n</code></pre>\n\n<h2 id="summary">Summary</h2>\n\n<p><strong>Congratulations, you reached the end of that short tutorial!</strong> We learned, how to work with Swagger, how to use it in our Node.js back end application and how to make the most out of it for the front end development process.</p>\n\n<p>I can only encourage you to try Swagger on your own. It''s an amazing ecosystem for API development and it makes your development a lot easier in the long term.</p>\n\n<p>If you have any questions or if you need some help with your API development, don''t hesitate to <a href="mailto:info@gros-engineering.com">get in touch</a> with me.</p>', ''),
 (1039, '<p>This is a short post on AngularJS performance tweaks that will help you to write efficient AngularJS code. Be aware that this short list is – potentially - non-exhaustive and might be enhanced over time.</p>\n\n<h2 id="generalstuff">General stuff</h2>\n\n<ul><li>\n	<p>Keep <strong>number of watchers</strong> &lt; 2000<br />\n	To measure the amount of watchers used in an Angular app, there is a pretty good code-snippet that can be easily integrated into Chrome called <a href="https://github.com/kentcdodds/ng-stats">ng-stats</a>.</p>\n	</li>\n	<li>\n	<p>Prefer <code>ng-if</code> over <code>ng-show</code>/<code>ng-hide</code><br />\n	It strongly depends on your use case but always keep in mind, that elements with the ng-hide attribute are fully rendered and all DOM elements are created, even if the user cannot see anything. I would recommend reading <a href="http://stackoverflow.com/a/22142963">this answer</a> in StackOverflow for a better understanding.</p>\n	</li>\n	<li>\n	<p>Avoid <strong>deep-watchers</strong><br />\n	Most of us probably won''t do this, but it''s good to keep in mind that something like deep-watchers exist but should only be used in reasonable cases.</p>\n	</li>\n</ul><pre>\n<code>// example of a deep watcher (see true as third argument)\n$scope.$watch(''data'', function (newVal, oldVal) { /*...*/ }, true);\n</code></pre>\n\n<ul><li>\n	<p>Prefer <code>$scope.$digest</code> over <code>$scope.$apply</code><br />\n	While <code>$digest</code> only starts a digest cycle for the scope it is called upon, <code>$apply</code>triggers a digest-cycle on the <code>$rootScope</code>. This means that all watchers are checked instead of only the watchers in the given scope being checked (also see <a href="https://www.sitepoint.com/understanding-angulars-apply-digest/">this article</a>).</p>\n	</li>\n	<li>\n	<p>Use <code>$evalAsync()</code> when triggering the digest cycle manually<br />\n	Sometimes you must trigger the digest cycle manually resulting in an error message saying: <code>Error: $digest already in progress</code>.</p>\n	</li>\n</ul><pre>\n<code>$scope.$evalAsync(function () { \n  // do something that requires dirty checking of data \n});\n</code></pre>\n\n<h2 id="repeater">Repeater</h2>\n\n<ul><li>Use <strong>track by</strong> in ng-repeat especially for complex objects<br />\n	If data is reloaded in the collection, Angular will rebuild the DOM for all those elements. That won''t happen, if you track your objects for example by their id, since Angular would know that the object is already represented in the DOM.</li>\n</ul><pre>\n<code>&lt;div ng-repeat="obj in ObjectCollection track by obj.id"&gt;  \n  {{ obj.name }}\n&lt;/div&gt;  \n</code></pre>\n\n<p>Also read <a href="http://www.bennadel.com/blog/2556-using-track-by-with-ngrepeat-in-angularjs-1-2.htm">this</a> for detail information.</p>\n\n<ul><li>Do not use <strong>inline methods</strong> in ng-repeat<br />\n	Angular will re-render all items in the collection returned by the inline method with every digest cycle. Pretty bad idea!</li>\n</ul><pre>\n<code>&lt;div ng-repeat="obj in getAllObjects()"&gt; &lt;!-- don''t do this --&gt;  \n  {{ obj.name }}\n&lt;/div&gt;  \n</code></pre>\n\n<ul><li>Use the <strong>bindonce package</strong> for large lists<br />\n	When rendering large lists with data that won''t be changed the bindonce package can help a lot to improve the performance of the app. See the <a href="https://github.com/Pasvaz/bindonce">Github page</a> of the project for detailed information.</li>\n</ul><h2 id="databindings">Data bindings</h2>\n\n<ul><li>Use <strong>one-time data bindings</strong> whenever possible<br />\n	Instead of binding all variables in templates and keeping watchers for those bindings, it often is enough to use one-time binding and thereby reduce the amount of watchers drastically.</li>\n</ul><pre>\n<code>// example 1: one-time binding for the color variable\n&lt;div name="attr: {{::color}}"&gt;text: {{::name | uppercase}}&lt;/div&gt;\n\n// example 2: one-time binding for the items collection\n&lt;ul&gt;&lt;li ng-repeat="item in ::items"&gt;{{item.name}};&lt;/li&gt;&lt;/ul&gt;\n\n// example 3: one-time binding for the name variable\n&lt;p&gt;One time binding: {{::name}}&lt;/p&gt;\n\n// example 4: ng-if only evaluated once\n&lt;div ng-if="::user.isLoggedIn"&gt;Information for logged-in user&lt;/div&gt;\n\n// example 5: ng-class only evaluated once\n&lt;div ng-class="::{ loggedIn: user.isLoggedIn }"&gt;&lt;/div&gt;  \n</code></pre>\n\n<ul><li>Prefer <strong>pre-filtered values</strong> over filters in templates<br />\n	When using filters in templates, the filter is applied with every digest cycle resulting in a potentially serious impact on the overall app performance.</li>\n</ul><pre>\n<code>&lt;p&gt;{{ user.signature | strip | reformat }}&lt;/p&gt; // don''t do this  \n&lt;p&gt;{{ filteredUserSignature }}&lt;/p&gt; // pre-filtere value in controller  \n&lt;p&gt;{{ ::filteredUserSignature }}&lt;/p&gt; // even better with one-time binding  \n</code></pre>\n\n<h2 id="disablingdebugmode">Disabling debug mode</h2>\n\n<p>A often neglected performance bottleneck is the <a href="https://docs.angularjs.org/guide/production">debug mode</a> of AngularJS. As the author of <a href="https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476">this article</a> figured out, even bigger websites have the debug mode enabled leading to a less performant web application and not bringing any benefit while in production.<br />\nTo easily disable debug information in your production app, just configure it in the application''s config phase.</p>\n\n<pre>\n<code>myApp.config([''$compileProvider'', function ($compileProvider) {  \n  $compileProvider.debugInfoEnabled(false);\n}]);</code></pre>', ''),
-(1040, '', '');
+(1040, '', ''),
+(1041, '', ''),
+(1042, '', ''),
+(1043, '', ''),
+(1051, '<p>As a dual student with Hewlett Packard I did several short projects using a lot of different tools and programming languages. My bachelor''s thesis was about SharePoint and the implementation of a filing system in the public sector.</p>', ''),
+(1052, '<p>Initially responsible for developing different parts of an online development environment for embedded systems, I was then managing a project with the goal to create a new operating software for ticket vending systems of rail operators.</p>', ''),
+(1053, '<p>Working on the business travel startup 1ClickTrips of the EFEXCON AG. Responsible for the technology selection, overall architecture and implementation of the door-to-door travel management solution.</p>', '');
 
 -- --------------------------------------------------------
 
@@ -297,7 +309,10 @@ CREATE TABLE `field_headline` (
 --
 
 INSERT INTO `field_headline` (`pages_id`, `data`, `data1012`) VALUES
-(1, 'Gros Engineering', 'Gros Engineering');
+(1, 'Gros Engineering', 'Gros Engineering'),
+(1051, 'Oct 2009 - Sep 2012', ''),
+(1052, 'Oct 2012 - Apr 2014', ''),
+(1053, 'Jun 2014 - Apr 2016', '');
 
 -- --------------------------------------------------------
 
@@ -628,7 +643,14 @@ CREATE TABLE `field_quantity` (
 --
 
 INSERT INTO `field_quantity` (`pages_id`, `data`) VALUES
-(1020, 4);
+(1020, 4),
+(1044, 95),
+(1045, 90),
+(1046, 90),
+(1047, 90),
+(1048, 70),
+(1049, 85),
+(1050, 70);
 
 -- --------------------------------------------------------
 
@@ -655,33 +677,24 @@ INSERT INTO `field_roles` (`pages_id`, `data`, `sort`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `field_sidebar`
+-- Table structure for table `field_subtitle`
 --
 
-DROP TABLE IF EXISTS `field_sidebar`;
-CREATE TABLE `field_sidebar` (
+DROP TABLE IF EXISTS `field_subtitle`;
+CREATE TABLE `field_subtitle` (
   `pages_id` int(10) UNSIGNED NOT NULL,
-  `data` mediumtext NOT NULL,
-  `data1012` mediumtext
+  `data` text NOT NULL,
+  `data1012` text
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `field_sidebar`
+-- Dumping data for table `field_subtitle`
 --
 
-INSERT INTO `field_sidebar` (`pages_id`, `data`, `data1012`) VALUES
-(1, '', ''),
-(1028, '', ''),
-(1029, '', ''),
-(1030, '', ''),
-(1031, '', ''),
-(1033, '', ''),
-(1035, '', ''),
-(1037, '', ''),
-(1040, '', ''),
-(1022, '', ''),
-(1023, '', ''),
-(1024, '', '');
+INSERT INTO `field_subtitle` (`pages_id`, `data`, `data1012`) VALUES
+(1051, 'Hewlett Packard - Germany and Ireland', ''),
+(1052, 'Synapticon GmbH, Germany', ''),
+(1053, 'EFEXCON AG, Switzerland', '');
 
 -- --------------------------------------------------------
 
@@ -706,6 +719,9 @@ INSERT INTO `field_summary` (`pages_id`, `data`, `data1012`) VALUES
 (1039, '', ''),
 (1040, '', ''),
 (1001, 'Legal information', 'Deutsches Impressum'),
+(1041, '', ''),
+(1042, '', ''),
+(1043, '', ''),
 (1033, '', ''),
 (1034, '', ''),
 (1035, '', ''),
@@ -807,6 +823,7 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1001, 'Legal', 'Impressum'),
 (1033, 'api', 'api'),
 (1000, 'Search', 'Suche'),
+(1041, 'Content', 'Inhalt'),
 (1006, 'Use Page Lister', ''),
 (1007, 'Find', ''),
 (1009, 'Languages', ''),
@@ -836,7 +853,19 @@ INSERT INTO `field_title` (`pages_id`, `data`, `data1012`) VALUES
 (1037, 'best practices', 'best practices'),
 (1038, 'The Perfect REST API (Part 3)', ''),
 (1039, 'AngularJS Performance Tweaks', ''),
-(1040, 'javascript', 'javascript');
+(1040, 'javascript', 'javascript'),
+(1042, 'Skills', ''),
+(1043, 'Experience', ''),
+(1044, 'AngularJS', ''),
+(1045, 'Node.js', ''),
+(1046, 'HTML & CSS', ''),
+(1047, 'Javascript / Typescript', ''),
+(1048, 'SharePoint', ''),
+(1049, 'Electron.js', ''),
+(1050, 'Ghost CMS', ''),
+(1051, 'Student and Software Developer', ''),
+(1052, 'Software Developer and Project Manager', ''),
+(1053, 'Full Stack Web Developer', '');
 
 -- --------------------------------------------------------
 
@@ -1041,6 +1070,7 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1024, 1, 29, 'meta', 1025, '2017-01-09 14:33:44', 41, '2017-01-09 14:33:29', 41, '2017-01-09 15:33:44', 1, NULL, 1),
 (1022, 1024, 29, 'tags', 1025, '2017-01-09 14:35:06', 41, '2017-01-09 14:25:25', 41, '2017-01-09 15:25:38', 4, 'schlagworte', 1),
 (1023, 1022, 29, 'development', 1025, '2017-01-17 12:08:49', 41, '2017-01-09 14:26:09', 41, '2017-01-09 15:26:14', 0, 'entwicklung', 1),
+(1041, 7, 29, '1041.1.8_content', 10241, '2017-01-19 00:15:44', 41, '2017-01-19 00:15:22', 41, NULL, 8, '1041.1.8_inhalt', 1),
 (1032, 1020, 45, 'how-to-design-the-perfect-rest-api-part-1', 1, '2017-01-15 13:39:52', 41, '2017-01-15 13:00:33', 41, '2017-01-15 14:01:37', 1, NULL, 1),
 (1026, 1, 46, 'contact', 1, '2017-01-15 07:44:56', 41, '2017-01-15 07:08:48', 41, '2017-01-15 08:09:24', 4, 'kontakt', 1),
 (1027, 1020, 45, 'sleepless-in-berlin', 1, '2017-01-15 12:57:33', 41, '2017-01-15 12:22:28', 41, '2017-01-15 13:31:21', 1, NULL, 1),
@@ -1053,7 +1083,19 @@ INSERT INTO `pages` (`id`, `parent_id`, `templates_id`, `name`, `status`, `modif
 (1037, 1022, 29, 'best-practices', 1025, '2017-01-17 12:10:13', 41, '2017-01-15 14:18:02', 41, '2017-01-15 15:20:23', 7, NULL, 1),
 (1038, 1020, 45, 'how-to-design-the-perfect-rest-api-part-3', 1, '2017-01-15 14:27:20', 41, '2017-01-15 14:26:01', 41, '2017-01-15 15:27:15', 4, NULL, 1),
 (1039, 1020, 45, 'angularjs-performance-tweaks', 1, '2017-01-15 14:31:01', 41, '2017-01-15 14:30:05', 41, '2017-01-15 15:30:59', 5, NULL, 1),
-(1040, 1022, 29, 'javascript', 1025, '2017-01-17 12:10:27', 41, '2017-01-15 14:35:24', 41, '2017-01-15 15:35:37', 8, NULL, 1);
+(1040, 1022, 29, 'javascript', 1025, '2017-01-17 12:10:27', 41, '2017-01-15 14:35:24', 41, '2017-01-15 15:35:37', 8, NULL, 1),
+(1042, 1024, 29, 'skills', 1025, '2017-01-19 00:16:09', 41, '2017-01-19 00:15:58', 41, '2017-01-19 01:16:09', 1, NULL, 1),
+(1043, 1024, 29, 'experience', 1025, '2017-01-19 00:17:04', 41, '2017-01-19 00:16:45', 41, '2017-01-19 01:16:52', 2, NULL, 1),
+(1044, 1042, 48, 'angularjs', 1, '2017-01-19 00:36:01', 41, '2017-01-19 00:19:25', 41, '2017-01-19 01:19:30', 0, NULL, 1),
+(1045, 1042, 48, 'node.js', 1, '2017-01-19 00:37:17', 41, '2017-01-19 00:37:10', 41, '2017-01-19 01:37:17', 1, NULL, 1),
+(1046, 1042, 48, 'html-css', 1, '2017-01-19 00:44:56', 41, '2017-01-19 00:44:52', 41, '2017-01-19 01:44:56', 2, NULL, 1),
+(1047, 1042, 48, 'javascript-typescript', 1, '2017-01-19 00:45:25', 41, '2017-01-19 00:45:15', 41, '2017-01-19 01:45:25', 3, NULL, 1),
+(1048, 1042, 48, 'sharepoint', 1, '2017-01-19 00:46:01', 41, '2017-01-19 00:45:54', 41, '2017-01-19 01:46:01', 4, NULL, 1),
+(1049, 1042, 48, 'electron.js', 1, '2017-01-19 00:46:28', 41, '2017-01-19 00:46:18', 41, '2017-01-19 01:46:28', 5, NULL, 1),
+(1050, 1042, 48, 'ghost-cms', 1, '2017-01-19 00:46:49', 41, '2017-01-19 00:46:45', 41, '2017-01-19 01:46:49', 6, NULL, 1),
+(1051, 1043, 47, 'student-and-software-developer', 1, '2017-01-19 00:56:48', 41, '2017-01-19 00:55:56', 41, '2017-01-19 01:56:48', 0, NULL, 1),
+(1052, 1043, 47, 'software-developer-and-project-manager', 1, '2017-01-19 01:20:11', 41, '2017-01-19 01:19:30', 41, '2017-01-19 02:20:11', 1, NULL, 1),
+(1053, 1043, 47, 'full-stack-web-developer', 1, '2017-01-19 01:20:55', 41, '2017-01-19 01:20:30', 41, '2017-01-19 02:20:55', 2, NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -1093,6 +1135,7 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1019, 2, '2017-01-08 11:59:06'),
 (1020, 1, '2017-01-08 13:33:47'),
 (1022, 1, '2017-01-09 14:25:25'),
+(1041, 2, '2017-01-19 00:15:44'),
 (1033, 1, '2017-01-15 13:02:57'),
 (1032, 1, '2017-01-15 13:00:33'),
 (1026, 1, '2017-01-15 07:08:48'),
@@ -1107,7 +1150,19 @@ INSERT INTO `pages_access` (`pages_id`, `templates_id`, `ts`) VALUES
 (1037, 1, '2017-01-15 14:18:02'),
 (1038, 1, '2017-01-15 14:26:01'),
 (1039, 1, '2017-01-15 14:30:05'),
-(1040, 1, '2017-01-15 14:35:24');
+(1040, 1, '2017-01-15 14:35:24'),
+(1042, 1, '2017-01-19 00:15:58'),
+(1043, 1, '2017-01-19 00:16:45'),
+(1044, 1, '2017-01-19 00:19:26'),
+(1045, 1, '2017-01-19 00:37:10'),
+(1046, 1, '2017-01-19 00:44:52'),
+(1047, 1, '2017-01-19 00:45:15'),
+(1048, 1, '2017-01-19 00:45:54'),
+(1049, 1, '2017-01-19 00:46:18'),
+(1050, 1, '2017-01-19 00:46:45'),
+(1051, 1, '2017-01-19 00:55:56'),
+(1052, 1, '2017-01-19 01:19:30'),
+(1053, 1, '2017-01-19 01:20:30');
 
 -- --------------------------------------------------------
 
@@ -1145,7 +1200,9 @@ INSERT INTO `pages_parents` (`pages_id`, `parents_id`) VALUES
 (1009, 1),
 (1009, 2),
 (1009, 22),
-(1022, 1024);
+(1022, 1024),
+(1042, 1024),
+(1043, 1024);
 
 -- --------------------------------------------------------
 
@@ -1204,7 +1261,7 @@ CREATE TABLE `session_login_throttle` (
 --
 
 INSERT INTO `session_login_throttle` (`name`, `attempts`, `last_attempt`) VALUES
-('sascha', 1, 1484221452);
+('sascha', 1, 1484783079);
 
 -- --------------------------------------------------------
 
@@ -1231,11 +1288,13 @@ INSERT INTO `templates` (`id`, `name`, `fieldgroups_id`, `flags`, `cache_time`, 
 (3, 'user', 3, 8, 0, '{"useRoles":1,"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"User","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"compile":3,"nameContentTab":1,"modified":1484313886}'),
 (4, 'role', 4, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"pageClass":"Role","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
 (5, 'permission', 5, 8, 0, '{"noChildren":1,"parentTemplates":[2],"slashUrls":1,"guestSearchable":1,"pageClass":"Permission","noGlobal":1,"noMove":1,"noTrash":1,"noSettings":1,"noChangeTemplate":1,"nameContentTab":1}'),
-(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484644866,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
-(29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484465850,"ns":"ProcessWire","label1012":"Grund Seite"}'),
+(1, 'home', 1, 0, 0, '{"useRoles":1,"noParents":1,"slashUrls":1,"compile":3,"label":"Home","modified":1484789566,"ns":"ProcessWire","label1012":"Zuhause","roles":[37]}'),
+(29, 'basic-page', 83, 0, 0, '{"slashUrls":1,"compile":3,"label":"Basic Page","modified":1484783457,"ns":"ProcessWire","label1012":"Grund Seite"}'),
 (26, 'search', 80, 0, 0, '{"noChildren":1,"noParents":1,"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Search","modified":1484655294,"ns":"ProcessWire","label1012":"Suche"}'),
+(48, 'skills', 102, 0, 0, '{"noChildren":1,"slashUrls":1,"compile":3,"label":"Skills","modified":1484785249,"label1012":"F\\u00e4higkeiten"}'),
 (43, 'language', 97, 8, 0, '{"parentTemplates":[2],"slashUrls":1,"pageClass":"Language","pageLabelField":"name","noGlobal":1,"noMove":1,"noTrash":1,"noChangeTemplate":1,"noUnpublish":1,"nameContentTab":1,"modified":1409651146}'),
-(44, 'blog', 98, 0, 0, '{"noParents":-1,"childTemplates":[45],"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Blog","modified":1484653349,"ns":"ProcessWire"}'),
+(47, 'work-experience', 101, 0, 0, '{"slashUrls":1,"compile":3,"label":"Work Experience","modified":1484787451,"label1012":"Arbeitserfahrung"}'),
+(44, 'blog', 98, 0, 0, '{"noParents":-1,"childTemplates":[45],"allowPageNum":1,"slashUrls":1,"compile":3,"label":"Blog","modified":1484657035,"ns":"ProcessWire"}'),
 (45, 'post', 99, 0, 0, '{"noChildren":1,"parentTemplates":[44],"slashUrls":1,"compile":3,"label":"Post","modified":1484652326,"ns":"ProcessWire"}'),
 (46, 'contact', 100, 0, 0, '{"slashUrls":1,"compile":3,"modified":1484570393,"ns":"\\\\"}');
 
@@ -1385,13 +1444,14 @@ ALTER TABLE `field_roles`
   ADD KEY `data` (`data`,`pages_id`,`sort`);
 
 --
--- Indexes for table `field_sidebar`
+-- Indexes for table `field_subtitle`
 --
-ALTER TABLE `field_sidebar`
+ALTER TABLE `field_subtitle`
   ADD PRIMARY KEY (`pages_id`),
-  ADD KEY `data_exact` (`data`(255));
-ALTER TABLE `field_sidebar` ADD FULLTEXT KEY `data` (`data`);
-ALTER TABLE `field_sidebar` ADD FULLTEXT KEY `data1012` (`data1012`);
+  ADD KEY `data_exact` (`data`(250)),
+  ADD KEY `data_exact1012` (`data1012`(250));
+ALTER TABLE `field_subtitle` ADD FULLTEXT KEY `data` (`data`);
+ALTER TABLE `field_subtitle` ADD FULLTEXT KEY `data1012` (`data1012`);
 
 --
 -- Indexes for table `field_summary`
@@ -1489,12 +1549,12 @@ ALTER TABLE `templates`
 -- AUTO_INCREMENT for table `fieldgroups`
 --
 ALTER TABLE `fieldgroups`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
 --
 -- AUTO_INCREMENT for table `fields`
 --
 ALTER TABLE `fields`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=111;
 --
 -- AUTO_INCREMENT for table `modules`
 --
@@ -1504,12 +1564,12 @@ ALTER TABLE `modules`
 -- AUTO_INCREMENT for table `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1041;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1054;
 --
 -- AUTO_INCREMENT for table `templates`
 --
 ALTER TABLE `templates`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

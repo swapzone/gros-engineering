@@ -4,6 +4,12 @@
 $posts = $pages->find("template=post, sort=-date, limit=2");
 $blog_posts = renderPostTiles($posts, 2);
 
+// find all skills
+$skills = $pages->find("template=skills, sort=created");
+
+// find all work experiences
+$jobs = $pages->find("template=work-experience, sort=-created");
+
 ob_start(); ?>
 
 <section id="about" class="section section-about">
@@ -65,88 +71,35 @@ ob_start(); ?>
 		</div>
 	</div>	
 </section><!-- #about -->
-										
+
 <section id="skills" class="section section-skills">
 	<div class="animate-up">
 		<h2 class="section-title"><?php echo _x('Professional Skills', 'Profile section'); ?></h2>
 		<div class="section-box">
-			<div class="row">							
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">Node.js</span>
-							<span class="bar-value">90%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="90%"></span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">AngularJS</span>
-							<span class="bar-value">100%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="100%"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">							
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">HTML & CSS</span>
-							<span class="bar-value">90%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="90%"></span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">Javascript / Typescript</span>
-							<span class="bar-value">90%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="90%"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">							
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">SharePoint</span>
-							<span class="bar-value">70%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="70%"></span>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-sm-6">
-					<div class="progress-bar">
-						<div class="bar-data">
-							<span class="bar-title">Electron.js</span>
-							<span class="bar-value">85%</span>
-						</div>
-						<div class="bar-line">
-							<span class="bar-fill" data-width="85%"></span>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php
+				$index = 0;
+				foreach ($skills->getArray() as $skill) {
+					if ($index != 0 && $index % 2 == 0) {
+						echo '</div>';
+					}
+					if ($index == 0 || $index % 2 == 0) {
+						echo '<div class="row">';
+					}
+					echo '<div class="col-sm-6">
+							<div class="progress-bar">
+								<div class="bar-data">
+									<span class="bar-title">' . $skill->title . '</span>
+									<span class="bar-value">' . $skill->quantity . '%</span>
+								</div>
+								<div class="bar-line">
+									<span class="bar-fill" data-width="' . $skill->quantity . '%"></span>
+								</div>
+							</div>
+						</div>';
+					
+					$index++;
+				}
+			?>			
 		</div>
 	</div>	
 </section><!-- #skills -->
@@ -202,52 +155,26 @@ ob_start(); ?>
 			<div class="timeline-bar"></div>
 			<div class="timeline-inner clearfix">
 
-				<div class="timeline-box timeline-box-left">
-					<span class="dot"></span>
-					<div class="timeline-box-inner animate-right">
-						<span class="arrow"></span>
-						<div class="date"><?php echo __('Jun 2014 - Apr 2016'); ?></div>
-						<h3><?php echo __('Full Stack Web Developer'); ?></h3>
-						<h4>EFEXCON AG, <?php echo __('Switzerland'); ?></h4>
-						<p>
-							<?php echo __('Working on the business travel startup 1ClickTrips of the EFEXCON AG.
-							Responsible for the technology selection, overall architecture and
-							implementation of the door-to-door travel management solution.'); ?>
-						</p>
-					</div>
-				</div>
-
-				<div class="timeline-box timeline-box-right">
-					<span class="dot"></span>
-					<div class="timeline-box-inner animate-left">
-						<span class="arrow"></span>
-						<div class="date"><?php echo __('Okt 2012 - Apr 2014'); ?></div>
-						<h3><?php echo __('Software Developer and Project Manager'); ?></h3>
-						<h4>Synapticon GmbH, <?php echo __('Germany'); ?></h4>
-						<p>
-							<?php echo __('Initially responsible for developing different parts of an online
-							development environment for embedded systems, I was then managing a
-							project with the goal to create a new operating software for
-							ticket vending systems of rail operators.'); ?>
-						</p>
-					</div>
-				</div>
-
-				<div class="timeline-box timeline-box-left">
-					<span class="dot"></span>
-					<div class="timeline-box-inner animate-right">
-						<span class="arrow"></span>
-						<div class="date"><?php echo __('Oct 2009 - Sep 2012'); ?></div>
-						<h3><?php echo __('Student and Software Developer'); ?></h3>
-						<h4>Hewlett Packard - <?php echo __('Germany and Ireland'); ?></h4>
-						<p>
-							<?php echo __('As a dual student with Hewlett Packard I did several short projects
-							using a lot of different tools and programming languages. My bachelor\'s
-							thesis was about SharePoint and the implementation of a filing system
-							in the public sector.'); ?>
-						</p>
-					</div>
-				</div>
+				<?php 
+					$jobIndex = 0;
+					foreach ($jobs as $job) {
+						$direction = $jobIndex % 2 == 0 ? 'left' : 'right';
+						$animation = $jobIndex % 2 == 0 ? 'right' : 'left';
+						
+						echo '<div class="timeline-box timeline-box-' . $direction . '">
+								<span class="dot"></span>
+								<div class="timeline-box-inner animate-' . $animation . '">
+									<span class="arrow"></span>
+									<div class="date">' . $job->heading . '</div>
+									<h3>' . $job->title . '</h3>
+									<h4>' . $job->subtitle . '</h4>
+									<p>' . $job->body . '</p>
+								</div>
+							</div>';
+							
+						$jobIndex++;
+					}
+				?>			
 			</div>
 		</div>
 	</div>
