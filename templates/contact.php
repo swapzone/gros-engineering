@@ -37,8 +37,8 @@ ob_start(); ?>
 								if ($mail_sent === true) {
 									echo $page->body;
 								} else {
-									echo __('Sorry, the contact request was not successful. 
-										Please send an inquiry via <a href=\'mailto:info@gros-engineering.com\'>Email</a>.');
+									echo html_entity_decode(__('Sorry, the contact request was not successful. 
+										Please send an inquiry via <a href=\'mailto:info@gros-engineering.com\'>Email</a>.'), ENT_QUOTES, 'UTF-8');
 								}
 								?>
 							</section>

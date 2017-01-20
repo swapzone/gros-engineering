@@ -241,18 +241,5 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/jquery.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/googlemapsapi.js"></script>
 	-->
-	
-	<!--
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.appear.min.js"></script>
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.onepagenav.min.js"></script>
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/isotope.pkgd.min.js"></script>
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.customscroll/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.js"></script>-->
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/options.js"></script>
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/site.js"></script>
 </body>
 </html>

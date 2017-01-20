@@ -361,7 +361,7 @@ ob_start(); ?>
 							<h2 class="inline-title"><?php echo __('Time Tracker Plugin for Chrome'); ?></h2>
 							<div class="inline-text">
 								<p>
-									<?php echo __('The requirements were easy: Be able to track my time out of Chrome, assign each time record with	either a generic category or with a <a href="https://github.com">Github</a> issue and then store it to SharePoint 2013.'); ?>
+									<?php echo html_entity_decode(__('The requirements were easy: Be able to track my time out of Chrome, assign each time record with	either a generic category or with a <a href="https://github.com">Github</a> issue and then store it to SharePoint 2013.'), ENT_QUOTES, 'UTF-8'); ?>
 								</p>
 								<p>
 									<?php echo __('The challenges have been to keep the plugin\'s UI simple and to handle authentication with Sharepoint and Github properly.'); ?>
@@ -492,7 +492,7 @@ ob_start(); ?>
 				<div class="section-box contact-form">
 					<h3><?php echo __('Feel free to contact me'); ?></h3>
 					
-					<form class="contactForm" id="contactForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>">
+					<form class="contactForm" id="contactForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>" method="post">
 						<div class="input-field">
 							<input class="contact-name" type="text" name="rsName" required />
 							<span class="line"></span>
