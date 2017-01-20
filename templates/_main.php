@@ -41,26 +41,16 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 	<title><?php echo $title; ?></title>
 	<meta name="description" content="<?php echo $page->summary; ?>" />
 	
-	<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredoka+One">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">-->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredoka+One">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>style.css">
 	
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>fonts/map-icons/css/map-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>fonts/icomoon/style.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	
-	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>scripts/plugins/jquery.owlcarousel/owl.carousel.css">
-
-	
-	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/style.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/custom.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>colors/teal.css" />
-	
-	<!--<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-	<script type="text/javascript" src="<?php echo $config->urls->templates?>/scripts/libs/modernizr.js"></script>
-
 	<?php	
 	// handle output of 'hreflang' link tags for multi-language
 	// this is good to do for SEO in helping search engines understand
@@ -242,17 +232,23 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
         <div class="preload-text"><?php echo _x('Loading', 'Loading animation text'); ?> ...</div>
     </div>
 	
-	<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>-->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	
+    <script type="text/javascript" src="<?php echo $config->urls->templates?>script.js"></script>	
+
+	<!--
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/jquery.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/libs/googlemapsapi.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>fonts/map-icons/js/map-icons.min.js"></script>
+	-->
+	
+	<!--
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.appear.min.js"></script>
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.onepagenav.min.js"></script>
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.customscroll/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.bxslider/jquery.bxslider.js"></script>-->
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
     <script type="text/javascript" src="<?php echo $config->urls->templates?>scripts/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
