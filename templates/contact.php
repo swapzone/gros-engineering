@@ -43,7 +43,7 @@ ob_start(); ?>
 								?>
 							</section>
 							<footer>
-								<a href="<?php echo $sub_directory; ?>/"><?php echo __('Back to the homepage'); ?></a>
+								<a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>"><?php echo __('Back to the homepage'); ?></a>
 							</footer>
 						</div>
 					</article>

@@ -71,7 +71,7 @@ ob_start(); ?>
 
 		<div class="section-txt-btn">
 			<p>
-				<a class="btn btn-lg btn-border ripple" target="_blank" href="<?php echo wire('pages')->get('/resume')->localUrl($user->language); ?>">
+				<a class="btn btn-lg btn-border ripple" target="_blank" href="<?php echo getRootDirectory(wire('pages')->get('/resume')->localUrl($user->language), $subDirectory); ?>">
 					<?php echo __('Download Resume'); ?>
 				</a>
 			</p>
@@ -204,7 +204,7 @@ ob_start(); ?>
 	<div class="animate-up">
 		<h2 class="section-title"><?php echo __('From The Blog'); ?></h2>
 		<div class="section-subtitle">
-			<a href="<?php echo wire('pages')->get('/blog')->localUrl($user->language); ?>"><?php echo _x('More', 'Read more'); ?>...</a>
+			<a href="<?php echo getRootDirectory(wire('pages')->get('/blog')->localUrl($user->language), $subDirectory); ?>"><?php echo _x('More', 'Read more'); ?>...</a>
 		</div>
 
 		<div class="blog-grid">
@@ -492,7 +492,7 @@ ob_start(); ?>
 				<div class="section-box contact-form">
 					<h3><?php echo __('Feel free to contact me'); ?></h3>
 					
-					<form class="contactForm" id="contactForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>" method="post">
+					<form class="contactForm" id="contactForm" action="<?php echo getRootDirectory(wire('pages')->get('/contact')->localUrl($user->language), $subDirectory); ?>" method="post">
 						<div class="input-field">
 							<input class="contact-name" type="text" name="rsName" required />
 							<span class="line"></span>

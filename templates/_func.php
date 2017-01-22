@@ -38,6 +38,20 @@ function formatDate($date) {
 }
 
 /**
+ * 
+ *
+ * @param string $localUrl the url with the language identifier already given.
+ * @return string
+ */
+function getRootDirectory($localUrl, $subDirectory) {	
+	if (!isset($subDirectory) || trim($subDirectory) === '') {
+		return $localUrl;
+	} else {
+		return preg_replace('/'.preg_quote($subDirectory, '/').'/', "", $localUrl, 1);
+	}
+}
+
+/**
  * Given a group of pages, render a simple <ul> navigation
  *
  * This is here to demonstrate an example of a simple shared function.

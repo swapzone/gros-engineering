@@ -45,6 +45,8 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>style.css">
 	
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
+		
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -73,12 +75,12 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
         <div class="mobile-nav-inner">
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
-                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>            
-                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
-					<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a></li>
-                    <li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
+                    <li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>            
+                    <li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+					<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a></li>
+                    <li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -105,7 +107,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 						} else {
 							echo "<li>";
 						}
-						$url = $page->localUrl($language); 
+						$url = getRootDirectory($page->localUrl($language), $subDirectory); 
 						$hreflang = $homepage->getLanguageValue($language, 'name'); 
 						echo "<a hreflang='$hreflang' href='$url'>$language->title</a></li>";
 					}
@@ -115,7 +117,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 	
             <aside class="widget widget_search">
                 <h2 class="widget-title"><?php echo __('Search'); ?></h2>
-                <form class="search-form" action="<?php echo $pages->get('template=search')->localUrl($user->language); ?>" method="get">
+                <form class="search-form" action="<?php echo getRootDirectory($pages->get('template=search')->localUrl($user->language), $subDirectory); ?>" method="get">
                     <label class="ripple">
                         <span class="screen-reader-text"><?php echo __('Search for'); ?>:</span>
                         <input class="search-field" type="search" name="q" placeholder="<?php echo __('Search'); ?>">
@@ -127,7 +129,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
     
             <aside class="widget widget_contact">
                 <h2 class="widget-title"><?php echo __('Contact Me'); ?></h2>
-                <form class="rsForm" action="<?php echo wire('pages')->get('/contact')->localUrl($user->language); ?>" method="post">
+                <form class="rsForm" action="<?php echo getRootDirectory(wire('pages')->get('/contact')->localUrl($user->language), $subDirectory); ?>" method="post">
                     <div class="input-field">
                         <label><?php echo __('Name'); ?></label>
                         <input type="text" name="rsName" required />
@@ -171,19 +173,19 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
                 <div class="head-bar-inner">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                           	<a class="head-logo" href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>"><img src="<?php echo $config->urls->templates?>img/logo.png" alt="Gros Engineering" style="height: 22px; margin-top: 12px;"/></a>
+                           	<a class="head-logo" href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>"><img src="<?php echo $config->urls->templates?>img/logo.png" alt="Gros Engineering" style="height: 22px; margin-top: 12px;"/></a>
                         </div>
         
                         <div class="col-sm-9 col-xs-6">
                             <div class="nav-wrap">
                                 <nav id="nav" class="nav">
 									<ul class="clearfix">
-										<li class="<?php echo $menuClass; ?>"><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
-										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a> </li>
-										<li><a href="<?php echo wire('pages')->get('/')->localUrl($user->language); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
+										<li class="<?php echo $menuClass; ?>"><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#about"><?php echo _x('About', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#skills"><?php echo _x('Skills', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#experience"><?php echo _x('Experience', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#blog"><?php echo _x('Blog', 'Menu entry'); ?></a></li>
+										<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#references"><?php echo _x('References', 'Menu entry'); ?></a> </li>
+										<li><a href="<?php echo getRootDirectory(wire('pages')->get('/')->localUrl($user->language), $subDirectory); ?>#contact"><?php echo _x('Contact', 'Menu entry'); ?><span></span></a></li>
 									</ul>
 								</nav>
         
@@ -216,7 +218,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 					</ul>	
 				</div>
 				<div class="link-legal">
-					<a href="<?php echo wire('pages')->get('/legal')->localUrl($user->language); ?>"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
+					<a href="<?php echo getRootDirectory(wire('pages')->get('/legal')->localUrl($user->language), $subDirectory); ?>"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
 					<p>
 						<a href='http://processwire.com'><?php echo __('Powered by ProcessWire'); ?></a>
 					</p>
@@ -232,9 +234,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
         <div class="preload-text"><?php echo _x('Loading', 'Loading animation text'); ?> ...</div>
     </div>
 	
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	
     <script type="text/javascript" src="<?php echo $config->urls->templates?>script.js"></script>	
 
 	<!--
