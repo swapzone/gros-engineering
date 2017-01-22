@@ -1,0 +1,13 @@
+# This htaccess file must be located in the root directory
+# if the ProcessWire installation is located in the subfolder
+# blog.
+RewriteEngine on 
+
+RewriteCond %{HTTP_HOST} ^(www.)?gros-engineering.com$ 
+RewriteCond %{REQUEST_URI} !^/blog/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /blog/$1 
+
+RewriteCond %{HTTP_HOST} ^(www.)?gros-engineering.com$ 
+RewriteRule ^(/)?$ blog/index.php[L]
