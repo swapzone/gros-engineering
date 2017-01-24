@@ -44,8 +44,10 @@ ob_start(); ?>
 									<span class="cont"><a href="tel:+491788171987">+49 178 8171987</a></span>
 								</li>
 								<?php
+								$vacationDateEndOfDay = $page->vacation + 24 * 60 * 60;
+								$isPast = $vacationDateEndOfDay < time();
 								
-								if ($page->vacation) {
+								if (!$isPast) {
 									$dateString = date("M d, Y", $page->vacation); // 'March 25, 2016';
 
 									echo'<li class="clearfix">

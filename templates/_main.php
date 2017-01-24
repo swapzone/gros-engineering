@@ -219,9 +219,6 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 				</div>
 				<div class="link-legal">
 					<a href="<?php echo getRootDirectory(wire('pages')->get('/legal')->localUrl($user->language), $subDirectory); ?>"><?php echo _x('Legal', 'Link to the "Impressum"'); ?></a>
-					<p>
-						<a href='http://processwire.com'><?php echo __('Powered by ProcessWire'); ?></a>
-					</p>
 				</div>
 			</footer>
 		</div>
