@@ -44,9 +44,7 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredoka+One">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>style.css">
-	
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
-		
+			
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -68,6 +66,17 @@ $menuClass = ($smallHeader == true) ? '' : 'active';
 		echo "\n\t<link rel='alternate' hreflang='$hreflang' href='$url' />";
 	}	
 	?>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0ZucZxbWVi3vp-JxPhJkLXlN61y8rKs"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-74884825-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 </head>
 <body class="header-has-img loading">
 	<div class="mobile-nav">

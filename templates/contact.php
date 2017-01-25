@@ -1,4 +1,4 @@
-<?php
+<?php namespace ProcessWire;
 $emailTo = "info@gros-engineering.com";
 
 $headers = "MIME-Version: 1.0\r\n";
