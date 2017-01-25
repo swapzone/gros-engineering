@@ -2,7 +2,7 @@
 
 // find all posts
 $posts = $pages->find("template=post, sort=-date, limit=2");
-$blog_posts = renderPostTiles($posts, 2);
+$blog_posts = renderPostTiles($posts, $subDirectory);
 
 // find all skills
 $skills = $pages->find("template=skills, sort=created");

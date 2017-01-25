@@ -166,7 +166,6 @@ function renderNextPrevPosts($page) {
 	$date = $page->getUnformatted('date');
 	$nextPost = $page->parent->child("date>$date, sort=date");
 	$prevPost = $page->parent->child("date<$date, sort=-date");
-
 	$out = "<div class='next-prev-posts'>";
 	if($prevPost->id > 0) $out .= "<p class='prev-post'><i class='fa fa-lg fa-chevron-circle-left'></i>&nbsp;&nbsp;<a href='{$prevPost->url}'>{$prevPost->title}</a></p>";
 	if($nextPost->id > 0) $out .= "<p class='next-post'><a href='{$nextPost->url}'>{$nextPost->title}</a>&nbsp;&nbsp;<i class='fa fa-lg fa-chevron-circle-right'></i></p>";
@@ -176,7 +175,6 @@ function renderNextPrevPosts($page) {
 	
 	return '';
 }
-
 
 /**
  * Given a blog entry generate and return the output.
@@ -201,9 +199,10 @@ function renderPost($page) {
  * Given a PageArray of blog entries generate and return the output.
  *
  * @param PageArray|Page $posts The entries to generate output for
+ * @param string $subDirectory
  * @return string The generated output
  */
-function renderPostTiles($posts) {
+function renderPostTiles($posts, $subDirectory) {
 	if(!$posts instanceof PageArray) {
 		if($posts instanceof Page) {
 			// single page
@@ -265,7 +264,7 @@ function renderPostTiles($posts) {
 						</div>
 
 						<h3 class="post-title">
-							<a href="' . $page->url . '">' . $page->title .'</a>
+							<a href="' . getRootDirectory($page->url, $subDirectory) . '">' . $page->title .'</a>
 							<!--<p>SUMMARY <a class="read-more" href="{{url}}">&raquo;</a></p>-->
 						</h3>
 

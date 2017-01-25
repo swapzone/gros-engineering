@@ -7,7 +7,7 @@ $content .= "<div class='blog'>
 				<div class='blog-grid'>
 					<div class='grid-sizer'></div>";
 						
-$content .= renderPostTiles($posts);
+$content .= renderPostTiles($posts, $subDirectory);
 
 $content .= "		</div>
 				</div>";
