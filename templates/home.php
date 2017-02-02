@@ -37,7 +37,7 @@ ob_start(); ?>
 								</li>
 								<li class="clearfix">
 									<strong class="title"><?php echo _x('Email', 'Profile section'); ?></strong>
-									<span class="cont"><a href="mailto:info@gros-engineering.de">info@gros-engineering.de</a></span>
+									<span class="cont"><a href="mailto:info@gros-engineering.com">info@gros-engineering.com</a></span>
 								</li>
 								<li class="clearfix">
 									<strong class="title"><?php echo _x('Phone', 'Profile section'); ?></strong>
