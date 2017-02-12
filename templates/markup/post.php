@@ -7,13 +7,13 @@
  * ==========
  * $post - the blog post to render (Page)
  * $tags - the tags used for the post (String)
- * $previous - the link from whcih the user came (can be null)
+ * $previous - the link from which the user came (can be null)
  */
 
 $author_name = $post->createdUser->get('user_name|title|name');
-$dateFull = date("Y-m-d", $page->created);  // 'YYYY-MM-DD';
-$dateDay = date("d", $page->created); // 'DD';
-$dateMonth = date("M", $page->created); // 'MMM';
+$dateFull = date("Y-m-d", $page->date);  // 'YYYY-MM-DD';
+$dateDay = date("d", $page->date); // 'DD';
+$dateMonth = date("M", $page->date); // 'MMM';
 ?>
 
 <div class="row animate-up">
